@@ -1,6 +1,42 @@
 <app-header></app-header>
 <section>
-    <a class="navLink" routerLink="/" translate >Homepage</a>
-    <p>childrensbooks works!</p>
-</section>
+    <h1>Kinderbücher</h1>
+    <div class="siteNavTop">
+      <a
+        *ngFor="let section of childrensBooks"
+        (click)="scrollToSection(section.section)"
+        translate
+        >{{ section.title }}</a
+      >
+    </div>
+    <div *ngFor="let section of childrensBooks">
+      <h2 id="{{ section.section }}">{{ section.title }}</h2>
+      <div class="bookContainer" *ngFor="let book of section.books">
+        <img [src]="book.image" alt="Book Image" />
+        <div class="bookContainerText">
+          <div *ngFor="let paragraph of book.paragraphs">
+            <p>{{ paragraph }}</p>
+          </div>
+          <div class="bookLinksContainer">
+            <span>Erhältlich als: </span>
+            <div class="bookLinks">
+              <div *ngFor="let format of getBookFormats(book); let last = last">
+                <ng-container *ngIf="!last">
+                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                  <span> – </span>
+                </ng-container>
+                <ng-container *ngIf="last">
+                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                </ng-container>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <div class="siteNavBottom">
+      <a class="navLink" routerLink="/" translate>Homepage</a>
+    </div>
+  </section>
 <app-footer></app-footer>

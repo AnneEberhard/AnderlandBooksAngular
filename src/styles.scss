@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: 'Raleway';
   color: rgb(19, 79, 92);
+  overflow: hidden;
 }
 
 h1{
@@ -35,6 +36,21 @@ section {
   .dNone500 {
     display: none;
   }
+}
+
+/*scoll*/
+::-webkit-scrollbar {
+  width: 12px; /* Breite des Scrollbalkens */
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(19, 79, 92); /* Farbe des Scrollbalken-Daumens (der bewegliche Teil) */
+  border-radius: 4px; /* Abrundung des Scrollbalken-Daumens */
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Hintergrundfarbe des Scrollbalken-Tracks (der nicht bewegliche Teil) */
 }
 
 
