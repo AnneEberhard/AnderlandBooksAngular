@@ -1,7 +1,53 @@
 <app-header></app-header>
 <section>
+    <h1 translate>Kontakt</h1>
+      <div class="contactContent">
+      <div class="contactText">
+          <h2 translate>Meldet Euch!</h2>
+          <p translate>
+            Falls Ihr eine interessante Geschichte veröffentlichen möchtet ...
+          </p>
+          <p translate>
+            Falls Ihr einer unserer Services braucht ...
+          </p>
+          <p translate>
+            Falls Ihr Anregungen habt ...
+          </p>
+          <p translate>
+            Falls Euch unsere Geschichten berühren ...
+          </p>
+          <p translate>
+            Wir hören alles gerne!
+          </p>
+    
+      </div>
+      <div class="contactForm">
+        <form #contactForm (submit)="sendMail($event)" ngNativeValidate>
+        <label translate>Name</label>
+          <input translate placeholder="Name" class="alignCenter" type="text" name="name" #nameField (input)="checkInputFields($event)" />
+          <div *ngIf='showNameAlert' class="alert" translate>Your name is required</div>
+        
+          <label translate>E-mail Adresse</label>
+          <input translate placeholder="Email" class="alignCenter" type="email" name="email" #emailField (input)="checkInputFields($event)" />
+          <div *ngIf="showEmailAlert" class="alert" translate>A valid email address is required</div>
+        
+          <label translate>Nachricht</label>
+          <textarea translate placeholder="Message" name="message" #messageField (input)="checkInputFields($event)"></textarea>
+          <div *ngIf="showMessageAlert" class="alert" translate>Your message is empty</div>
+        
+          <div id="privacyContainer">
+            <div #privacyContainerBox id="privacyContainerBox" (click)="checkPrivacy()"></div>
+            <p translate>I've read the <a routerLink="privacy-police" translate>privacy police</a> and agree to the progressing of my data as outlined.</p>
+          </div>
+          
+          <div #privacyAlert class="alert" *ngIf="showPrivacyAlert" translate>Please accept the privacy police</div>
+        
+          <button type="submit" #sendButton [disabled]="!privacyChecked">{{sendMessage | translate}}</button>
+        </form>
+      </div>
+     </div>
+
     <a class="navLink" routerLink="" translate >Homepage</a>
-    <p>contact works!</p>
 </section>
 <app-footer></app-footer>
 
