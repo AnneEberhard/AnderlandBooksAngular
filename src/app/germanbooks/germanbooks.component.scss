@@ -1,0 +1,40 @@
+.siteNavTop {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-weight: 500;
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.bookContainer {
+    display: flex;
+    gap: 40px;
+    img {
+        height: 400px;
+    }
+}
+
+.bookContainerText {
+    p {
+        font-weight: 600;
+    }
+
+    span {
+        font-weight: 600;
+    }
+
+}
+
+.bookLinks {
+    display: flex;
+    gap: 4px;
+}
+
+.bookLinksContainer {
+    display: flex;
+    gap: 4px;
+}
