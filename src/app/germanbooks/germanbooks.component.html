@@ -1,7 +1,26 @@
 <app-header></app-header>
 <section>
-    <a class="navLink" routerLink="/" translate >Homepage</a>
-    <p>germanbooks works!</p>
+    <h1> Deutsche Geschichten </h1>
+    <div class="siteNavTop">
+        <a (click)="scrollToSection('aboutMe')" translate>About me</a>
+    </div>
+<div *ngFor="let section of germanBooks">
+    <h2>{{ section.title }}</h2>
+    <div *ngFor="let book of section.books">
+      <img [src]="book.image" alt="Book Image">
+      <div *ngFor="let paragraph of book.paragraphs">
+        <p>{{ paragraph }}</p>
+      </div>
+      <div *ngFor="let link of book.links">
+        <a href="#">{{ link }}</a>
+      </div>
+    </div>
+  </div>
+  
+
+    <div class="siteNavBottom">
+        <a class="navLink" routerLink="/" translate >Homepage</a>
+    </div>
 </section>
 <app-footer></app-footer>
 
