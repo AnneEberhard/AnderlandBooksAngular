@@ -65,7 +65,7 @@ async sendMail(event: Event) {
       this.disableFields();
       this.sendAnimation();
       try {
-          const response = await fetch("https://formspree.io/f/xwkdzbgo", {
+          const response = await fetch("https://formspree.io/f/xoqobgbr", {
               method: "POST",
               body: data,
               headers: { 'Accept': 'application/json' }
@@ -118,13 +118,13 @@ clearFields() {
 }
 
 sendAnimation() {
-  this.sendMessage = this.translate.instant('sending'); // Übersetze die Nachricht während des Sendevorgangs
+  this.sendMessage = this.translate.instant('sending'); 
 }
 
 messageSend() {
-  this.sendMessage = this.translate.instant('messageSent'); // Übersetze die Nachricht nachdem die Nachricht gesendet wurde
+  this.sendMessage = this.translate.instant('messageSent'); 
   setTimeout(() => {
-    this.sendMessage = this.translate.instant('sendMessage'); // Setze die Nachricht zurück
+    this.sendMessage = this.translate.instant('sendMessage');
   }, 2000);
 }
 
