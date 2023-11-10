@@ -1,1 +1,40 @@
-<p>header works!</p>
+<header>
+    <div>
+      <img
+      class="logo "
+        src="assets/img/logo/Original on Transparent.png"
+        alt="AnderlandBooks logo"
+      />
+    </div>
+    <div class="headerLinkContainer dNone500">
+<div class="headerlinks">
+    <a routerLink="" translate >Homepage</a>
+    <a routerLink="imprint" translate >Services</a>
+    <a routerLink="childrens-books" translate >Kinderbücher</a>
+    <a routerLink="german-books" translate >Deutsche Geschichten</a>
+    <a routerLink="english-books" translate >English Stories</a>
+    <a routerLink="authors" translate >Autoren</a>
+    <a routerLink="bree-nan" translate >Bree Nan's page</a>
+    <a routerLink="contact" translate >Kontakt</a>
+</div>
+<div class="translationButtons">
+    <a (click)="this.translate.use('de')">DE</a> |
+    <a (click)="this.translate.use('en')">EN</a>
+  </div>
+    </div>
+    <div (click)="openMobileMenu()" id="burgerMenu">
+      <img src="assets/img/icon/burger-menu.png" alt="burger menuo icon">
+    </div>
+    <div id="headerLinkContainerMobile" class="dNone">
+      <div class="mobileNav">
+        <img (click)="closeMobileMenu()" src="assets/img/icon/close.png" alt="close">
+      </div>
+      <div class="mobileLinks">
+    
+    </div>
+      <div class="translationButtons dNone500">
+        <a (click)="this.translate.use('de')">DE</a> |
+        <a (click)="this.translate.use('en')">EN</a>
+      </div>
+    </div>
+  </header>
