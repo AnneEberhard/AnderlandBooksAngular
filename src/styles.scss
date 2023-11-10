@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  margin: 0;
+
+  background-image: url("assets/img/logo/typewriter.jpg");
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: top;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.dNone {
+  display: none;
+}
+
+section {
+    box-sizing: border-box;
+    margin: 0 100px 0 100px;
+}
+
+@media (max-width: 500px) {
+  .dNone500 {
+    display: none;
+  }
+}

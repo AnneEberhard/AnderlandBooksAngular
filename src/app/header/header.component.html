@@ -2,12 +2,12 @@
     <div>
       <img
       class="logo "
-        src="assets/img/logo/Original on Transparent.png"
+        src="assets/img/logo/White on Transparent.png"
         alt="AnderlandBooks logo"
       />
     </div>
-    <div class="headerLinkContainer dNone500">
-<div class="headerlinks">
+
+<div class="headerlinks dNone500">
     <a routerLink="" translate >Homepage</a>
     <a routerLink="imprint" translate >Services</a>
     <a routerLink="childrens-books" translate >Kinderbücher</a>
@@ -21,8 +21,8 @@
     <a (click)="this.translate.use('de')">DE</a> |
     <a (click)="this.translate.use('en')">EN</a>
   </div>
-    </div>
-    <div (click)="openMobileMenu()" id="burgerMenu">
+
+    <div (click)="openMobileMenu()" id="burgerMenu"  class="dNone">
       <img src="assets/img/icon/burger-menu.png" alt="burger menuo icon">
     </div>
     <div id="headerLinkContainerMobile" class="dNone">
@@ -32,9 +32,5 @@
       <div class="mobileLinks">
     
     </div>
-      <div class="translationButtons dNone500">
-        <a (click)="this.translate.use('de')">DE</a> |
-        <a (click)="this.translate.use('en')">EN</a>
-      </div>
     </div>
   </header>

@@ -3,12 +3,12 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    width: 100%
+    height: 220px;
+    width: 100%;
+    background-color: rgb(19, 79, 92);
   }
   
   .headerlinks {
-    background-color: rgb(19, 79, 92);
     color: white;
     gap: 16px;
     width: 100%;
@@ -31,29 +31,40 @@ header {
   .logo {
     height: 120px;
   }
-  
-  
-  #mobileMenu {
-  display: none;
-   padding-top: 32px;
-   position: absolute;
-   left: 0px;
-   top:0px;
-   bottom:0px;
-   background-color: rgb(19, 79, 92);
 
-    a {
-        color: white;
-        padding: 16px; 
+  .translationButtons {
+    position: absolute;
+    top: 32px;
+    right:32px;
+    color: white;
+    &:hover {
+        scale: (1.1);
     }
   }
 
+
+  #mobileMenu {
+    display: none;
+     padding-top: 32px;
+     position: absolute;
+     left: 0px;
+     top:0px;
+     bottom:0px;
+     background-color: rgb(19, 79, 92);
   
-  .mobileMenuContainer {
-    width: 200px;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    color: white;
-    gap: 16px;
-  }
+      a {
+          color: white;
+          padding: 16px; 
+      }
+    }
+  
+    
+    .mobileMenuContainer {
+      width: 200px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      color: white;
+      gap: 16px;
+    }
+  
