@@ -17,6 +17,8 @@ import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { AuthorsComponent } from './authors/authors.component';
+import { ScrollToTopButtonComponent } from './scroll-to-top-button/scroll-to-top-button.component';
+import { BackgroundContainerComponent } from './background-container/background-container.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -37,7 +39,9 @@ export function HttpLoaderFactory(http: HttpClient) {
     ContactComponent,
     ServicesComponent,
     BreeNanComponent,
-    AuthorsComponent
+    AuthorsComponent,
+    ScrollToTopButtonComponent,
+    BackgroundContainerComponent
   ],
   imports: [
     BrowserModule,
