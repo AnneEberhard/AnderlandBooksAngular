@@ -428,15 +428,15 @@
                     "formats": {
                         "eBook": {
                             "title": "eBook",
-                            "link": "https://www.amazon.de/dp/B08JLSKZ5M"
+                            "link": "https://amzn.eu/d/iJQMv80"
                         },
                         "paperback": {
                             "title": "Taschenbuch",
-                            "link": "https://www.amazon.de/Tanz-mit-dem-Wind-Kurzgeschichte/dp/3969770424/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                            "link": "https://amzn.eu/d/6QGXL9e"
                         },
                         "hardcover": {
                             "title": "Gebundenes Buch",
-                            "link": "https://www.amazon.de/Tanz-mit-dem-Wind-Kurzgeschichte/dp/3969771285/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
+                            "link": "https://amzn.eu/d/aJ6TX09"
                         }
                     }
                 },

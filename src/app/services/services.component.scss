@@ -1,0 +1,26 @@
+.siteNavTop {
+    display: flex;
+    flex-direction: column;
+
+    a {
+        font-weight: 500;
+        &:hover {
+            font-weight: bold;
+        }
+    }
+}
+
+.serviceContent {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+    img {
+        height:200px;
+    }
+}
+
+.red {
+    color: red;
+}
