@@ -14,6 +14,7 @@
       <div class="bookContainer" *ngFor="let book of section.books">
         <img [src]="book.image" alt="Book Image" />
         <div class="bookContainerText">
+          <h4>{{ book.header }}</h4>
           <div *ngFor="let paragraph of book.paragraphs">
             <p>{{ paragraph }}</p>
           </div>
