@@ -1,334 +1,583 @@
 {
-    "englishBooks":  [
+  "englishBooks": [
+    {
+      "section": "historical",
+      "title": "Historical Novels",
+      "books": [
         {
-          "section": "historical",
-          "title": "Historical Novels",
-          "books": [
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+          "image": "assets/img/covers/the-masks-of-florence.jpg",
+          "paragraphs": [
+            "Gianni is only twelve and thus the most insignificant member of a Florentine merchant family in Medici times; but his life already seems clearly mapped out.",
+            "In the early days of Italian Renaissance, however, the future is anything but certain. The loss of his fiancée is just one of the things that do not go according to plan. Gianni's path leads him through the beginnings of the art of printing, the workshops of sculptors and artists, up to the politics of Lorenzo the Magnificent. All the while, he is haunted by the same mystery: what truly happened to his young bride who disappeared without a trace during carnival?",
+            "The Masks of Florence is set during the times of the older Medici line, Leonardo da Vinci and Sandro Botticelli."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/MasksOfFlorence"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/MasksOfFlorence_PB"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/MasksOfFlorence_HC"
             }
-          ]
+          }
         },
         {
-          "section": "contemporary",
-          "title": "Contemporary",
-          "books": [
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+          "image": "assets/img/covers/alsterdiamonds.jpg",
+          "paragraphs": [
+            "Hamburg, 1838 – Sophie Achtmann is the youngest, somewhat charmless daughter of an ambitious merchant family. She knows the role her family has assigned her: she must secure a good marriage and thus increase the Achtmanns' credit, like her older and more beautiful cousin. But Sophie fears she will never find a husband her grandfather will accept. And she is not the only one who despairs of the task assigned to her: Her brothers also struggle with their fate, each in their own way.",
+            "But then a young French abbot shows up in Hamburg who always has the right answers for each of them, who always seems to be there when needed. Sophie and her brothers become friends with Leander – not suspecting his true reasons, not suspecting that they are only a means to an end and that his real goal is a completely different member of the Achtmanns...",
+            "Alster Diamonds is a historical novel taking place in the German city Hamburg at the river Alster in the middle of the Nineteenth Century. Please read the content note first."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/AlsterDiamonds"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/AlsterDiamonds_TB"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/AlsterDiamonds_HC"
             }
-          ]
+          }
         },
         {
-          "section": "dystopia",
-          "title": "Dystopia",
-          "books": [
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+          "image": "assets/img/covers/a-darkhappiness.jpg",
+          "paragraphs": [
+            "A lowly Austrian secret agent almost prevents the assassination of Archduke Franz Ferdinand.",
+            "Tobias Ault, of Austro-Hungary’s intelligence service, hears rumors Black Hand, Serbia’s secret terrorist organization, plans to launch attacks against Vienna. He investigates and stumbles onto a new find: Black Hand intends to kill Franz Ferdinand and his wife, Sophie, in Sarajevo.",
+            "Alone, without the consent of his superiors, Tobias travels to the Bosnian city and soon finds himself pitted against Serbian fanatics with one end in mind – the death of the Royal Couple.  ",
+            "A Dark happiness offers one part espionage, one part love story, and one part speculation of how seconds changes the course of history. Readers will find themselves transported back to the end of the Belle Epoque, the golden age of pomp, pageantry, and moral decay, blissfully unaware of an approaching maelstrom.",
+            "Those who enjoyed Joseph Roth’s The Radetzky March, Taylor Caldwell’s Answer as A Man, or Allegra Jordon’s The End of Innocence, will recognize universal themes of duty, honor, sacrifice, and devotion in A Dark Happiness.",
+            ""
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/ADarkHappiness"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/ADarkHappinessPaper "
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/ADarkHappiness_HC"
             }
-          ]
+          }
+        }
+      ]
+    },
+    {
+      "section": "contemporary",
+      "title": "Contemporary",
+      "books": [
+        {
+          "image": "assets/img/covers/base-means.jpg",
+          "paragraphs": [
+            "A boy trained to be a spy and a thief",
+            "A crippled girl who is a stranger to mercy",
+            "A former bodyguard in search of purpose",
+            "When Logan Svenson joins the mysterious TABLE as newest recruit, he has a hard time shaking his suspicions. A secret organization working for the greater good, employing sustainable means? Ending slave trafficking, returning stolen goods to the owner without being known? It sounds too good to be true. His wariness increases when he meets Jack and Ada, the prodigies who grew up inside the organization – even though they are both rolling their eyes at his questions.",
+            "But then the TABLE is attacked, and suddenly, all bets are off.",
+            "Who is gunning for them – and why?",
+            "And what game are the people at the TABLE truly playing?"
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/BaseMeans "
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/BaseMeansPaperback "
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/BaseMeans_HC"
+            }
+          }
         },
         {
-          "section": "urbanFantasy",
-          "title": "Urban Fantasy",
-          "books": [
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+          "image": "assets/img/covers/great-ends.jpg",
+          "paragraphs": [
+            "Reeling from the events on Samos and the subsequent media hype, Jack, Ada, and Logan are in hiding, trying to come to terms with the truth. When new information reaches them, they use it in an attempt to end the hunt.",
+            "But then, people involved with Project Culter are starting to drop like flies. They are not the only survivors, it appears – and yet, who is responsible for the deaths? And why?",
+            "And will they be next?",
+            "Jack, Ada, and Logan decide to get back into the game, taking on the Table, the Sons of Gods, and the mysterious third kid, determined to get to the bottom of this.",
+            "Great Ends is the second part of a complete duology about the story of Jack and Ada, part spy novel, part psychological/medical mystery, part New Adult with a dash of M/F, M/M romance."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/GreatEnds"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/GreatEndsPaperback "
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/GreatEnds_HC"
             }
-          ]
+          }
         },
         {
-          "section": "shortStories",
-          "title": "Short Stories",
-          "books": [
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+          "image": "assets/img/covers/a-fine-day.jpg",
+          "paragraphs": [
+            "Nathan Young used to be the most popular boy of Harrison High, the  uncrowned king – before. But what happened in late March of his senior year has turned his world upside down, has made him topple violently off  his sunny place. He has to deal with the fall-out – and he is not quite sure if he is going to make it.",
+            "And then she steps in his way.",
+            "Leah Talbot was affected much differently by that day in March, and yet  somehow the same. They both struggle through the aftermath, sometimes  fighting, sometimes helping each other, both searching for a way to deal  with something they never wanted to deal with.",
+            "Sometimes you find solace where you never expected to find it.",
+            "And sometimes you find solace where no one wants you to find it."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/AFineDayinMarch "
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/AFineDayinMarch-PB"
             },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
-            },
-            {
-              "image": "assets/img/covers/daemonentraum.jpg",
-              "paragraphs": [
-                "Paragraph 1",
-                "Paragraph 2",
-                "Paragraph 3"],
-              "formats": {
-                "eBook": { "title": "eBook", "link": "eBook Link 1" },
-                "paperback": { "title": "Taschenbuch", "link": "Taschenbuch Link 2" },
-                "hardcover": { "title": "Gebundenes Buch", "link": "Gebundenes Buch Link 3" }
-              }
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/FineDayinMarch_HC"
             }
-          ]
+          }
+        }
+      ]
+    },
+    {
+      "section": "dystopia",
+      "title": "Dystopia",
+      "books": [
+        {
+          "image": "assets/img/covers/chasing-wild-dreams.jpg",
+          "paragraphs": [
+            "Cyn is a trickster, playing bait to catch the wild dreams that haunt his dystopian world. Enters Lys, a solver, who could be his perfect match. But Cyn can't even trust himself enough to not screw this up royally.",
+            "When he tries to fix his mistake, he and the girl end up outside their society, in a place that slowly rouses their suspicions.",
+            "What's the true secret behind the wild dreams?",
+            "Were they lied to?",
+            "But why?"
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/ChasingWildDreams"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/ChasingWildDreams_PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/ChasingWildDreams_HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/yuli.jpg",
+          "paragraphs": [
+            "Yuli is Rafe’s wife, his fourth and youngest, living in a post-apocalyptic world after a virus has wiped out most of mankind – and disproportionally more men. It is the choice she made, and she should be happy. She lives, after all, in a world without aggression.",
+            "But life is not easy with these strict rules deciding their paths in life. Polygamy, as Yuli and Rafe have grown up to, is one way of dealing with the decreased number in men. It is, however, not the only.",
+            "When nature forces them to flee their home and family, Rafe and Yuli find out more about the way mankind is handling the new situation – much more than they actually had wanted to…"
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/YuliintheAftermath "
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/YuliintheAftermath-PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/Yuli-HC"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section": "urbanFantasy",
+      "title": "Urban Fantasy",
+      "books": [
+        {
+          "image": "assets/img/covers/lucie-new.jpg",
+          "paragraphs": [
+            "Lucie Martin is new – she is familiar with that. Normally, she has no problems making friends, but the children of the neighboring house pose a real challenge. They are unusual enough: an aggressive daughter, a bunch of foster kids, the oldest of them a withdrawn boy with snow-white hair. Lucie is intrigued, against her will, by Noel Tyll. There's something else about him, something that makes his foster sister pull out all the stops, something beyond his hair and strangely beguiling voice.",
+            "But when Lucie finally finds out what Noel's secret is, she learns more than she wanted to know – and more about her own family and roots...",
+            "Lucie is New is the first book of the series “Of Elves and Wolves” and the first of the Lucie arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lucie_is_New"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lucie_is_new-TB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LucieisNew_HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/lucie-nature.jpg",
+          "paragraphs": [
+            "Lucie and Noel are in love, and all could be well! But slowly, Noel is changing, as if the big old forest is pulling him in, further and further away from Lucie and the world of the humans. He shows an ruthless side she does not like.",
+            "When things escalate dramatically, it's up to Lucie to fight back and show her elf prince his true colors..",
+            "Lucie, Force of Nature is the second book of the series “Of Elves and Wolves” and the second of the Lucie arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lucie_force_of_Nature"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lucie_ForceofNature_TB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LucieForceofNature-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/lucie-loose.jpg",
+          "paragraphs": [
+            "Highschool is out, and against all odds, Lucie and Noel are still together. University, a new life with new people and new challenges awaits them. But this includes also new and unforeseen dangers.",
+            "Suddenly, Lucie is lost, and now it is up to Noel. Can he overcome the old hostilities and form an unlikely alliance – for the sake of his girl",
+            "Lucie on the Loose is the third book of the series “Of Elves and Wolves” and the third of the Lucie arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lucie_on_the_Loose"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lucie_on_the_Loose"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LucieontheLoose-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/lucie-secret.jpg",
+          "paragraphs": [
+            "The events of the last year still have both Lucie and Noel reeling. In order to tackle the new challenge, Noel needs to ask his people some very big favors. But in doing this, he may also offer them the chance they have waited for so long.",
+            "Can Lucie and Noel bring this adventure to a good end? Can they help undo the damage that was caused by their ancestors?",
+            "All bets are off…",
+            "Lucie on Secret Mission is the fourth book of the series “Of Elves and Wolves” and the last of the Lucie arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lucie_on_SecretMission"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lucie_secretMission_TB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LucieonSecretMission-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/bina-curiosity.jpg",
+          "paragraphs": [
+            "Bina Birnbaum is the strongest witch of her generation – which unfortunately hardly anyone knows. All the more enthusiastically, Bina throws herself into her newest mission: lifting the curse placed on the neighboring werewolves, the Martins. At her side is the wood elf Cianán, who is only just discovering the world outside his forest.",
+            "However, their mission turns out to be not as easy as they thought, and also awakens ghosts of the past that soon put Bina and her friends in quite a predicament ...",
+            "Bina and the Darn Curiosity is the fifth book of the series “Of Elves and Wolves” and the first of the Bina arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Bina_Curiosity"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Bina_Curiosity-PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/BinaCuriosity-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/bina-curse.jpg",
+          "paragraphs": [
+            "Bina might have bitten off more than she can chew – her attempt of prolonging Ben Martin’s life has tangled her up with the curse for good. In addition, her meddling has alerted old fiends. Suddenly, not only her life is in peril, but also Cianáns – and that when she just wanted to get her agency up and running.",
+            "It needs the help of the ghosts of her ancestors and some good old chaos to finally deal with this curse. But Bina wouldn’t be Bina if she shied away from a challenge!",
+            "Bina and the Darn Curse is the sixth book of the series “Of Elves and Wolves” and the second of the Bina arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/BinaCurse-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/bina-drama.jpg",
+          "paragraphs": [
+            "The curse may be gone, but the cure almost cost Bina her life. Time for her sister to put her foot down – and time for the people to step up. Thus, an unlikely alliance is formed, for the first time in what might be ever: Bina the witch, Cianán the wood elf, Joseph the werewolf, and Malachi the vampire are supposed to deal with this ‘drama mage’.",
+            "But in order to succeed, they first need to overcome their differences. Oh, and both Cianán and Bina need to learn that sometimes, it is better to first form a good plan and then charge in…",
+            "Bina and the Darn Drama is the seventh book of the series “Of Elves and Wolves” and the third of the Bina arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Bina_Drama"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Bina_drama-PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/BinaDrama-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/lena-live.jpg",
+          "paragraphs": [
+            "Lena Meyer has had enough of elves and wolves and everything that goes with them. She wants to study, to finally be normal after her messed-up youth with an eating disorder, and to see in her foster brother Noel only the brother, not the secret prince of the elves.",
+            "But then she comes across a dangerous book in her student dorm, her roommates don't all turn out to be human, and suddenly Lena isn't even sure to what extent she's still herself.",
+            "Lena wants to live is the eighth book of the series “Of Elves and Wolves” and the first of the Lena arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lena_wantstolive"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lena_live-PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/Lenawantstolive-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/lena-justice.jpg",
+          "paragraphs": [
+            "Lena has somehow made her peace with her new role, but of course, her life is not supposed to be easy. Ghosts of the past appear – of both hers and her vampire’s. And a new challenge arises from the side of humans, the people she has vowed to protect.",
+            "But are these people still human? And can Mal and Lena deal with them, preventing an outright war?",
+            "In the end, they might even change the world for good…",
+            "Lena wants the Justice is the last book of the series “Of Elves and Wolves” and the second of the Lena arc."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/Lena_wantsJustice"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Lena_justice-PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LenawantsJustice-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/spirit-chase.jpg",
+          "paragraphs": [
+            "In the realm of spirits, creatures that feed on human emotions – years ago, twin incubi set out to do something very stupid…",
+            "Now, Lior just wants to find a cure for his brother and fix what went wrong. Unlike Louan, he is not ready to give up and open to the most drastic measures – even if it puts his chapter of incubi and succubae at risk",
+            "When Cameo of the Shades, the ninth and most feared chapter of spirits, arrives in search of a mythical gem, Lior sees a new opportunity. Tasked with guarding the shade girl, he tries to get beneath her armor of indifference, ignoring all warnings that shades feed on spirits like spirits on humans.",
+            "But then Lior pushes too far, and it is Cami who offers him a way out. Unlikely as the pair may be, they set out on the chase for the gemma lustro – the mythical gem that might not only save Louan, but Cami’s chapter as well.",
+            "Spirit Chase is the first of The Spirit Chapters trilogy. Books contain mature scenes."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritChase-PB "
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/SpiritChase-PB "
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/SpiritChase_HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/spirit-chant.jpg",
+          "paragraphs": [
+            "After his twin has managed to get the human soul sliver out of Louan, the young incubus is able to entice again, pulling his weight once more in Lord Asmode’s club. But his own soul sliver is still stuck in the human girl who has finally woken up. Inevitably, the girl is drawn to him, disrupting his existence, causing him once more to look for help.",
+            "Maddie Ravi, the young witch, has made herself at home at the chapter of incubi and succubae, seeking for ways to get justice for the wrongs done to her family. However, she is still first and foremost a champion for humans. When the girl Louan possessed years ago turns up, stars in her eyes, she knows at once whose side she’ll be on.",
+            "But Evie has a mind of her own, and Maddie’s old enemy is still out there. To save the girl, Maddie must team up with Louan and put her heritage to the test. After all, people call her the most powerful witch born this century – and giving up is not part of her vocabulary.",
+            "Spirit Chant is the second of The Spirit Chapters trilogy. Books contain mature scenes."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritChant "
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/SpiritChant-PB "
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/SpiritChant-HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/spirit-circle.jpg",
+          "paragraphs": [
+            "The mythical gems reunited, the shades cured – years have passed, and Benny Ravi should be able to find his place in this world. But Rose and Chris, two enigmas that drop into his lap, might pull said world asunder.",
+            "Rose never understood why her dad left her. She never understood why she was able to see people others did not notice either. When she stumbles across one of those creatures, she is determined to get answers. But the world she discovers was kept from her for a reason – and is a lot more dangerous than she at first believes.",
+            "Chris knows the world is a dangerous place. He has been on the run from spirit lords and ladies for years. He does not understand why he is so strange, either – and thus, when Benjamin Ravi takes on his case and leaves him with little choice, Chris does what he does best: survive.",
+            "On top, he can’t help himself. He is slowly but surely falling for his potential saviors – both Benny and Rose.",
+            "Spirit Circle is the last of The Spirit Chapters trilogy. Books contain mature scenes."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritCircle "
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/Spirit-circle-PB "
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/SpiritCircle-HC"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "section": "shortStories",
+      "title": "Short Stories",
+      "books": [
+        {
+          "image": "assets/img/covers/lifestages.jpg",
+          "paragraphs": [
+            "A time traveler moves through the history of mankind, accompanied  by the dead Alexander the Great. Their path leads them from the origins  of visible life to modern times - observing, sometimes also  participating, and thereby seeking answers to questions she may not even  ask herself: Who is she, and why is she bound neither to time nor  space?",
+            ""
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/LifeStages"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/LifeStages_PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/LifeStages_HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/dance-the-wind.jpg",
+          "paragraphs": [
+            "She is a dancer in marketplaces, at festivals and fairs, part of a small troupe of gleemen. Tessa dances to everything the fiddler Jo plays.",
+            "But life on the roads is not easy, especially when you have lost a lot and want to protect yourself from further disappointment.",
+            "Dance the Wind is a 8,000 short story."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/DanceTheWind"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/DanceTheWind_PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/DanceTheWind_HC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/purgatory.jpg",
+          "paragraphs": [
+            "Up in the sky, invisible to the living human eye, lies purgatory, run by the Angel of Salvation and her counterpart, the Devil of Damnation. These two, like the entire world created in balance, battle each other for souls, decide whether those in between will go to heaven or hell, whether they will get to rest or be cleansed.  It has been like this for eternity.",
+            "But Ange feels she’s increasingly losing the battle, like her work is pointless. And thus, on a whim, she does the unthinkable: She quits.",
+            "An angel on Earth, trying to find her place…",
+            "A devil left behind, trying to undo the damage…",
+            "And a world whose balance is about to topple…"
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/PurgatoryAtLarge"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/PurgatoryAtLargePB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/PurgatoryAtLargeHC"
+            }
+          }
+        },
+        {
+          "image": "assets/img/covers/fairytales-of-the-forbidden-twins.jpg",
+          "paragraphs": [
+            "Twins, born out of a promise and a lie, grow up in a kingdom of hills and castles, of knights and warlords. They make their way, influencing the people around them, while always trying to protect their biggest secret: Love.",
+            "Fantastic novella, mature content",
+            "Paragraph 3"
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "http://mybook.to/TheFairytaleoftheFor"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/FairytaleTwins_PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/Twins_HC"
+            }
+          }
         }
       ]
     }
+  ]
+}
