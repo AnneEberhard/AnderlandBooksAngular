@@ -1,8 +1,51 @@
 <app-header></app-header>
 <section>
-    <a class="navLink" routerLink="/" translate >Homepage</a>
-    <a routerLink="/bree-nan" translate >Bree Nan's page</a>
-    <p>authors works!</p>
+  <h1 translate="">Authors</h1>
+
+<div *ngFor="let author of authors">
+    <h2>{{ author.name }}</h2>
+    <p *ngIf="author.language">{{ author.language }}</p>
+  
+    <div *ngIf="author.paragraphs && author.paragraphs.length > 0">
+      <p *ngFor="let paragraph of author.paragraphs">{{ paragraph }}</p>
+    </div>
+  
+    <div *ngIf="author.website">
+      <p>Website: <a [href]="author.website" target="_blank">{{ author.website }}</a></p>
+    </div>
+  
+    <div *ngIf="author.books && author.books.length > 0">
+      <h3 translate>Books by {{ author.name }}</h3>
+      <table>
+        <thead *ngIf="author.hasTranslations">
+          <tr>
+            <th>Originals</th>
+            <th>Translations</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let book of author.books">
+            <td>
+              <a [href]="book.link" target="_blank">{{ book.title }}</a> <br>
+              <span *ngIf="book.description">{{ book.description }}</span>
+            </td>
+            <td *ngIf="book.translations && book.translations.length > 0">
+              <a [href]="book.translations[0].link" target="_blank">{{ book.translations[0].title }}</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  
+    <hr />
+  </div>
+  
+
+
+  <a routerLink="/bree-nan" translate>Bree Nan's page</a>
+  <div class="siteNavBottom">
+    <a class="navLink" routerLink="/" translate>Back to Homepage</a>
+  </div>
 </section>
 <app-footer></app-footer>
 <app-scroll-to-top-button></app-scroll-to-top-button>

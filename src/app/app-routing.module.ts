@@ -10,6 +10,7 @@ import { GermanbooksComponent } from './germanbooks/germanbooks.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ServicesComponent } from './services/services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
+import { AuthorsComponent } from './authors/authors.component';
 
 const routes: Routes = [
   { path: '', component: MainPageComponent },
@@ -20,7 +21,8 @@ const routes: Routes = [
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'imprint', component: ImprintComponent },
-  { path: 'privacy-police', component: PrivacyPolicyComponent },
+  { path: 'privacy-policy', component: PrivacyPolicyComponent },
+  { path: 'authors', component: AuthorsComponent },
   { path: 'bree-nan', component: BreeNanComponent },
 ];
 

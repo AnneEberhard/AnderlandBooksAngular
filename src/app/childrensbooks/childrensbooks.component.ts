@@ -9,7 +9,7 @@ import { firstValueFrom } from 'rxjs';
   templateUrl: './childrensbooks.component.html',
   styleUrls: ['./childrensbooks.component.scss']
 })
-export class ChildrensbooksComponent {
+export class ChildrensbooksComponent implements OnInit{
 
   childrensBooks: any;
 

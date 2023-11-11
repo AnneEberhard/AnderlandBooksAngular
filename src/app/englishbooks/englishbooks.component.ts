@@ -9,11 +9,11 @@ import { firstValueFrom } from 'rxjs';
   templateUrl: './englishbooks.component.html',
   styleUrls: ['./englishbooks.component.scss']
 })
-export class EnglishbooksComponent {
+export class EnglishbooksComponent implements OnInit {
 
-englishBooks: any;
+  englishBooks: any;
 
-constructor(private pageService: PageService, public translate: TranslateService, private http: HttpClient) { }
+  constructor(private pageService: PageService, public translate: TranslateService, private http: HttpClient) { }
 
   ngOnInit(): void {
     this.loadData();
@@ -27,7 +27,7 @@ constructor(private pageService: PageService, public translate: TranslateService
       console.error('Fehler beim Laden der Daten:', error);
     }
   }
-  
+
   getBookFormats(book: any): any[] {
     const formats = book.formats || {};
     return Object.keys(formats).map(format => {
