@@ -92,6 +92,7 @@
   
       button {
         border-radius: 10px;
+        border: none;
         padding: 15px 30px 15px 30px;
         color: white;
         font-size: 24px;
@@ -109,7 +110,10 @@
     align-items: center;
     gap: 8px;
     a {
-      color: rgb(19, 79, 92);;
+      color: red;
+      &:hover {
+        color: rgba($color: #b33737, $alpha: 1.0)
+      }
     }
   
     p {

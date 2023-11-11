@@ -37,10 +37,10 @@
         
           <div id="privacyContainer">
             <div #privacyContainerBox id="privacyContainerBox" (click)="checkPrivacy()"></div>
-            <p translate>Ich habe die <a routerLink="privacy-policy" translate>Datenschutzerklärung</a> und erkläre mich damit einverstanden, dass meine Daten wie beschrieben weitergegeben werden.</p>
+            <p translate>I've read the <a routerLink="/privacy-policy" translate>privacy policy</a> and agree to the progressing of my data as outlined.</p>
           </div>
           
-          <div #privacyAlert class="alert" *ngIf="showPrivacyAlert" translate>Bitte akzeptieren Sie die Datenschutzerklärung</div>
+          <div #privacyAlert class="alert" *ngIf="showPrivacyAlert" translate>Please accept the privacy policy</div>
         
           <button type="submit" #sendButton [disabled]="!privacyChecked">{{sendMessage | translate}}</button>
         </form>
