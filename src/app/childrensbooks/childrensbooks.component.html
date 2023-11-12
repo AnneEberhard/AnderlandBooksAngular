@@ -1,7 +1,7 @@
 <app-header></app-header>
 <section>
     <h1 translate>Children's Books</h1>
-    <h3>Currently German books only</h3>
+    <h3 translate>Currently German books only</h3>
     <div class="siteNavTop">
       <a
         *ngFor="let section of childrensBooks"
@@ -11,7 +11,7 @@
       >
     </div>
     <div *ngFor="let section of childrensBooks">
-      <h2 id="{{ section.section }}">{{ section.title }}</h2>
+      <h2 id="{{ section.section }}" translate>{{ section.title }}</h2>
       <div class="bookContainer" *ngFor="let book of section.books">
         <img [src]="book.image" alt="Book Image" />
         <div class="bookContainerText">

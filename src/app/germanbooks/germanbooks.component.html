@@ -10,7 +10,7 @@
     >
   </div>
   <div *ngFor="let section of germanBooks">
-    <h2 id="{{ section.section }}">{{ section.title }}</h2>
+    <h2 id="{{ section.section }}" translate>{{ section.title }}</h2>
     <div class="bookContainer" *ngFor="let book of section.books">
       <img [src]="book.image" alt="Book Image" />
       <div class="bookContainerText">

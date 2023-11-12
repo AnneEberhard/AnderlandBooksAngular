@@ -2,7 +2,7 @@
     "germanBooks": [
         {
             "section": "historical",
-            "title": "Historical stories",
+            "title": "Historical Novels",
             "books": [
                 {
                     "image": "assets/img/covers/der-geist-in-brand.jpg",
@@ -311,7 +311,7 @@
         },
         {
             "section": "spy",
-            "title": "Spy novels",
+            "title": "Spy Novels",
             "books": [
                 {
                     "image": "assets/img/covers/unheilige mittel.jpg",
