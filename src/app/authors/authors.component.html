@@ -19,7 +19,7 @@
     </div>
   
     <div *ngIf="author.website">
-      <p>Website: <a [href]="author.website" target="_blank">{{ author.website }}</a></p>
+      <p>Website of <a [href]="author.website" target="_blank">{{ author.name }}</a></p>
     </div>
   
     <div *ngIf="author.books && author.books.length > 0">

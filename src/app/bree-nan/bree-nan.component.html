@@ -470,6 +470,17 @@
       <td translate>physician at the county hospital</td>
     </tr>
   </table>
+<table>
+  <tr>
+    <th>Name</th>
+    <th translate>Description</th>
+  </tr>
+  <tr *ngFor="let character of characters">
+    <td>{{ character.name }}</td>
+    <td translate>{{ character.description }}</td>
+  </tr>
+</table>
+
 </div>
 
   <div class="siteNavBottom">

@@ -1,0 +1,208 @@
+{
+    "characters": [
+        {
+            "name": "Lior",
+            "description": "Incubus, twin of Louan, grandson of Asmode, nephew of Lilith. Called Li by friends"
+        },
+        {
+            "name": "Louan",
+            "description": "Incubus, twin of Lior, grandson of Asmode, nephew of Lilith. Called Lou by friends"
+        },
+        {
+            "name": "Cameo \"Cami\"",
+            "description": "A shade, mix of angel and fairy"
+        },
+        {
+            "name": "Asmode",
+            "description": "Lord Lust, ruler of incubi and succubae. Also called lord of joy"
+        },
+        {
+            "name": "Crescenzo",
+            "description": "Incubus, in charge of Asmode’s treasures"
+        },
+        {
+            "name": "Dionysus",
+            "description": "Incubus, eldest"
+        },
+        {
+            "name": "Justus",
+            "description": "Incubus, formerly in charge of Asmode’s treasures, deceased"
+        },
+        {
+            "name": "Lilith",
+            "description": "Succubus, of Justus’s essence, aunt to the twins"
+        },
+        {
+            "name": "Myron",
+            "description": "Incubus, in charge of decorations"
+        },
+        {
+            "name": "Tanguy",
+            "description": "Rare mixed spirit: reaper and incubus"
+        },
+        {
+            "name": "Ahava",
+            "description": "Succubus, friend of Lilith"
+        },
+        {
+            "name": "Lady Fear",
+            "description": "Lady of the House of Terror (ruler of the reapers)"
+        },
+        {
+            "name": "Arthur Evans",
+            "description": "Male witch, associated with the devils"
+        },
+        {
+            "name": "Blaize",
+            "description": "Devil, son of Lady Hate. Obsessed with Lilith"
+        },
+        {
+            "name": "Lady Hate",
+            "description": "Ruler of the devils"
+        },
+        {
+            "name": "Madame Zelda Andeo",
+            "description": "Witch, associated with the angels"
+        },
+        {
+            "name": "Granny Andeo",
+            "description": "Witch, head of the Andeo family, grandmother of Zelda and Hector, former friend of Charlotte Ravi, associated with the angels"
+        },
+        {
+            "name": "Hector Andeo",
+            "description": "Male witch, grandson of Granny Andeo, associated with the angels"
+        },
+        {
+            "name": "Knight Cole",
+            "description": "Sole heir of a billionaire"
+        },
+        {
+            "name": "Madeline “Maddie” Lavea Smith/Ravi",
+            "description": "Orphaned witch, twin of Benny, associated with incubi/succubae"
+        },
+        {
+            "name": "Benjamin “Benny” Oliver Smith/Ravi",
+            "description": "Orphaned witch, twin of Maddie, associated with incubi/succubae"
+        },
+        {
+            "name": "Charlotte Ravi",
+            "description": "former head of the Ravi family, friend of Granny Andeo, deceased"
+        },
+        {
+            "name": "Madame Amelia Verra",
+            "description": "dud of the Verra family of witches, acts as a medium"
+        },
+        {
+            "name": "Stella",
+            "description": "Angel that bonded with the shade Helios, deceased"
+        },
+        {
+            "name": "Helios",
+            "description": "Shade that bonded with the angel Stella, deceased"
+        },
+        {
+            "name": "Judge Rabia / Lord Ire",
+            "description": "Ruler of the poltergeists"
+        },
+        {
+            "name": "Aphrodite",
+            "description": "First Lady Lust, deceased"
+        },
+        {
+            "name": "Evelyn “Evie” Graham",
+            "description": "Human girl that was possessed by Louan"
+        },
+        {
+            "name": "Misty Moore",
+            "description": "Maddie’s alias at the boot camp"
+        },
+        {
+            "name": "Johnny Cash",
+            "description": "Louan’s alias at the boot camp"
+        },
+        {
+            "name": "Umbra",
+            "description": "Healer of the shades"
+        },
+        {
+            "name": "Mr. Leonard Jr.",
+            "description": "Knight Cole’s lawyer"
+        },
+        {
+            "name": "Mrs. Chen",
+            "description": "Housekeeper at the Cole estate"
+        },
+        {
+            "name": "Gloria Lee",
+            "description": "Arthur’s wife, potential witch hunter"
+        },
+        {
+            "name": "Hausmann family",
+            "description": "Witching family known for their ability to create magical devices, died out, inheritance went to the Ravis"
+        },
+        {
+            "name": "Grace Evans",
+            "description": "Head witch of Arthur’s family"
+        },
+        {
+            "name": "Rose Evans alias Rose Lily Lee",
+            "description": "Daughter of Arthur and Gloria, sometimes called Rosie by Chris"
+        },
+        {
+            "name": "Christopher “Chris”",
+            "description": "Foundling spirit, supposedly a fairy"
+        },
+        {
+            "name": "Kell",
+            "description": "Fairy, foster father of Chris"
+        },
+        {
+            "name": "Charlotte “Lottie” Ravi",
+            "description": "Maddie’s firstborn"
+        },
+        {
+            "name": "Paula Donato",
+            "description": "Head of Donato family, witches associated with the chapter of joy"
+        },
+        {
+            "name": "Evan",
+            "description": "Rose’s brother"
+        },
+        {
+            "name": "Rigel",
+            "description": "Rose’s distant cousin, witch hunter"
+        },
+        {
+            "name": "William “Bill” Ury",
+            "description": "Rigel’s father, distant uncle of Rose, figurehead of the family"
+        },
+        {
+            "name": "Grayson “Gray” Ury",
+            "description": "Another distant cousin of Rose"
+        },
+        {
+            "name": "Josie Ury",
+            "description": "Grayson’s sister"
+        },
+        {
+            "name": "Joe Ury",
+            "description": "Bill’s brother, head of the family, living reclused"
+        },
+        {
+            "name": "Mrs. Schuler",
+            "description": "former schoolteacher of Joe and Bill Ury"
+        },
+        {
+            "name": "Jerry Ury",
+            "description": "Distant cousin of Joe’s and Bill’s mother, deceased"
+        },
+        {
+            "name": "John Ury",
+            "description": "Younger sibling of Joe and Bill"
+        },
+        {
+            "name": "Doctor Jennings",
+            "description": "physician at the county hospital"
+        }
+    ]
+}
