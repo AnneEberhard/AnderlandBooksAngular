@@ -31,6 +31,9 @@
               </div>
             </div>
           </div>
+          <div *ngIf="book.additionalInfo" class="additional">
+            {{ book.additionalInfo.text }} <a [href]="book.additionalInfo.link" target="_blank">{{ book.additionalInfo.label }}</a>
+          </div>
         </div>
       </div>
     </div>
