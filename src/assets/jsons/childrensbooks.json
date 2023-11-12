@@ -2,7 +2,7 @@
   "childrensBooks": [
     {
       "section": "fairytales",
-      "title": "Märchen",
+      "title": "Fairytales",
       "books": [
         {
           "image": "assets/img/covers/das-meerschaumkleid.jpg",
@@ -32,7 +32,7 @@
     },
     {
       "section": "fipsNina",
-      "title": "Fips und Nina Geschichten",
+      "title": "Fips and Nina stories",
       "books": [
         {
           "image": "assets/img/covers/fips-ritter.jpg",

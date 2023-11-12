@@ -2,7 +2,7 @@
     "germanBooks": [
         {
             "section": "historical",
-            "title": "Historische Geschichten",
+            "title": "Historical stories",
             "books": [
                 {
                     "image": "assets/img/covers/der-geist-in-brand.jpg",
@@ -311,7 +311,7 @@
         },
         {
             "section": "spy",
-            "title": "Spionage",
+            "title": "Spy novels",
             "books": [
                 {
                     "image": "assets/img/covers/unheilige mittel.jpg",
@@ -367,7 +367,7 @@
         },
         {
             "section": "loveStories",
-            "title": "Liebesromane",
+            "title": "Romance",
             "books": [
                 {
                     "image": "assets/img/covers/ertolia.jpg",
@@ -417,7 +417,7 @@
         },
         {
             "section": "shortStories",
-            "title": "Kurzgeschichten und Novellen",
+            "title": "Short stories and novellas",
             "books": [
                 {
                     "image": "assets/img/covers/tanz-mit-dem-wind.jpg",
