@@ -122,7 +122,7 @@
         {
             "name": "Anna K. Thomas",
             "website": "https://www.annakthomas.de",
-            "language": "Anna K. Thomas writes in German, but there are now translations of some of her stories.",
+            "language": "Anna K. Thomas writes in German, but there are now translations of some of her stories into English.",
             "hasTranslations": true,
             "paragraphs": [
                 "Anna K. Thomas loves stories of various genres, but her heart beats especially for fantasy and historical novels, provided the latter are well researched. Nothing drives her up the wall more than the absurdly dramatic birth or character assassination of real people (even if they have been dead for a long time...)",
@@ -173,7 +173,7 @@
                 {
                     "title": "Elfenweg",
                     "link": "https://mybook.to/Elfenweg  ",
-                    "description": "Die Sänger von Thurán 1, Classic Fantasy",
+                    "description": "The Bards of Thurán 1, Classic Fantasy",
                     "translations": [
                       {
                         "title": "",
@@ -183,7 +183,7 @@
                 {
                     "title": "Sumpfzauber",
                     "link": "https://mybook.to/Sumpfzauber ",
-                    "description": "Die Sänger von Thurán 2, Classic Fantasy",
+                    "description": "The Bards of Thurán 2, Classic Fantasy",
                     "translations": [
                       {
                         "title": "",
@@ -193,7 +193,7 @@
                 {
                     "title": "Weltenringen",
                     "link": "https://mybook.to/Weltenringen ",
-                    "description": "Die Sänger von Thurán 3, Classic Fantasy",
+                    "description": "The Bards of Thurán 3, Classic Fantasy",
                     "translations": [
                       {
                         "title": "",
@@ -233,7 +233,7 @@
                 {
                     "title": "Von Elfen und Wölfen",
                     "link": "https://mybook.to/VonElfenUndWoelfen",
-                    "description": "Von Elfen und Wölfen 1, Urban Fantasy",
+                    "description": "Of Elves and Wolves (German) 1, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Lucie's arc",
@@ -243,7 +243,7 @@
                 {
                     "title": "Hexen mittendrin im Mix",
                     "link": "https://mybook.to/HexenMittendrinImMix",
-                    "description": "Von Elfen und Wölfen 2, Urban Fantasy",
+                    "description": "Of Elves and Wolves (German) 2, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Bina's arc",
@@ -253,7 +253,7 @@
                 {
                     "title": "In Namen der Menschen",
                     "link": "https://mybook.to/ImNamenDerMenschen",
-                    "description": "Von Elfen und Wölfen 3, Urban Fantasy",
+                    "description": "Of Elves and Wolves (German) 3, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Lena's arc",
@@ -356,7 +356,7 @@
                 {
                     "title": "Spirit Chase. The Spirit Chapters: First Chapter.",
                     "link": "https://mybook.to/SpiritChase ",
-                    "description": "Urban fantasy",
+                    "description": "Urban Fantasy",
                     "translations": [
                       {
                         "title": "",
@@ -366,7 +366,7 @@
                 {
                     "title": "Spirit Chant. The Spirit Chapters: Second Chapter",
                     "link": "https://mybook.to/SpiritChant ",
-                    "description": "Urban fantasy",
+                    "description": "Urban Fantasy",
                     "translations": [
                       {
                         "title": "",
@@ -409,7 +409,7 @@
                 {
                     "title": "Ein Stern für Ertolia",
                     "link": "https://mybook.to/Ertolia",
-                    "description": "A fairy tale with a twist",
+                    "description": "A Fairytale with a twist",
                     "translations": [
                       {
                         "title": "",
