@@ -7,15 +7,16 @@
       />
     </div>
 
-<div class="headerlinks dNone500">
-    <a routerLink="" translate >Homepage</a>
-    <a routerLink="/english-books" translate >English Stories</a>
-    <a routerLink="/german-books" translate >Deutsche Geschichten</a>
-    <a routerLink="/childrens-books" translate >Kinderbücher</a>
-    <a routerLink="/authors" translate >Autoren</a>
-    <a routerLink="/services" translate >Services</a>
-    <a routerLink="/contact" translate >Kontakt</a>
-</div>
+    <div class="headerlinks dNone500">
+      <a routerLink="/main-page" translate routerLinkActive="active">Homepage</a>
+      <a routerLink="/english-books" translate routerLinkActive="active">English Stories</a>
+      <a routerLink="/german-books" translate routerLinkActive="active">Deutsche Geschichten</a>
+      <a routerLink="/childrens-books" translate routerLinkActive="active">Kinderbücher</a>
+      <a routerLink="/authors" translate routerLinkActive="active">Autoren</a>
+      <a routerLink="/services" translate routerLinkActive="active">Services</a>
+      <a routerLink="/contact" translate routerLinkActive="active">Kontakt</a>
+  </div>
+  
 <div class="translationButtons">
     <a (click)="this.translate.use('de')">DE</a> |
     <a (click)="this.translate.use('en')">EN</a>
