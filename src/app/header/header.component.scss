@@ -1,75 +1,121 @@
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 220px;
-    width: 100%;
-    background-color: rgb(19, 79, 92);
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  align-items: center;
+  height: 200px;
+  width: 100%;
+  background-color: rgb(19, 79, 92);
+}
+
+.headerlinks {
+  color: white;
+  gap: 16px;
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 8px 0px 8px 0px;
+  position: sticky;
+
+  a {
+    color: rgb(192, 187, 187);
+
+    &:hover {
+      font-weight: 600;
+    }
   }
-  
+}
+
+.logo {
+  height: 120px;
+}
+
+.translationButtons {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: white;
+  &:hover {
+    scale: (1.1);
+  }
+}
+ .dNone {
+  display: none !important;
+ }
+
+.active {
+  font-weight: bold;
+  color: white !important;
+}
+
+#headerLinkContainerMobile {
+  border: 1px solid white;
+  padding: 32px 16px 0px 16px;
+  position: absolute;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: rgb(19, 79, 92); 
+  transition: 1s ease-in-out; 
+
+  a {
+    color: rgb(192, 187, 187);
+    padding: 16px;
+  }
+}
+
+#burgerMenu {
+  display: none;
+  width: 90%;
+  justify-content: flex-end;
+  img {
+      width: 30px; 
+      height: 30px;
+      cursor: pointer;
+  }
+}
+
+.mobileNav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 2px;
+  img {
+    cursor: pointer;
+    &:hover {
+      box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
+  }
+}
+}
+
+.easeIn {
+  transform: translateX(0); 
+}
+
+.easeOut {
+  transform: translateX(-300px) !important; 
+}
+
+.mobileLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 1000px) {
   .headerlinks {
     color: white;
-    gap: 16px;
-    width: 100%;
-    height: 48px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 8px 0px 8px 0px;
-    position: sticky;
-
-     a {
-        color: rgb(192, 187, 187);
-
-        &:hover {
-            font-weight: 600;
-        }
-     }
+    gap: 8px;
   }
-  
-  .logo {
-    height: 120px;
-  }
-
-  .translationButtons {
-    position: absolute;
-    top: 32px;
-    right:32px;
-    color: white;
-    &:hover {
-        scale: (1.1);
-    }
-  }
-
-
-  #mobileMenu {
+}
+@media (max-width: 800px) {
+  .dNone800 {
     display: none;
-     padding-top: 32px;
-     position: absolute;
-     left: 0px;
-     top:0px;
-     bottom:0px;
-     background-color: rgb(19, 79, 92);
-  
-      a {
-          color: rgb(192, 187, 187);;
-          padding: 16px; 
-      }
-    }
-  
-    
-    .mobileMenuContainer {
-      width: 200px;
-      color: white;
-      display: flex;
-      flex-direction: column;
-      color: white;
-      gap: 16px;
-    }
-  
-    .active {
-      font-weight: bold;
-      color: white !important; 
-    }
-    
+  }
+  #burgerMenu {
+    display: flex;
+  }
+
+}

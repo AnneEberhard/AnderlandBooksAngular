@@ -1,15 +1,3 @@
-.siteNavTop {
-    display: flex;
-    flex-direction: column;
-
-    a {
-        font-weight: 500;
-        &:hover {
-            font-weight: bold;
-        }
-    }
-}
-
 .subSection {
     display: flex;
     gap:24px;
@@ -72,14 +60,3 @@ h4 {
 
 }
 
-.siteNavBottom {
-    display: flex;
-    flex-direction: column;
-
-    a {
-        font-weight: 500;
-        &:hover {
-            font-weight: bold;
-        }
-    }
-}

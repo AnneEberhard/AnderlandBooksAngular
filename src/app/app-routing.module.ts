@@ -13,7 +13,7 @@ import { BreeNanComponent } from './bree-nan/bree-nan.component';
 import { AuthorsComponent } from './authors/authors.component';
 
 const routes: Routes = [
-  { path: 'main-page', component: MainPageComponent },
+  { path: '', component: MainPageComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'childrens-books', component: ChildrensbooksComponent },
   { path: 'english-books', component: EnglishbooksComponent },

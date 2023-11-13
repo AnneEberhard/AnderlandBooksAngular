@@ -12,13 +12,16 @@ export class HeaderComponent {
   constructor(private pageService: PageService, public translate: TranslateService) {  }
   
   openMobileMenu() {
-    //document.getElementById('headerLinkContainerMobile')?.classList.remove('dNone')
-    //document.getElementById('burgerMenu')?.classList.add('dNone')
+    document.getElementById('headerLinkContainerMobile')?.classList.add('easeIn');
+    document.getElementById('headerLinkContainerMobile')?.classList.remove('easeOut');
+    document.getElementById('burgerMenu')?.classList.add('dNone');
   }
 
   closeMobileMenu() {
-    //document.getElementById('headerLinkContainerMobile')?.classList.add('dNone')
-    //document.getElementById('burgerMenu')?.classList.remove('dNone')
+    console.log('close');
+    document.getElementById('headerLinkContainerMobile')?.classList.add('easeOut');
+    document.getElementById('headerLinkContainerMobile')?.classList.remove('easeIn');
+    document.getElementById('burgerMenu')?.classList.remove('dNone');
   }
 
 }

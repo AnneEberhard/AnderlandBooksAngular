@@ -7,30 +7,36 @@
       />
     </div>
 
-    <div class="headerlinks dNone500">
-      <a routerLink="/main-page" translate routerLinkActive="active">Homepage</a>
+    <div class="headerlinks dNone800">
+      <a routerLink="" translate [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">Homepage</a>
       <a routerLink="/english-books" translate routerLinkActive="active">English Stories</a>
       <a routerLink="/german-books" translate routerLinkActive="active">German Stories</a>
       <a routerLink="/childrens-books" translate routerLinkActive="active">Children's Books</a>
       <a routerLink="/authors" translate routerLinkActive="active">Authors</a>
       <a routerLink="/services" translate routerLinkActive="active">Services</a>
       <a routerLink="/contact" translate routerLinkActive="active">Contact</a>
-  </div>
+    </div>   
   
 <div class="translationButtons">
     <a (click)="this.translate.use('de')">DE</a> |
     <a (click)="this.translate.use('en')">EN</a>
   </div>
 
-    <div (click)="openMobileMenu()" id="burgerMenu"  class="dNone">
+    <div (click)="openMobileMenu()" id="burgerMenu" >
       <img src="assets/img/icon/burger-menu.png" alt="burger menuo icon">
     </div>
-    <div id="headerLinkContainerMobile" class="dNone">
+    <div id="headerLinkContainerMobile" class="easeOut">
       <div class="mobileNav">
         <img (click)="closeMobileMenu()" src="assets/img/icon/close.png" alt="close">
       </div>
       <div class="mobileLinks">
-    
+        <a routerLink="" translate [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">Homepage</a>
+        <a routerLink="/english-books" translate routerLinkActive="active">English Stories</a>
+        <a routerLink="/german-books" translate routerLinkActive="active">German Stories</a>
+        <a routerLink="/childrens-books" translate routerLinkActive="active">Children's Books</a>
+        <a routerLink="/authors" translate routerLinkActive="active">Authors</a>
+        <a routerLink="/services" translate routerLinkActive="active">Services</a>
+        <a routerLink="/contact" translate routerLinkActive="active">Contact</a>
     </div>
     </div>
   </header>

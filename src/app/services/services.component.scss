@@ -1,15 +1,3 @@
-.siteNavTop {
-    display: flex;
-    flex-direction: column;
-
-    a {
-        font-weight: 500;
-        &:hover {
-            font-weight: bold;
-        }
-    }
-}
-
 .serviceContent {
     display: flex;
     align-items: center;
