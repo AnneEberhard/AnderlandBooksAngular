@@ -11,14 +11,14 @@
 <br>
 <div *ngFor="let author of authors">
     <h2 id="{{ author.name }}">{{ author.name }}</h2>
-    <p *ngIf="author.language">{{ author.language }}</p>
+    <p *ngIf="author.language" translate>{{ author.language }}</p>
   
     <div *ngIf="author.paragraphs && author.paragraphs.length > 0">
       <p *ngFor="let paragraph of author.paragraphs" translate>{{ paragraph }}</p>
     </div>
   
     <div *ngIf="author.website">
-      <p>Website of <a [href]="author.website" target="_blank">{{ author.name }}</a></p>
+      <p translate>Website of <a [href]="author.website" target="_blank">{{ author.name }}</a></p>
     </div>
   
     <div *ngIf="author.books && author.books.length > 0">
