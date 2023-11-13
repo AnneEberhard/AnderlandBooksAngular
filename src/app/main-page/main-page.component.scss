@@ -1,9 +1,15 @@
 .homepageContent {
-    display: flex;
-    align-items: center;
-    gap: 16px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 
-    img {
-        height:100px;
-    }
+  img {
+    height: 100px;
+  }
+}
+
+@media (max-width: 350px) {
+  .homepageContent {
+    flex-direction: column;
+  }
 }
