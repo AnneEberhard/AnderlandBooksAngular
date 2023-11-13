@@ -28,3 +28,13 @@
     padding-left: 8px;
     font-weight: 400;
 }
+
+@media (max-width:800px) {
+    .serviceContent {
+        flex-direction: column;
+    }
+
+    .reverse {
+       flex-direction: column-reverse !important;
+    }
+  }
