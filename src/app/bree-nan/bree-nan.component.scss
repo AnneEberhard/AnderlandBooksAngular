@@ -1,62 +1,102 @@
 .subSection {
-    display: flex;
-    gap:24px;
-    margin-top: 24px;
-    
-    p {
-        font-weight: 500;
-    }
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
 
-    ul {
-        width: max-content;
+  p {
+    font-weight: 500;
+  }
 
-        li {
-            font-weight: 500;
-        }
+  ul {
+    li {
+      font-weight: 500;
+      overflow-wrap: break-word;
     }
+  }
 }
 
 .alignCenter {
-    align-items:center;
+  align-items: center;
 }
 
 h4 {
-    margin-block-start: 0;
-    margin-block-end: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 #jewels {
-    ul {
-        margin-block-start: 0;
-        margin-block-end: 0; 
-    }
+  ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+}
+
+#colors {
+  ul {
+    width: max-content;
+  }
 }
 
 #symbols {
-    img {
-        width: 50vw;
-    }
+  img {
+    width: 50vw;
+  }
 }
 
 #witchesPowers {
-    ul {
-        width: 100%;
-    }
+  ul {
+    width: 100%;
+  }
 }
 
 #hunterPowers {
-    width: 60vw;
+  width: 60vw;
 }
 
 #personage {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 
-    th {
-        text-align: left;
-    }
-    td {
-        font-weight: 500;
-    }
-
+  th {
+    text-align: left;
+  }
+  td {
+    font-weight: 500;
+  }
 }
 
+@media (max-width: 1200px) {
+  #organization {
+    img {
+      width: 50vw;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .wrap1000 {
+    flex-wrap: wrap;
+  }
+  #organization {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  #symbols {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .wrap800 {
+    flex-wrap: wrap;
+  }
+
+  #witchesPowers {
+    ul {
+        width: auto;
+    }
+  }
+}
