@@ -33,6 +33,7 @@ footer {
 }
 @media (max-width: 350px) {
   footer {
+    flex-wrap: wrap;
     img {
       height: 30px;
     }
