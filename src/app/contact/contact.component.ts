@@ -8,7 +8,7 @@ import { ViewportScroller } from '@angular/common';
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
-export class ContactComponent {
+export class ContactComponent implements AfterViewInit{
   constructor(private pageService: PageService, public translate: TranslateService) {  }
 
   private readonly viewport = inject(ViewportScroller)
@@ -164,7 +164,6 @@ checkFieldsFilled(field: any, id: string) {
       } else {
           field.classList.add('fieldAlert');
           this.showAlert(id);
-
           return false;
       }
   } else {
