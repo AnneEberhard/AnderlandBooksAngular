@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { MainPageComponent } from './main-page/main-page.component';
-import { HeaderComponent } from './header/header.component';
+import { HeaderComponent } from './shared/components/header/header.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { ContactComponent } from './contact/contact.component';
 import { ChildrensbooksComponent } from './childrensbooks/childrensbooks.component';

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PageService } from '../page-service/page.service';
+import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';

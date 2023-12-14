@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { PageService } from '../page-service/page.service';
+import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
