@@ -9,17 +9,10 @@ switch ($_SERVER['REQUEST_METHOD']) {
         exit;
     case ("POST"):
         header("Access-Control-Allow-Origin: *");
-        $newsletterStatus = isset($_POST['newsletter']) ? $_POST['newsletter'] : '0';
-
-        if ($newsletterStatus === '1') {
-            $newsletterMessage = "Sender/in hat sich für den Newsletter angemeldet.";
-        } else {
-            $newsletterMessage = "";
-        }
 
         $name = $_POST['name'];
         $email = $_POST['email'];
-        $message = $_POST['message'] . "\n\n" . $newsletterMessage;
+        $message = $_POST['message'];
 
         $subject = "Contact Form Submission from $name";
         $headers = "From: $email";

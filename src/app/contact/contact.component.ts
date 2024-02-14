@@ -92,7 +92,7 @@ async sendMail(event: Event) {
       this.disableFields();
       this.sendAnimation();
       try {
-          const response = await fetch("../shared/send_mail.php", {
+          const response = await fetch("send_mail.php", {
               method: "POST",
               body: data
           });
@@ -149,9 +149,9 @@ sendAnimation() {
 }
 
 messageSend() {
-  this.sendMessage = this.translate.instant('messageSent'); 
+  this.sendMessage = this.translate.instant('message Sent'); 
   setTimeout(() => {
-    this.sendMessage = this.translate.instant('sendMessage');
+    this.sendMessage = this.translate.instant('send Message');
   }, 2000);
 }
 
