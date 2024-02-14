@@ -41,7 +41,7 @@
           </div>
           
           <div #privacyAlert class="alert" *ngIf="showPrivacyAlert" translate>Please accept the privacy policy</div>
-        
+          <input type="hidden" name="newsletter" #newsletter value="0">
           <button type="submit" #sendButton [disabled]="!privacyChecked">{{sendMessage | translate}}</button>
         </form>
       </div>

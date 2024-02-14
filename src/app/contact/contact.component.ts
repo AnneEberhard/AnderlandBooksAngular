@@ -58,7 +58,7 @@ assignFields() {
   this.messageAlert = this.messageAlertElement?.nativeElement;
 }
 
-async sendMail(event: Event) {
+async sendMail2(event: Event) {
   event.preventDefault();
   if (this.fieldsFilled()) {
       const data = this.collectdata();
@@ -85,12 +85,39 @@ async sendMail(event: Event) {
   }
 }
 
+async sendMail(event: Event) {
+  event.preventDefault();
+  if (this.fieldsFilled()) {
+      const data = this.collectdata();
+      this.disableFields();
+      this.sendAnimation();
+      try {
+          const response = await fetch("../shared/send_mail.php", {
+              method: "POST",
+              body: data
+          });
+          if (response.ok) {
+              this.messageSend();
+              this.clearFields();
+              this.enableFields();
+          } else {
+              console.error(`HTTP error! status: ${response.status}`);
+              this.enableFields();
+              alert('Fehler beim Senden');
+          }
+      } catch (error) {
+          console.error('Error:', error);
+      }
+  }
+}
+
 
 collectdata() {
   const data = new FormData();
   data.append('name', this.nameField.value);
   data.append('email', this.emailField.value);
   data.append('message', this.messageField.value);
+  data.append('newsletter', '0');
   return data;
 }
 
@@ -233,4 +260,6 @@ scrollToSection(sectionId: string) {
 scrollToTop(): void {
   this.viewport.scrollToPosition([0,0])
 }
+
+
 }
