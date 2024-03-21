@@ -252,6 +252,93 @@
       "title": "Urban Fantasy",
       "books": [
         {
+          "image": "assets/img/covers/demon-ride.jpg",
+          "paragraphs": [
+            "Who would have thought that demons really exist? And not only them - demon hunters too?",
+            "Daniel encounters three of them at once when he gets involved with a demon while searching for his brother. With the hunters, he hopes, he has a better chance of tracking Zach down.",
+            "But this decision draws him deeper and deeper into an ancient conflict between the hostile species. What happened to make the demons abandon their millennia-old cover in the first place? What role did the huntress Miriam play, who is treated with extreme contempt by her fellow hunters ⸺ and what role her former partner Flo?",
+            "The search for Zach leads Daniel and the hunters not only into the past, but across two continents - and at its end is something quite different than what they all expected...",
+            "Demon Ride is the first book of the completed series “The Children of Angels”."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/DemonRide"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/"
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },        
+        {
+          "image": "assets/img/covers/demon-leap.jpg",
+          "paragraphs": [
+            "The journey of the children of angels continues...",
+            "Flo, Miriam, and Daniel did it - they inserted one of the lost shards into the Heart of the Angels, as the prophecies said they would. But this has unforeseen consequences, especially for Daniel, the first human to be exposed to the unrestrained power of the channelers.",
+            "What becomes of a human who can suddenly manipulate energy? How does the Council of Hunters react to the rebellion of their promised ones? And what do the demons want? Or should they better be called shadow channelers?",
+            "Flo, Miriam, and Daniel increasingly start to challenge old legends...",
+            "Demon Ride is the second book of the completed series “The Children of Angels”."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/DemonLeap"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/"
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "assets/img/covers/demon-dream.jpg",
+          "paragraphs": [
+            "The journey of the children of angels reaches its climax...",
+            "Flo, Miriam, and Daniel try their best to save the world from a war of channelers, which it would probably not survive. But suddenly a new player appears and demands their support.",
+            "Who is this Bell, and why has she come? Is it even possible to stop the war? And if not - is it possible to at least protect the human world from annihilation?",
+            "Flo, Miriam, and Daniel feel more and more compelled to make the ultimate sacrifice...",
+            "Demon Ride is the last book of the completed series “The Children of Angels”."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/DemonDream"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/"
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        {
           "image": "assets/img/covers/lucie-new.jpg",
           "paragraphs": [
             "Lucie Martin is new – she is familiar with that. Normally, she has no problems making friends, but the children of the neighboring house pose a real challenge. They are unusual enough: an aggressive daughter, a bunch of foster kids, the oldest of them a withdrawn boy with snow-white hair. Lucie is intrigued, against her will, by Noel Tyll. There's something else about him, something that makes his foster sister pull out all the stops, something beyond his hair and strangely beguiling voice.",
