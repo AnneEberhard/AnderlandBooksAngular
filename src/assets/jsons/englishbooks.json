@@ -263,15 +263,15 @@
           "formats": {
             "eBook": {
               "title": "eBook",
-              "link": "https://mybook.to/DemonRide"
+              "link": "https://mybook.to/Demon-Ride"
             },
             "paperback": {
               "title": "paperback",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonRide_PB"
             },
             "hardcover": {
               "title": "hardcover",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonRide_HC"
             }
           },
           "additionalInfo": {
@@ -292,15 +292,15 @@
           "formats": {
             "eBook": {
               "title": "eBook",
-              "link": "https://mybook.to/DemonLeap"
+              "link": "https://mybook.to/Demon-Leap"
             },
             "paperback": {
               "title": "paperback",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonLeap_PB"
             },
             "hardcover": {
               "title": "hardcover",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonLeap_HC"
             }
           },
           "additionalInfo": {
@@ -321,15 +321,15 @@
           "formats": {
             "eBook": {
               "title": "eBook",
-              "link": "https://mybook.to/DemonDream"
+              "link": "https://mybook.to/Demon-Dream"
             },
             "paperback": {
               "title": "paperback",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonDream_PB"
             },
             "hardcover": {
               "title": "hardcover",
-              "link": "https://mybook.to/"
+              "link": "https://mybook.to/DemonDream_HC"
             }
           },
           "additionalInfo": {
