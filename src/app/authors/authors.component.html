@@ -18,8 +18,16 @@
     </div>
   
     <div *ngIf="author.website">
-      <p translate>Website of <a [href]="author.website" target="_blank">{{ author.name }}</a></p>
+      <p translate>Website of 
+        <ng-container *ngIf="isExternalUrl(author.website); else internalLink">
+          <a [href]="author.website" target="_blank">{{ author.name }}</a>
+        </ng-container>
+        <ng-template #internalLink>
+          <a [routerLink]="[author.website]">{{ author.name }}</a>
+        </ng-template>
+      </p>
     </div>
+    
   
     <div *ngIf="author.books && author.books.length > 0">
       <h3 translate>Books by {{ author.name }}</h3>

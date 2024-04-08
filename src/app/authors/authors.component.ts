@@ -28,6 +28,10 @@ export class AuthorsComponent implements OnInit {
     }
   }
 
+  isExternalUrl(url: string): boolean {
+    return /^(https?:\/\/)/.test(url);
+  }
+  
   scrollToSection(sectionId: string) {
     this.pageService.scrollToSection(sectionId);
   }
