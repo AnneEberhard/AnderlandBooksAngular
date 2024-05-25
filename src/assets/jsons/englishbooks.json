@@ -5,6 +5,33 @@
       "title": "Historical Novels",
       "books": [
         {
+          "image": "assets/img/covers/Odyssey.jpg",
+          "paragraphs": [
+            "The year is 1147, the Saracens just having conquered Christian Edessa in the Orient. In response, the Second Crusade sets out from the West to drive back the enemy in the East. Part of this procession are fifteen-year-old Katharina with her husband and children, as well as the brothers Rudolph and Maximilian. ",
+            "They set out inspired by the success of the First Crusade, filled with noble goals, greed for profit, and a belief in their own invincibility. But reality strikes, hard. Suddenly, abruptly, Max and Katja find themselves alone and have to make their own way through a hostile country.",
+            "Odyssey to the Promised Land is set during the times of the Second Crusade, young future Emperor Barbarossa and Eleanor of Aquitaine. Please read the content note first."
+          ],
+          "formats": {
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/ToThePromisedLand"
+            },
+            "paperback": {
+              "title": "paperback",
+              "link": "https://mybook.to/ToThePromisedLand_PB"
+            },
+            "hardcover": {
+              "title": "hardcover",
+              "link": "https://mybook.to/ToThePromisedLand_HC"
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        {
           "image": "assets/img/covers/the-masks-of-florence.jpg",
           "paragraphs": [
             "Gianni is only twelve and thus the most insignificant member of a Florentine merchant family in Medici times; but his life already seems clearly mapped out.",
