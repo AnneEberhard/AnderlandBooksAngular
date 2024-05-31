@@ -1,0 +1,8 @@
+<div class="slideshowContainer">
+    <img *ngIf="showImage"  class="slideshowImage" src="{{images[currentImage]}}">
+  </div>
+  <div class="slideshowContainer slideshowOverlay" (click)="navigateHome()">
+  <p *ngIf="showImage" class="fadeIn">
+    {{headlines[currentHeadline]}}
+  </p>
+  </div>

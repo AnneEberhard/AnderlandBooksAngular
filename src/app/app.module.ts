@@ -19,6 +19,7 @@ import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 import { AuthorsComponent } from './authors/authors.component';
 import { ScrollToTopButtonComponent } from './shared/components/scroll-to-top-button/scroll-to-top-button.component';
 import { BackgroundContainerComponent } from './shared/components/background-container/background-container.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -41,7 +42,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     BreeNanComponent,
     AuthorsComponent,
     ScrollToTopButtonComponent,
-    BackgroundContainerComponent
+    BackgroundContainerComponent,
+    SlideshowComponent
   ],
   imports: [
     BrowserModule,

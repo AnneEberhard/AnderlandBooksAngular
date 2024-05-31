@@ -11,9 +11,11 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { ServicesComponent } from './services/services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
 import { AuthorsComponent } from './authors/authors.component';
+import { SlideshowComponent } from './slideshow/slideshow.component';
 
 const routes: Routes = [
-  { path: '', component: MainPageComponent },
+  { path: 'home', component: MainPageComponent },
+  { path: '', component: SlideshowComponent }, 
   { path: 'header', component: HeaderComponent },
   { path: 'childrens-books', component: ChildrensbooksComponent },
   { path: 'english-books', component: EnglishbooksComponent },
