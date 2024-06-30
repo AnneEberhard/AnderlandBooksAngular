@@ -1,0 +1,42 @@
+<app-header></app-header>
+<section >
+  <h1 translate>German Stories</h1>
+  <div class="siteNavTop">
+    <a
+      *ngFor="let section of germanBooks"
+      (click)="scrollToSection(section.section)"
+      translate
+      >{{ section.title }}</a
+    >
+  </div>
+  <div *ngFor="let section of germanBooks">
+    <h2 id="{{ section.section }}" translate>{{ section.title }}</h2>
+    <div class="bookContainer" *ngFor="let book of section.books">
+      <img [src]="book.image" alt="Book Image" />
+      <div class="bookContainerText">
+        <div *ngFor="let paragraph of book.paragraphs">
+          <p>{{ paragraph }}</p>
+        </div>
+        <div class="bookLinksContainer">
+          <span>Erhältlich als: </span>
+          <div class="bookLinks">
+            <div *ngFor="let format of getBookFormats(book); let last = last">
+              <ng-container *ngIf="!last">
+                <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                <span> – </span>
+              </ng-container>
+              <ng-container *ngIf="last">
+                <a [href]="format.link" target="_blank">{{ format.label }}</a>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="siteNavBottom">
+    <a class="navLink" routerLink="/" translate >Back to Homepage</a>
+  </div>
+</section>
+<app-footer></app-footer>
+<app-scroll-to-top-button></app-scroll-to-top-button>

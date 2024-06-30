@@ -1,0 +1,23 @@
+span {
+    font-weight: 600;
+    font-style: italic;
+}
+
+a {
+    font-weight: bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+th {
+    text-decoration: underline;
+    font-size: 18px;
+    font-style: italic;
+    padding-block-end: 20px;
+}
+
+.paddingLeft {
+    padding-left: 8px;;
+}
