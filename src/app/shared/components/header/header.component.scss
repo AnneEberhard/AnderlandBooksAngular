@@ -3,13 +3,17 @@ header {
   flex-direction: column;
   padding-top: 16px;
   align-items: center;
-  height: 200px;
   width: 100%;
-  background-color: rgb(19, 79, 92);
+  background-color: rgba(248, 249, 249, 0.9);
+}
+
+.headerDistanceRight {
+  position: absolute;
+  right:32px;
 }
 
 .headerlinks {
-  color: white;
+  color: rgba(19, 79, 92, 1);
   gap: 16px;
   width: 100%;
   height: 48px;
@@ -20,12 +24,22 @@ header {
   position: sticky;
 
   a {
-    color: rgb(192, 187, 187);
+    color: rgba(19, 79, 92, 1);
 
     &:hover {
       font-weight: 600;
     }
   }
+}
+.slideshow {
+  position: absolute;
+    top: 32px;
+    left: 32px;
+    color: rgba(19, 79, 92, 1);
+
+    &:hover {
+      font-weight: 600;
+    }
 }
 
 .logo {
@@ -33,10 +47,8 @@ header {
 }
 
 .translationButtons {
-  position: absolute;
   top: 32px;
-  right: 32px;
-  color: white;
+  color: rgba(19, 79, 92, 1);
   &:hover {
     scale: (1.1);
   }
@@ -47,7 +59,14 @@ header {
 
 .active {
   font-weight: bold;
-  color: white !important;
+  color: rgba(19, 79, 92, 1);
+}
+
+#divider {
+width: 100%;
+background-color:rgb(19, 79, 92) ;
+height: 2px;
+margin-top: 16px;
 }
 
 #headerLinkContainerMobile {
@@ -69,12 +88,21 @@ header {
 
 #burgerMenu {
   display: none;
-  width: 90%;
-  justify-content: flex-end;
-  img {
-      width: 30px; 
-      height: 30px;
+  top: 104px;
+
+  .burger-icon {
+    .bar {
+      transition: height 0.3s ease;
+    }
+  }
+  
+  &:hover {
+    .burger-icon {
       cursor: pointer;
+      .bar {
+        height: 15px; 
+      }
+    }
   }
 }
 
@@ -110,6 +138,7 @@ header {
     gap: 8px;
   }
 }
+
 @media (max-width: 800px) {
   .dNone800 {
     display: none;
@@ -118,4 +147,21 @@ header {
     display: flex;
   }
 
+  .headerDistanceRight {
+    right:20px;
+  }
+}
+
+@media (max-width: 400px) {
+  header {
+    align-items: flex-start;
+  
+    img {
+      padding-left: 20px;
+    }
+  }
+
+  .slideshow {
+    display: none;
+  }
 }

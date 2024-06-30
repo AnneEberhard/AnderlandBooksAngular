@@ -9,10 +9,8 @@ import { Router } from '@angular/router';
 })
 export class SlideshowComponent implements OnInit {
   images = [
-  'assets/img/covers/alsterdiamonds.jpg',
   'assets/img/covers/unheilige mittel.jpg',
   'assets/img/covers/hehre zwecke.jpg',
-  'assets/img/covers/a-fine-day.jpg',
   'assets/img/covers/spirit-chant.jpg',
   'assets/img/covers/spirit-chase.jpg',
   'assets/img/covers/spirit-circle.jpg',
@@ -23,7 +21,6 @@ export class SlideshowComponent implements OnInit {
   'assets/img/covers/das-meerschaumkleid.jpg',
   'assets/img/covers/der-geist-in-brand.jpg',
   'assets/img/covers/die-masken-von-florenz.jpg',
-  'assets/img/covers/alsterdiamanten.jpg',
   'assets/img/covers/elfenweg.jpg',
   'assets/img/covers/sumpfzauber.jpg',
   'assets/img/covers/weltenringen.jpg',
@@ -33,6 +30,11 @@ export class SlideshowComponent implements OnInit {
   'assets/img/covers/base-means.jpg',
   'assets/img/covers/great-ends.jpg',
 ];
+excludedCovers = [
+  'assets/img/covers/alsterdiamanten.jpg',
+  'assets/img/covers/a-fine-day.jpg',
+  'assets/img/covers/alsterdiamonds.jpg',
+]
   headlines = [
   'Dream a little Dream', 
   'Have a little Faith', 
