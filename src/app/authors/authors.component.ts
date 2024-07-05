@@ -1,37 +1,59 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterContentInit, Component, OnInit } from '@angular/core';
 import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
+import { slideInFromLeft, slideInFromRight } from '../shared/animations';
 
 @Component({
   selector: 'app-authors',
   templateUrl: './authors.component.html',
-  styleUrls: ['./authors.component.scss']
+  styleUrls: ['./authors.component.scss'],
+  animations: [slideInFromLeft, slideInFromRight]
 })
-export class AuthorsComponent implements OnInit {
+export class AuthorsComponent implements AfterContentInit {
 
   authors: any;
 
-  constructor(private pageService: PageService, private http: HttpClient, public translate: TranslateService) {  }
-  
-  ngOnInit(): void {
-    this.loadData();
+  constructor(public pageService: PageService, private http: HttpClient, public translate: TranslateService) { }
+
+  ngAfterContentInit(): void {
+    this.init();
+  }
+
+  async init() {
+    await this.loadData();
+    for (let i = 0; i < 3; i++) {
+      this.pageService.registerElement(`element${i}`);
+    }
+    window.onload = () => {
+      this.pageService.initElements();
+    };
   }
 
   async loadData() {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/authors.json'));
       this.authors = data.authors;
+      this.registerAuthorElements();
     } catch (error) {
       console.error('Fehler beim Laden der Daten:', error);
     }
   }
 
+  registerAuthorElements() {
+    this.authors.forEach((author: { books: string | any[]; }, index: any) => {
+      this.pageService.registerElement(`authorName${index}`);
+      if (author.books && author.books.length > 0) {
+        this.pageService.registerElement(`authorBooks${index}`);
+      }
+    });
+  }
+
   isExternalUrl(url: string): boolean {
     return /^(https?:\/\/)/.test(url);
   }
-  
+
   scrollToSection(sectionId: string) {
     this.pageService.scrollToSection(sectionId);
   }

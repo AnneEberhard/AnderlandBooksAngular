@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, HostListener, OnDestroy } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy } from '@angular/core';
 import { trigger, state, style, transition, animate } from '@angular/animations';
 
 @Component({
@@ -58,10 +58,10 @@ export class MainPageComponent implements AfterViewInit, OnDestroy {
     const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
     const vertInView = (rect.top > 0) && ((rect.bottom - (rect.height / 2)) <= windowHeight);
 
-    console.log(el);
-    console.log('rect.bottom: ', rect.bottom);
-    console.log('window.innerHeight: ', window.innerHeight);
-    console.log('rect.top: ', rect.top);
+  // console.log(el);
+  // console.log('rect.bottom: ', rect.bottom);
+  // console.log('window.innerHeight: ', window.innerHeight);
+  // console.log('rect.top: ', rect.top);
     return (
       vertInView
     );
