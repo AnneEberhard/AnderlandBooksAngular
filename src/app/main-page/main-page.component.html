@@ -1,15 +1,15 @@
 <app-header></app-header>
 <section>
-  <h1 id="element0" translate [@slideInFromLeft]="elementStates['element0'] || 'hidden'" >What is Anderland Books?</h1>
-  <div id="element1" class="homepageContent" [@slideInFromRight]="elementStates['element1'] || 'hidden'">
+  <h1 id="element0" translate [@slideInFromLeft]="this.pageService.getElementState('element0')">What is Anderland Books?</h1>
+  <div id="element1" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('element1')">
     <p translate>
       Anderland Books is a tiny publisher. We love the unusal stories, a little
       quaint, full of imagination and empathy.
     </p>
     <img src="assets/img/logo-typewriter.png" alt="old typewriter" />
   </div>
-  <h2 id="element2" translate [@slideInFromLeft]="elementStates['element2'] || 'hidden'">What does Anderland Books offer?</h2>
-  <div id="element3" class="homepageContent" [@slideInFromRight]="elementStates['element3'] || 'hidden'">
+  <h2 id="element2" translate [@slideInFromLeft]="this.pageService.getElementState('element2')">What does Anderland Books offer?</h2>
+  <div id="element3" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('element3')">
     <img src="assets/img/family-book.png" alt="open book" />
     <p translate>
       Anderland Books publishes selected books, offers translation from English
@@ -17,8 +17,8 @@
       manuscripts, as well as proofreading of German manuscripts.
     </p>
   </div>
-  <h2 id="element4" translate [@slideInFromLeft]="elementStates['element4'] || 'hidden'">Philosophy</h2>
-  <div id="element5" class="homepageContent" [@slideInFromRight]="elementStates['element5'] || 'hidden'">
+  <h2 id="element4" translate [@slideInFromLeft]="this.pageService.getElementState('element4')">Philosophy</h2>
+  <div id="element5" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('element5')">
     <p translate>
       We don't want to get rich. Yes, we have bills to pay too, but basically we
       are about publishing and sharing special stories. We want to use the
@@ -27,8 +27,8 @@
     </p>
     <img src="assets/img/omas-typewriter.png" alt="old typewriter" />
   </div>
-  <h2 id="element6" translate [@slideInFromLeft]="elementStates['element6'] || 'hidden'">How do I get to Anderland Books?</h2>
-  <div id="element7" class="homepageContent" [@slideInFromRight]="elementStates['element7'] || 'hidden'">
+  <h2 id="element6" translate [@slideInFromLeft]="this.pageService.getElementState('element6')">How do I get to Anderland Books?</h2>
+  <div id="element7" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('element7')">
     <img src="assets/img/laptop.png" alt="laptop and smartphone" />
     <p translate>
       The easiest: Write an <a routerLink="/contact" translate routerLinkActive="active">email</a>. But we are also on

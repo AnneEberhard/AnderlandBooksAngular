@@ -27,3 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 Change contact.component: hidden input field, ts send mail
+
+Beware: Scrolling is bound to container in page.ts:
+   // this.scrollContainer = document.getElementById('contentContainer') as HTMLElement;
+   // this.scrollContainer.addEventListener('scroll', this.onWindowScroll.bind(this));
+
+   
+  ngOnDestroy(): void {
+   // this.scrollContainer.removeEventListener('scroll', this.onWindowScroll.bind(this));
+  }

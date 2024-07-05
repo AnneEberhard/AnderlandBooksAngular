@@ -11,9 +11,6 @@ export class PageService {
   constructor() {
     this.scrollContainer = document.getElementById('contentContainer') as HTMLElement;
     this.scrollContainer.addEventListener('scroll', this.onWindowScroll.bind(this));
-  // document.addEventListener('DOMContentLoaded', () => {
-  //   this.initElements(); // Initialisiere Elemente nach dem DOMContentLoaded
-  // });
    }
 
    initElements(): void {
@@ -64,7 +61,7 @@ export class PageService {
 
   registerElement(elementId: string): void {
     this.elementStates[elementId] = 'hidden';
-    //this.initElements(); 
+    this.initElements(); 
   }
 
   getElementState(elementId: string): string {

@@ -1,0 +1,31 @@
+onWindowScroll(): void {
+    for (let i = 0; i < 8; i++) {
+      const elementId = `element${i}`;
+      const element = document.getElementById(elementId);
+      if (element) {
+        if (this.isElementInViewport(element)) {
+          this.elementStates[elementId] = 'visible';
+          console.log('visible: ', elementId)
+        } else {
+          this.elementStates[elementId] = 'hidden';
+          console.log('hidden: ', elementId)
+        }
+      }
+    }
+  }
+
+  
+
+  isElementInViewport(el: HTMLElement): boolean {
+    const rect = el.getBoundingClientRect();
+    const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
+    const vertInView = (rect.top > 0) && ((rect.bottom - (rect.height / 2)) <= windowHeight);
+
+  // console.log(el);
+  // console.log('rect.bottom: ', rect.bottom);
+  // console.log('window.innerHeight: ', window.innerHeight);
+  // console.log('rect.top: ', rect.top);
+    return (
+      vertInView
+    );
+  }
