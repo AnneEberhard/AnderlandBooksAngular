@@ -8,6 +8,11 @@
   }
 }
 
+.fly-in {
+  transition: transform 300ms ease-out;
+}
+
+
 @media (max-width: 350px) {
   .homepageContent {
     flex-direction: column;

@@ -1,7 +1,17 @@
-body {
+html, body {
+  height: 100%;
+  overflow: hidden; /* Verhindert das Scrollen auf dem body */
   margin: 0;
   font-family: 'Raleway';
   color: rgb(19, 79, 92);
+}
+
+.contentContainer {
+  position: relative;
+  z-index: 1;
+  height: 100vh; /* volle Höhe des Viewports */
+  overflow-y: auto; /* Ermöglicht Scrollen im contentContainer */
+  overflow-x: hidden; /* Verhindert horizontales Scrollen */
 }
 
 h1{

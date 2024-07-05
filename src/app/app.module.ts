@@ -20,6 +20,7 @@ import { AuthorsComponent } from './authors/authors.component';
 import { ScrollToTopButtonComponent } from './shared/components/scroll-to-top-button/scroll-to-top-button.component';
 import { BackgroundContainerComponent } from './shared/components/background-container/background-container.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -47,6 +48,7 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
     TranslateModule.forRoot({

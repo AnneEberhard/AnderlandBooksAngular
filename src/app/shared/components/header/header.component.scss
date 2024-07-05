@@ -31,6 +31,7 @@ header {
     }
   }
 }
+
 .slideshow {
   position: absolute;
     top: 32px;
@@ -56,6 +57,10 @@ header {
 
  .dNone {
   display: none !important;
+ }
+
+ .bold {
+  font-weight: bold;
  }
 
 .active {
