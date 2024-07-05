@@ -1,21 +1,45 @@
 <app-header></app-header>
 <section>
-  <h1 translate>Services</h1>
-  <p translate>
+  <h1
+    id="serviceElement0"
+    translate
+    [@slideInFromLeft]="this.pageService.getElementState('serviceElement0')"
+  >
+    Services
+  </h1>
+  <p
+    translate
+    id="serviceElement1"
+    [@slideInFromLeft]="this.pageService.getElementState('serviceElement1')"
+  >
     Anderland Books offers translation from English into German for independent
     authors, formatting of German and English manuscripts, as well as
     proofreading of German manuscripts.
   </p>
-  <div class="siteNavTop">
+  <div
+    class="siteNavTop"
+    translate
+    id="serviceElement2"
+    [@slideInFromLeft]="this.pageService.getElementState('serviceElement2')"
+  >
     <a (click)="scrollToSection('translations')" translate>Translations</a>
     <a (click)="scrollToSection('formatting')" translate>Formatting</a>
-    <a (click)="scrollToSection('proofreading')"
-    translate>Proofreading of German manuscripts</a
+    <a (click)="scrollToSection('proofreading')" translate
+      >Proofreading of German manuscripts</a
     >
   </div>
   <div id="translations" class="serviceContent">
-    <img src="assets/img/paper-glasses.jpg" alt="paper and glasses" />
-    <div class="serviceContentText">
+    <img
+      src="assets/img/paper-glasses.jpg"
+      alt="paper and glasses"
+      id="serviceElement3"
+      [@slideInFromleft]="this.pageService.getElementState('serviceElement3')"
+    />
+    <div
+      class="serviceContentText"
+      id="serviceElement4"
+      [@slideInFromRight]="this.pageService.getElementState('serviceElement4')"
+    >
       <h3 translate>
         Translation from English into German, corrected by a native German
         speaker
@@ -31,12 +55,23 @@
         You want an example of the translations done so far? Check out these:
       </p>
       <p class="example">
-        Alster Diamonds: <a href="https://mybook.to/AlsterDiamonds" translate>English</a> vs. <a href="https://mybook.to/Alsterdiamanten" translate>German</a>
+        Alster Diamonds:
+        <a href="https://mybook.to/AlsterDiamonds" translate>English</a> vs.
+        <a href="https://mybook.to/Alsterdiamanten" translate>German</a>
       </p>
       <p class="example">
-        Base Means <a href="https://mybook.to/BaseMeans" translate>English</a> vs.<a href="https://mybook.to/UnheiligeMittel" translate>German</a>
+        Base Means
+        <a href="https://mybook.to/BaseMeans" translate>English</a> vs.<a
+          href="https://mybook.to/UnheiligeMittel"
+          translate
+          >German</a
+        >
       </p>
-      <p class="example">Dance the Wind: <a href="https://mybook.to/DanceTheWind" translate>English</a> vs. <a href="https://amzn.eu/d/iJQMv80" translate>German</a></p>
+      <p class="example">
+        Dance the Wind:
+        <a href="https://mybook.to/DanceTheWind" translate>English</a> vs.
+        <a href="https://amzn.eu/d/iJQMv80" translate>German</a>
+      </p>
       <p translate class="red">
         Is it just a sentence you want to have checked? As long as it's just
         one, it is for free.
@@ -44,7 +79,11 @@
     </div>
   </div>
   <div id="formatting" class="serviceContent reverse">
-    <div class="serviceContentText">
+    <div
+      class="serviceContentText"
+      id="serviceElement5"
+      [@slideInFromRight]="this.pageService.getElementState('serviceElement5')"
+    >
       <h3 translate>Formatting</h3>
       <p translate>
         You've written a wonderful story, but formatting is just not your thing?
@@ -54,11 +93,25 @@
         know what you need and we will discuss prices.
       </p>
     </div>
-    <img src="assets/img/laptop.jpg" alt="laptop" />
+    <img
+      src="assets/img/laptop.jpg"
+      alt="laptop"
+      id="serviceElement6"
+      [@slideInFromRight]="this.pageService.getElementState('serviceElement6')"
+    />
   </div>
   <div id="proofreading" class="serviceContent">
-    <img src="assets/img/ancient-typewriter.jpg" alt="old typewriter" />
-    <div class="serviceContentText">
+    <img
+      src="assets/img/ancient-typewriter.jpg"
+      alt="old typewriter"
+      id="serviceElement7"
+      [@slideInFromLeft]="this.pageService.getElementState('serviceElement7')"
+    />
+    <div
+      class="serviceContentText"
+      id="serviceElement8"
+      [@slideInFromRight]="this.pageService.getElementState('serviceElement8')"
+    >
       <h3 translate>Proofreading of German manuscripts</h3>
       <p translate>
         At some point, you simply become blind to your work - when you have
@@ -68,10 +121,9 @@
         clean version in MSWord.
       </p>
     </div>
-    
   </div>
   <div class="siteNavBottom">
-    <a class="navLink" routerLink="/" translate >Back to Homepage</a>
+    <a class="navLink" routerLink="/" translate>Back to Homepage</a>
   </div>
 </section>
 <app-footer></app-footer>
