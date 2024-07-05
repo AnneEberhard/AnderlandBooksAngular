@@ -29,3 +29,21 @@ onWindowScroll(): void {
       vertInView
     );
   }
+
+
+    registerElement(elementId: string): void {
+    console.log('registered: ', elementId);
+    const element = document.getElementById(elementId);
+    if (element) {
+      if (this.isElementInViewport(element)) {
+        this.elementStates[elementId] = 'visible';
+        console.log('visible: ', elementId);
+      } else {
+        this.elementStates[elementId] = 'hidden';
+        console.log('hidden: ', elementId);
+      }
+    } else {
+      this.elementStates[elementId] = 'visible';
+        console.log('visible: ', elementId);
+    }
+  }

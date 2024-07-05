@@ -11,7 +11,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { HeaderComponent } from './shared/components/header/header.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
 import { ContactComponent } from './contact/contact.component';
-import { ServicesComponent } from './services/services.component';
+import { OfferedServicesComponent } from './offered-services/offered-services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
 import {HttpClientModule, HttpClient} from '@angular/common/http';
 import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
@@ -39,7 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HeaderComponent,
     PrivacyPolicyComponent,
     ContactComponent,
-    ServicesComponent,
+    OfferedServicesComponent,
     BreeNanComponent,
     AuthorsComponent,
     ScrollToTopButtonComponent,

@@ -4,10 +4,10 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-services',
-  templateUrl: './services.component.html',
-  styleUrls: ['./services.component.scss']
+  templateUrl: './offered-services.component.html',
+  styleUrls: ['./offered-services.component.scss']
 })
-export class ServicesComponent {
+export class OfferedServicesComponent {
   constructor(private pageService: PageService, public translate: TranslateService) {  }
 
   scrollToSection(sectionId: string) {

@@ -18,30 +18,29 @@ export class AuthorsComponent implements AfterContentInit {
   constructor(public pageService: PageService, private http: HttpClient, public translate: TranslateService) { }
 
   ngAfterContentInit(): void {
-    this.init();
-  }
-
-  async init() {
-    await this.loadData();
-    for (let i = 0; i < 3; i++) {
-      this.pageService.registerElement(`element${i}`);
-    }
-    window.onload = () => {
-      this.pageService.initElements();
-    };
+    this.loadData();
+    this.registerStaticElements();
   }
 
   async loadData() {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/authors.json'));
       this.authors = data.authors;
-      this.registerAuthorElements();
+      this.registerDynamicElements();
     } catch (error) {
       console.error('Fehler beim Laden der Daten:', error);
     }
   }
 
-  registerAuthorElements() {
+  registerStaticElements() {
+    this.pageService.clearStates();
+    for (let i = 0; i < 3; i++) {
+      this.pageService.registerElement(`authorElement${i}`);
+    }
+  }
+
+
+  registerDynamicElements() {
     this.authors.forEach((author: { books: string | any[]; }, index: any) => {
       this.pageService.registerElement(`authorName${index}`);
       if (author.books && author.books.length > 0) {

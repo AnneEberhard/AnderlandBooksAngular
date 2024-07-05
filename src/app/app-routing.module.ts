@@ -8,7 +8,7 @@ import { ChildrensbooksComponent } from './childrensbooks/childrensbooks.compone
 import { EnglishbooksComponent } from './englishbooks/englishbooks.component';
 import { GermanbooksComponent } from './germanbooks/germanbooks.component';
 import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.component';
-import { ServicesComponent } from './services/services.component';
+import { OfferedServicesComponent } from './offered-services/offered-services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'childrens-books', component: ChildrensbooksComponent },
   { path: 'english-books', component: EnglishbooksComponent },
   { path: 'german-books', component: GermanbooksComponent },
-  { path: 'services', component: ServicesComponent },
+  { path: 'services', component: OfferedServicesComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'imprint', component: ImprintComponent },
   { path: 'privacy-policy', component: PrivacyPolicyComponent },

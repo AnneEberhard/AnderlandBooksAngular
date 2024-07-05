@@ -13,6 +13,10 @@ export class PageService {
     this.scrollContainer.addEventListener('scroll', this.onWindowScroll.bind(this));
    }
 
+   clearStates() {
+    this.elementStates = {};
+   }
+
    initElements(): void {
     Object.keys(this.elementStates).forEach(elementId => {
       console.log(this.elementStates);
@@ -25,7 +29,7 @@ export class PageService {
           this.elementStates[elementId] = 'hidden';
           console.log('hidden: ', elementId);
         }
-      }
+      } 
     });
   }
 
@@ -35,10 +39,11 @@ export class PageService {
       const windowHeight = (window.innerHeight || document.documentElement.clientHeight);
       const vertInView = (rect.top + (rect.height)> 0) && ((rect.bottom - (rect.height)) <= windowHeight);
   
-    // console.log(el);
-    // console.log('rect.bottom: ', rect.bottom);
-    // console.log('window.innerHeight: ', window.innerHeight);
-    // console.log('rect.top: ', rect.top);
+    //console.log(el);
+    //console.log('rect.top + (rect.height) > 0: ', rect.top + (rect.height));
+    //console.log('rect.bottom - (rect.height) < 695: ', rect.bottom - (rect.height));
+    //console.log('window.innerHeight: ', window.innerHeight);
+    
       return (
         vertInView
       );
@@ -60,9 +65,9 @@ export class PageService {
   }
 
   registerElement(elementId: string): void {
-    this.elementStates[elementId] = 'hidden';
-    this.initElements(); 
-  }
+    console.log('registered: ', elementId);
+    this.elementStates[elementId] = 'visible';
+    }
 
   getElementState(elementId: string): string {
     return this.elementStates[elementId];

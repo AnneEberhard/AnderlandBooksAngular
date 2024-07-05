@@ -1,22 +1,22 @@
 <app-header></app-header>
 <section>
   <h1
-    id="element0"
+    id="authorElement0"
     translate
-    [@slideInFromLeft]="this.pageService.getElementState('element0')"
+    [@slideInFromLeft]="this.pageService.getElementState('authorElement0')"
   >
     Authors
   </h1>
   <p
-    id="element1"
+    id="authorElement1"
     translate
-    [@slideInFromRight]="this.pageService.getElementState('element1')"
+    [@slideInFromRight]="this.pageService.getElementState('authorElement1')"
   >
     You'll find stories and books of the following authors at Anderland Books:
   </p>
   <div
-    id="element2"
-    [@slideInFromLeft]="this.pageService.getElementState('element2')"
+    id="authorElement2"
+    [@slideInFromLeft]="this.pageService.getElementState('authorElement2')"
     class="siteNavTop"
   >
     <a *ngFor="let author of authors" (click)="scrollToSection(author.name)">{{
