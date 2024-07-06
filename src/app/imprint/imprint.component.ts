@@ -8,9 +8,6 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./imprint.component.scss']
 })
 export class ImprintComponent {
-  constructor(private pageService: PageService, public translate: TranslateService) {  }
+  constructor(public translate: TranslateService) {  }
 
-  scrollToSection(sectionId: string) {
-    this.pageService.scrollToSection(sectionId);
-  }
 }

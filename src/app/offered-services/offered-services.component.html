@@ -22,9 +22,9 @@
     id="serviceElement2"
     [@slideInFromLeft]="this.pageService.getElementState('serviceElement2')"
   >
-    <a (click)="scrollToSection('translations')" translate>Translations</a>
-    <a (click)="scrollToSection('formatting')" translate>Formatting</a>
-    <a (click)="scrollToSection('proofreading')" translate
+    <a (click)="this.pageService.scrollToSection('translations')" translate>Translations</a>
+    <a (click)="this.pageService.scrollToSection('formatting')" translate>Formatting</a>
+    <a (click)="this.pageService.scrollToSection('proofreading')" translate
       >Proofreading of German manuscripts</a
     >
   </div>

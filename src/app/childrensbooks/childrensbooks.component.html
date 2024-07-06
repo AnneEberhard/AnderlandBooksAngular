@@ -10,15 +10,14 @@
   id="childrensBooksElement2"
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement2')">
     <a
-      *ngFor="let section of childrensBooks"
-      (click)="scrollToSection(section.section)"
+      *ngFor="let section of childrensBooks let i = index"
+      (click)="this.pageService.scrollToSection('childrensBooksSectionTitle' + i)"
       translate
       >{{ section.title }}</a
     >
   </div>
   <div *ngFor="let section of childrensBooks; let i = index">
     <h2
-      id="{{ section.section }}"
       translate
       [id]="'childrensBooksSectionTitle' + i"
       [@slideInFromLeft]="
@@ -54,7 +53,7 @@
           <div class="bookLinksContainer">
             <span translate>Available as: </span>
             <div class="bookLinks">
-              <div *ngFor="let format of getBookFormats(book); let last = last">
+              <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                 <ng-container *ngIf="!last">
                   <a [href]="format.link" target="_blank">{{ format.label }}</a>
                   <span> – </span>
@@ -89,7 +88,7 @@
       <div class="bookLinksContainer">
         <span translate>Available as: </span>
         <div class="bookLinks">
-          <div *ngFor="let format of getBookFormats(this.pageService.selectedBook); let last = last">
+          <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
             <ng-container *ngIf="!last">
               <a [href]="format.link" target="_blank">{{ format.label }}</a>
               <span> – </span>

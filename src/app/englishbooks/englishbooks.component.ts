@@ -11,17 +11,30 @@ import { slideInFromLeft, slideInFromRight } from '../shared/animations';
   styleUrls: ['./englishbooks.component.scss'],
   animations: [slideInFromLeft, slideInFromRight]
 })
-export class EnglishbooksComponent implements AfterContentInit {
+export class EnglishbooksComponent implements OnInit {
 
   englishBooks: any;
 
   constructor(public pageService: PageService, public translate: TranslateService, private http: HttpClient) { }
 
-  ngAfterContentInit(): void {
+ /**
+ * Lifecycle hook that is called after Angular has fully initialized
+ * the component's content. This method loads the necessary data and
+ * registers static and dynamic elements for animations.
+ */
+  ngOnInit(): void {
     this.loadData();
     this.registerStaticElements();
   }
 
+ /**
+ * Asynchronously loads data from a JSON file containing English books information
+ * and assigns it to the childrensBooks property. If an error occurs during data loading,
+ * it logs the error to the console. After loading the data, it registers dynamic elements
+ * for animations.
+ *
+ * @returns {Promise<void>} A promise that resolves when the data has been loaded.
+ */ 
   async loadData() {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/englishbooks.json'));
@@ -32,6 +45,12 @@ export class EnglishbooksComponent implements AfterContentInit {
     }
   }
 
+ /**
+ * Registers static elements for animations related to English books.
+ *
+ * This method clears the current element states and registers three static
+ * elements with IDs 'childrensBooksElement0', 'childrensBooksElement1', and 'childrensBooksElement2'.
+ */ 
   registerStaticElements() {
     this.pageService.clearStates();
     for (let i = 0; i < 2; i++) {
@@ -39,6 +58,12 @@ export class EnglishbooksComponent implements AfterContentInit {
     }
   }
 
+  /**
+ * Registers dynamic elements for animations based on the loaded English books data.
+ *
+ * This method iterates over the childrensBooks array and registers elements for each
+ * section title, book cover, and book container text.
+ */
   registerDynamicElements() {
     this.englishBooks.forEach((section: any, i: number) => {
       this.pageService.registerElement(`englishBooksSectionTitle${i}`);
@@ -48,20 +73,5 @@ export class EnglishbooksComponent implements AfterContentInit {
       });
     });
   }
-  
 
-  getBookFormats(book: any): any[] {
-    const formats = book.formats || {};
-    return Object.keys(formats).map(format => {
-      const formatData = formats[format];
-      return {
-        label: formatData.title,
-        link: formatData.link
-      };
-    });
-  }
-
-  scrollToSection(sectionId: string) {
-    this.pageService.scrollToSection(sectionId);
-  }
 }

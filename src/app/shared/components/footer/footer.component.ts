@@ -10,7 +10,4 @@ import { TranslateService } from '@ngx-translate/core';
 export class FooterComponent {
   constructor(private pageService: PageService, public translate: TranslateService) {  }
 
-  scrollToSection(sectionId: string) {
-    this.pageService.scrollToSection(sectionId);
-  }
 }

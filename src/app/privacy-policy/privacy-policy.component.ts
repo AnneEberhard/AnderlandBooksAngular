@@ -9,9 +9,6 @@ import { TranslateService } from '@ngx-translate/core';
 })
 export class PrivacyPolicyComponent {
 
-  constructor(private pageService: PageService, public translate: TranslateService) {  }
+  constructor(public translate: TranslateService) {  }
 
-  scrollToSection(sectionId: string) {
-    this.pageService.scrollToSection(sectionId);
-  }
 }

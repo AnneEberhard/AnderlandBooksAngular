@@ -15,6 +15,12 @@ export class MainPageComponent implements AfterContentInit {
 
   constructor(public pageService: PageService) { }
 
+  /**
+   * Lifecycle hook that is called after the component's content has been fully initialized.
+   * 
+   * This method clears the existing states in the pageService and registers 8 new elements 
+   * with IDs in the format `mainElement0` to `mainElement7`.
+   */  
   ngAfterContentInit(): void {
     this.pageService.clearStates();
     for (let i = 0; i < 8; i++) {

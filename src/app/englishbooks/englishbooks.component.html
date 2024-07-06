@@ -3,21 +3,19 @@
     <h1 translate>English Stories</h1>
     <div class="siteNavTop">
       <a
-        *ngFor="let section of englishBooks"
-        (click)="scrollToSection(section.section)"
+        *ngFor="let section of englishBooks; let i = index"
+        (click)="this.pageService.scrollToSection('englishBooksSectionTitle' + i)"
         translate
         >{{ section.title }}</a
       >
+    
     </div>
     <div *ngFor="let section of englishBooks; let i = index">
       <h2
-        id="{{ section.section }}"
         translate
         [id]="'englishBooksSectionTitle' + i"
         [@slideInFromLeft]="
-          this.pageService.getElementState('englishBooksSectionTitle' + i)
-        "
-      >
+          this.pageService.getElementState('englishBooksSectionTitle' + i)">
         {{ section.title }}
       </h2>
       <div class="bookContainerWrap">
@@ -47,7 +45,7 @@
             <div class="bookLinksContainer">
               <span translate>Available as: </span>
               <div class="bookLinks">
-                <div *ngFor="let format of getBookFormats(book); let last = last">
+                <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                   <ng-container *ngIf="!last">
                     <a [href]="format.link" target="_blank">{{ format.label }}</a>
                     <span> – </span>
@@ -77,7 +75,7 @@
         <div class="bookLinksContainer">
           <span translate>Available as: </span>
           <div class="bookLinks">
-            <div *ngFor="let format of getBookFormats(this.pageService.selectedBook); let last = last">
+            <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
               <ng-container *ngIf="!last">
                 <a [href]="format.link" target="_blank">{{ format.label }}</a>
                 <span> – </span>

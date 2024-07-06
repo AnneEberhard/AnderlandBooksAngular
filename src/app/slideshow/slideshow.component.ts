@@ -46,10 +46,19 @@ excludedCovers = [
 
   constructor(private router: Router) {}
 
+/**
+ * Lifecycle hook that is called after the component is initialized.
+ * Starts the image and headline update process.
+ */
   ngOnInit() {
     this.updateImage(); 
   }
 
+/**
+ * Updates the current image and headline at a fixed interval.
+ * Increments the current image and headline indices, and resets them if they exceed their respective arrays' lengths.
+ * Temporarily hides the image to trigger a visual update.
+ */
   updateImage() {
     setInterval(() =>{ 
       this.currentImage++; 
@@ -64,6 +73,9 @@ excludedCovers = [
     },5000)
   }
 
+/**
+ * Navigates the user to the home page.
+ */
   navigateHome() {
     this.router.navigate(['/home']);  
   }

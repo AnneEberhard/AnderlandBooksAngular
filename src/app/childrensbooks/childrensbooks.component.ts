@@ -17,12 +17,25 @@ export class ChildrensbooksComponent implements AfterContentInit{
 
   constructor(public pageService: PageService, public translate: TranslateService, private http: HttpClient) { }
 
+/**
+ * Lifecycle hook that is called after Angular has fully initialized
+ * the component's content. This method loads the necessary data and
+ * registers static and dynamic elements for animations.
+ */
   ngAfterContentInit(): void {
     this.loadData();
     this.registerStaticElements();
   }
 
-  async loadData() {
+/**
+ * Asynchronously loads data from a JSON file containing children's books information
+ * and assigns it to the childrensBooks property. If an error occurs during data loading,
+ * it logs the error to the console. After loading the data, it registers dynamic elements
+ * for animations.
+ *
+ * @returns {Promise<void>} A promise that resolves when the data has been loaded.
+ */
+  async loadData(): Promise<void> {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/childrensbooks.json'));
       this.childrensBooks = data.childrensBooks;
@@ -32,7 +45,12 @@ export class ChildrensbooksComponent implements AfterContentInit{
     }
   }
 
-
+/**
+ * Registers static elements for animations related to children's books.
+ *
+ * This method clears the current element states and registers three static
+ * elements with IDs 'childrensBooksElement0', 'childrensBooksElement1', and 'childrensBooksElement2'.
+ */
   registerStaticElements() {
     this.pageService.clearStates();
     for (let i = 0; i < 3; i++) {
@@ -40,35 +58,20 @@ export class ChildrensbooksComponent implements AfterContentInit{
     }
   }
 
+/**
+ * Registers dynamic elements for animations based on the loaded children's books data.
+ *
+ * This method iterates over the childrensBooks array and registers elements for each
+ * section title, book cover, and book container text.
+ */
   registerDynamicElements() {
-
-    // Durchlaufe die childrensBooks und registriere die dynamischen Elemente
     this.childrensBooks.forEach((section: any, i: number) => {
-      // Register section title
       this.pageService.registerElement(`childrensBooksSectionTitle${i}`);
 
       section.books.forEach((book: any, j: number) => {
-        // Register book cover and container text
         this.pageService.registerElement(`childrensBooksCover${i}${j}`);
         this.pageService.registerElement(`childrensBooksContainerText${i}${j}`);
       });
     });
   }
-
-
-  getBookFormats(book: any): any[] {
-    const formats = book.formats || {};
-    return Object.keys(formats).map(format => {
-      const formatData = formats[format];
-      return {
-        label: formatData.title,
-        link: formatData.link
-      };
-    });
-  }
-
-  scrollToSection(sectionId: string) {
-    this.pageService.scrollToSection(sectionId);
-  }
-
 }

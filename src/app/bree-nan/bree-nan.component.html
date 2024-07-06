@@ -1,6 +1,6 @@
 <app-header></app-header>
 <section>
-  <h1 translate>Background of The Spirit Chapters</h1>
+  <h1 id="breeNanTop" translate>Background of The Spirit Chapters</h1>
   <h5 translate>Bree Nan's page</h5>
   <p translate>
     This site is dedicated to the world of the Spirit Chapters - all those
@@ -16,55 +16,55 @@
     <h3>Short Links</h3>
     <table> 
       <tr>
-        <td><a (click)="scrollToSection('rulers')" translate>Rulers</a></td>
+        <td><a (click)="this.pageService.scrollToSection('rulers')" translate>Rulers</a></td>
         <td>
-          <a (click)="scrollToSection('colors')" translate>Colors of emotions</a>
+          <a (click)="this.pageService.scrollToSection('colors')" translate>Colors of emotions</a>
         </td>
       </tr>
       <tr>
         <td>
-          <a (click)="scrollToSection('formsSpirits')" translate>Forms of spirits </a>
+          <a (click)="this.pageService.scrollToSection('formsSpirits')" translate>Forms of spirits </a>
         </td>
         <td>
-          <a (click)="scrollToSection('')" translate>Forms of essence</a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a (click)="scrollToSection('extreme')" translate>Extreme forms of feeding</a>
-        </td>
-        <td>
-          <a (click)="scrollToSection('jewels')" translate>The four sister jewels</a>
+          <a (click)="this.pageService.scrollToSection('')" translate>Forms of essence</a>
         </td>
       </tr>
       <tr>
         <td>
-          <a (click)="scrollToSection('symbols')" translate>Witches’ Symbols</a>
+          <a (click)="this.pageService.scrollToSection('extreme')" translate>Extreme forms of feeding</a>
         </td>
         <td>
-          <a (click)="scrollToSection('addresses')" translate>Special addresses</a>
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a (click)="scrollToSection('witchesPowers')" translate>Witches’ powers</a>
-        </td>
-        <td>
-          <a (click)="scrollToSection('spells')" translate>Spells</a>
+          <a (click)="this.pageService.scrollToSection('jewels')" translate>The four sister jewels</a>
         </td>
       </tr>
       <tr>
         <td>
-          <a (click)="scrollToSection('hunterPowers')" translate>Witch hunters' powers</a>
+          <a (click)="this.pageService.scrollToSection('symbols')" translate>Witches’ Symbols</a>
         </td>
         <td>
-          <a (click)="scrollToSection('sacredWords')" translate>Sacred words of the chasteners</a>
+          <a (click)="this.pageService.scrollToSection('addresses')" translate>Special addresses</a>
         </td>
       </tr>
       <tr>
         <td>
-          <a (click)="scrollToSection('procreation')" translate>Spirit procreation and upbringing</a></td>
-        <td><a (click)="scrollToSection('personage')" translate>Personage</a></td>
+          <a (click)="this.pageService.scrollToSection('witchesPowers')" translate>Witches’ powers</a>
+        </td>
+        <td>
+          <a (click)="this.pageService.scrollToSection('spells')" translate>Spells</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a (click)="this.pageService.scrollToSection('hunterPowers')" translate>Witch hunters' powers</a>
+        </td>
+        <td>
+          <a (click)="this.pageService.scrollToSection('sacredWords')" translate>Sacred words of the chasteners</a>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a (click)="this.pageService.scrollToSection('procreation')" translate>Spirit procreation and upbringing</a></td>
+        <td><a (click)="this.pageService.scrollToSection('personage')" translate>Personage</a></td>
       </tr>
     </table>
 

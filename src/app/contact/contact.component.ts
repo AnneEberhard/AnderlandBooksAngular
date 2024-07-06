@@ -9,6 +9,7 @@ import { ViewportScroller } from '@angular/common';
   styleUrls: ['./contact.component.scss']
 })
 export class ContactComponent implements AfterViewInit{
+
   constructor(private pageService: PageService, public translate: TranslateService) {  }
 
   private readonly viewport = inject(ViewportScroller)
@@ -42,10 +43,17 @@ export class ContactComponent implements AfterViewInit{
   showEmailAlert: boolean = false;
   showMessageAlert: boolean = false;
 
+/**
+ * Lifecycle hook that is called after the component's view has been fully initialized.
+ * Assigns HTML elements to their respective class properties.
+ */
   ngAfterViewInit() {
     this.assignFields();
 }
 
+/**
+ * Assigns HTML elements to their respective class properties using ViewChild references.
+ */
 assignFields() {
   this.nameField = this.nameFieldElement?.nativeElement;
   this.emailField = this.emailFieldElement?.nativeElement;
@@ -58,33 +66,13 @@ assignFields() {
   this.messageAlert = this.messageAlertElement?.nativeElement;
 }
 
-async sendMail2(event: Event) {
-  event.preventDefault();
-  if (this.fieldsFilled()) {
-      const data = this.collectdata();
-      this.disableFields();
-      this.sendAnimation();
-      try {
-          const response = await fetch("https://formspree.io/f/xoqobgbr", {
-              method: "POST",
-              body: data,
-              headers: { 'Accept': 'application/json' }
-          });
-          if (response.ok) {
-              this.messageSend();
-              this.clearFields();
-              this.enableFields();
-          } else {
-              console.error(`HTTP error! status: ${response.status}`);
-              this.enableFields();
-              this.showAlert('email');
-          }
-      } catch (error) {
-          console.error('Error:', error);
-      }
-  }
-}
-
+/**
+ * Handles the mail sending process.
+ * Prevents the default form submission, validates the fields, collects form data,
+ * sends an HTTP POST request, and handles the response.
+ * 
+ * @param event - The event object for the form submission.
+ */
 async sendMail(event: Event) {
   event.preventDefault();
   if (this.fieldsFilled()) {
@@ -111,7 +99,11 @@ async sendMail(event: Event) {
   }
 }
 
-
+/**
+ * Collects form data into a FormData object for sending via HTTP POST.
+ * 
+ * @returns A FormData object containing the collected form data.
+ */
 collectdata() {
   const data = new FormData();
   data.append('name', this.nameField.value);
@@ -121,6 +113,9 @@ collectdata() {
   return data;
 }
 
+/**
+ * Disables the input fields and send button to prevent user interaction during form submission.
+ */
 disableFields() {
   this.nameField.disabled = true;
   this.emailField.disabled = true;
@@ -128,6 +123,9 @@ disableFields() {
   this.sendButton.disabled = true;
 }
 
+/**
+ * Enables the input fields and send button after form submission is complete.
+ */
 enableFields() {
   this.nameField.disabled = false;
   this.emailField.disabled = false;
@@ -135,6 +133,9 @@ enableFields() {
   this.sendButton.disabled = false;
 }
 
+/**
+ * Clears the values of the input fields and removes the 'filled' class from them.
+ */
 clearFields() {
   this.nameField.value = '';
   this.emailField.value = '';
@@ -144,10 +145,17 @@ clearFields() {
   this.messageField.classList.remove('filled');
 }
 
+/**
+ * Sets the message to display while sending the form.
+ */
 sendAnimation() {
   this.sendMessage = this.translate.instant('sending'); 
 }
 
+/**
+ * Sets the message to display after the message is successfully sent,
+ * and then resets it after a delay.
+ */
 messageSend() {
   this.sendMessage = this.translate.instant('message Sent'); 
   setTimeout(() => {
@@ -155,6 +163,10 @@ messageSend() {
   }, 2000);
 }
 
+/**
+ * Checks the status of the privacy checkbox.
+ * Updates UI elements accordingly (checkmark, button state, alerts).
+ */
 checkPrivacy() {
   if (!this.privacyChecked) {
       this.privacyContainerBox.innerHTML = '<img src="assets/img/icon/checkmarkPetrol.png" class="checkmark">';
@@ -171,6 +183,11 @@ checkPrivacy() {
   }
 }
 
+/**
+ * Checks if all required fields are filled.
+ * 
+ * @returns true if all fields are filled, false otherwise.
+ */
 fieldsFilled() {
   let nameFieldCheck = this.checkFieldsFilled(this.nameField, 'name');
   let emailFieldCheck = this.checkFieldsFilled(this.emailField, 'email');
@@ -182,6 +199,14 @@ fieldsFilled() {
   }
 }
 
+/**
+ * Checks if a specific field is filled.
+ * Adds or removes CSS classes for alert styling based on field status.
+ * 
+ * @param field The field element to check.
+ * @param id The identifier for the field (e.g., 'name', 'email', 'message').
+ * @returns true if the field is filled, false otherwise.
+ */
 checkFieldsFilled(field: any, id: string) {
   if (field) {
       if (field.value.trim() !== '') {
@@ -198,30 +223,11 @@ checkFieldsFilled(field: any, id: string) {
   }
 }
 
-showAlert(id: string) {
-  if (id == 'name') {
-      this.showNameAlert = true;
-  }
-  if (id == 'email') {
-      this.showEmailAlert = true;
-  }
-  if (id == 'message') {
-      this.showMessageAlert = true;
-  }
-}
-
-hideAlert(id: string) {
-  if (id == 'name') {
-      this.showNameAlert = false;
-  }
-  if (id == 'email') {
-      this.showEmailAlert = false;
-  }
-  if (id == 'message') {
-      this.showMessageAlert = false;
-  }
-}
-
+/**
+ * Checks input fields and updates their visual state based on user interaction.
+ * 
+ * @param event The input event triggered by user interaction.
+ */
 checkInputFields(event: Event) {
   const target = event.target as HTMLInputElement;
   const id = target.name.toString();
@@ -236,6 +242,11 @@ checkInputFields(event: Event) {
   }
 }
 
+/**
+ * Checks if the current email field value is valid.
+ * 
+ * @returns true if the email format is valid, false otherwise.
+ */
 checkEmail() {
   const emailValue = this.emailField.value;
   const atIndex = emailValue.indexOf('@');
@@ -252,14 +263,37 @@ checkEmail() {
   }
 }
 
-scrollToSection(sectionId: string) {
-  this.pageService.scrollToSection(sectionId);
+/**
+ * Shows an alert message based on the provided identifier.
+ * 
+ * @param id The identifier ('name', 'email', 'message') to determine which alert to show.
+ */
+showAlert(id: string) {
+  if (id == 'name') {
+      this.showNameAlert = true;
+  }
+  if (id == 'email') {
+      this.showEmailAlert = true;
+  }
+  if (id == 'message') {
+      this.showMessageAlert = true;
+  }
 }
 
-
-scrollToTop(): void {
-  this.viewport.scrollToPosition([0,0])
+/**
+ * Hides an alert message based on the provided identifier.
+ * 
+ * @param id The identifier ('name', 'email', 'message') to determine which alert to hide.
+ */
+hideAlert(id: string) {
+  if (id == 'name') {
+      this.showNameAlert = false;
+  }
+  if (id == 'email') {
+      this.showEmailAlert = false;
+  }
+  if (id == 'message') {
+      this.showMessageAlert = false;
+  }
 }
-
-
 }
