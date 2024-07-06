@@ -37,7 +37,7 @@ export class GermanbooksComponent implements AfterContentInit {
  *
  * @returns {Promise<void>} A promise that resolves when the data has been loaded.
  */ 
-  async loadData() {
+  async loadData(): Promise<void> {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/germanbooks.json'));
       this.germanBooks = data.germanBooks;

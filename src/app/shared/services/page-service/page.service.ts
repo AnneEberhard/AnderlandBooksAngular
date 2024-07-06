@@ -180,7 +180,7 @@ export class PageService {
    */
   showOverlay(book: any): void {
     this.selectedBook = book;
-    this.scrollContainer.scrollTo({ top: 0, behavior: 'smooth' });
+    this.scrollContainer.scrollTo({ top: 0 });
     this.scrollContainer.classList.add('noScroll');
     this.scrollContainer.removeEventListener('scroll', this.onWindowScroll.bind(this));
     setTimeout(() => {
