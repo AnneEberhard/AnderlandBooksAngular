@@ -9,35 +9,88 @@
         >{{ section.title }}</a
       >
     </div>
-    <div *ngFor="let section of englishBooks">
-      <h2 id="{{ section.section }}" translate>{{ section.title }}</h2>
-      <div class="bookContainer" *ngFor="let book of section.books">
-        <img [src]="book.image" alt="Book Image" />
-        <div class="bookContainerText">
-          <div *ngFor="let paragraph of book.paragraphs">
-            <p>{{ paragraph }}</p>
-          </div>
-          <div class="bookLinksContainer">
-            <span>Available as: </span>
-            <div class="bookLinks">
-              <div *ngFor="let format of getBookFormats(book); let last = last">
-                <ng-container *ngIf="!last">
-                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                  <span> – </span>
-                </ng-container>
-                <ng-container *ngIf="last">
-                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                </ng-container>
+    <div *ngFor="let section of englishBooks; let i = index">
+      <h2
+        id="{{ section.section }}"
+        translate
+        [id]="'englishBooksSectionTitle' + i"
+        [@slideInFromLeft]="
+          this.pageService.getElementState('englishBooksSectionTitle' + i)
+        "
+      >
+        {{ section.title }}
+      </h2>
+      <div class="bookContainerWrap">
+        <div
+          class="bookContainer"
+          *ngFor="let book of section.books; let j = index"
+        >
+          <img
+            [src]="book.image"
+            alt="Book Image"
+            (click)="this.pageService.showOverlay(book)"
+            [id]="'englishBooksCover' + i + j"
+            [@slideInFromLeft]="
+              this.pageService.getElementState('englishBooksCover' + i + j)
+            "
+          />
+          <div
+            class="bookContainerText dNone500"
+            [id]="'englishBooksContainerText' + i + j"
+            [@slideInFromRight]="
+              this.pageService.getElementState('englishBooksContainerText' + i + j)
+            "
+          >
+            <div *ngFor="let paragraph of book.paragraphs">
+              <p>{{ paragraph }}</p>
+            </div>
+            <div class="bookLinksContainer">
+              <span translate>Available as: </span>
+              <div class="bookLinks">
+                <div *ngFor="let format of getBookFormats(book); let last = last">
+                  <ng-container *ngIf="!last">
+                    <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                    <span> – </span>
+                  </ng-container>
+                  <ng-container *ngIf="last">
+                    <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                  </ng-container>
+                </div>
               </div>
             </div>
-          </div>
-          <div *ngIf="book.additionalInfo" class="additional">
-            {{ book.additionalInfo.text }} <a [href]="book.additionalInfo.link" target="_blank">{{ book.additionalInfo.label }}</a>
           </div>
         </div>
       </div>
     </div>
   
+    <div *ngIf="this.pageService.selectedBook" id="overlay">
+      <div id="overlayCloseButton" class="closeX" (click)="this.pageService.closeOverlay()">X</div>
+      <div class="overlayBox">
+        <img [src]="this.pageService.selectedBook.image" alt="Book Image" (contextmenu)="this.pageService.preventRightClick($event)" />
+        <div class="overlayRight">
+            <div *ngFor="let paragraph of this.pageService.selectedBook.paragraphs">
+              <p>{{ paragraph }}</p>
+            </div>
+        </div>
+      </div>
+      <div class="overlayBottom">
+        <div class="bookLinksContainer">
+          <span translate>Available as: </span>
+          <div class="bookLinks">
+            <div *ngFor="let format of getBookFormats(this.pageService.selectedBook); let last = last">
+              <ng-container *ngIf="!last">
+                <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                <span> – </span>
+              </ng-container>
+              <ng-container *ngIf="last">
+                <a [href]="format.link" target="_blank">{{ format.label }}</a>
+              </ng-container>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="siteNavBottom">
       <a class="navLink" routerLink="/" translate >Back to Homepage</a>
     </div>

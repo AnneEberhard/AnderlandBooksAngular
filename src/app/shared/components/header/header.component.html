@@ -23,7 +23,7 @@
   </div>
 
   <div (click)="openMobileMenu()" id="burgerMenu" class="headerDistanceRight">
-    <svg class="burger-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 100 80" fill="rgb(19, 79, 92)">
+    <svg class="burger-icon" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 100 80" fill="rgb(19, 79, 92)">
       <rect class="bar" width="100" height="10" rx="5"></rect>
       <rect class="bar" y="30" width="100" height="10" rx="5"></rect>
       <rect class="bar" y="60" width="100" height="10" rx="5"></rect>
@@ -32,7 +32,7 @@
 
   <div id="headerLinkContainerMobile" class="easeOut">
     <div class="mobileNav">
-      <img (click)="closeMobileMenu()" src="assets/img/icon/close.png" alt="close">
+      <div class="closeX" (click)="closeMobileMenu()">X</div>
     </div>
     <div class="mobileLinks">
       <a routerLink="/home" translate [routerLinkActiveOptions]="{exact: true}" routerLinkActive="active">Homepage</a>

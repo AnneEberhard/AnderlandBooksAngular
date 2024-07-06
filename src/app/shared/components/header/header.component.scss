@@ -90,7 +90,12 @@ margin-top: 16px;
   a {
     color: rgb(192, 187, 187);
     padding: 16px;
+
+    &:hover {
+      color:white;
+    }
   }
+  
 }
 
 #burgerMenu {
