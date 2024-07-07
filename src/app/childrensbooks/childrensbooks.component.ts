@@ -66,11 +66,11 @@ export class ChildrensbooksComponent implements AfterContentInit{
  */
   registerDynamicElements() {
     this.childrensBooks.forEach((section: any, i: number) => {
-      this.pageService.registerElement(`childrensBooksSectionTitle${i}`);
+      this.pageService.registerElement(section.section);
 
       section.books.forEach((book: any, j: number) => {
-        this.pageService.registerElement(`childrensBooksCover${i}${j}`);
-        this.pageService.registerElement(`childrensBooksContainerText${i}${j}`);
+        this.pageService.registerElement(book.id);
+        this.pageService.registerElement(`ContainerText${book.id}`);
       });
     });
   }

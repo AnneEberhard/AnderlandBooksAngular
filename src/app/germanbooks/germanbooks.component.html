@@ -14,7 +14,7 @@
   >
     <a
       *ngFor="let section of germanBooks; let i = index"
-      (click)="scrollToSection('germanBooksSectionTitle' + i)"
+      (click)="scrollToSection(section.section)"
       translate
       >{{ section.title }}</a
     >
@@ -22,9 +22,9 @@
   <div *ngFor="let section of germanBooks; let i = index">
     <h2
       translate
-      [id]="'germanBooksSectionTitle' + i"
+      [id]="section.section"
       [@slideInFromLeft]="
-        this.pageService.getElementState('germanBooksSectionTitle' + i)
+        this.pageService.getElementState(section.section)
       "
     >
       {{ section.title }}
@@ -38,16 +38,16 @@
           [src]="book.image"
           alt="Book Image"
           (click)="this.pageService.showOverlay(book)"
-          [id]="'germanBooksCover' + i + j"
+          [id]="book.id"
           [@slideInFromLeft]="
-            this.pageService.getElementState('germanBooksCover' + i + j)
+            this.pageService.getElementState(book.id)
           "
         />
         <div
           class="bookContainerText dNone500"
-          [id]="'germanBooksContainerText' + i + j"
+          [id]="'ContainerText' + book.id"
           [@slideInFromRight]="
-            this.pageService.getElementState('germanBooksContainerText' + i + j)
+            this.pageService.getElementState('ContainerText' + book.id)
           "
         >
           <div *ngFor="let paragraph of book.paragraphs">
@@ -59,7 +59,7 @@
               <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                 <ng-container *ngIf="!last">
                   <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                  <span> – </span>
+                  <span>  </span>
                 </ng-container>
                 <ng-container *ngIf="last">
                   <a [href]="format.link" target="_blank">{{ format.label }}</a>
@@ -80,7 +80,7 @@
   <div
     id="overlayCloseButton"
     class="closeX"
-    (click)="this.pageService.closeOverlay()"
+    (click)="this.pageService.closeOverlay(this.pageService.selectedBook.id)"
   >
     X
   </div>
@@ -108,7 +108,7 @@
         >
           <ng-container *ngIf="!last">
             <a [href]="format.link" target="_blank">{{ format.label }}</a>
-            <span> – </span>
+            <span>  </span>
           </ng-container>
           <ng-container *ngIf="last">
             <a [href]="format.link" target="_blank">{{ format.label }}</a>

@@ -5,7 +5,8 @@
       "title": "Fairytales",
       "books": [
         {
-          "image": "assets/img/covers/das-meerschaumkleid.jpg",
+          "id": "dasMeerschaumkleid",
+          "image": "assets/img/covers/dasMeerschaumkleid.jpg",
           "header": "Das Meerschaumkleid - Märchen von Wald und Meer",
           "paragraphs": [
             "Ein Kleid aus Meerschaum, das sich der Stimmung seiner Trägerin anpasst …",
@@ -40,6 +41,7 @@
       "title": "Fips and Nina stories",
       "books": [
         {
+          "id": "fipsRitter",
           "image": "assets/img/covers/fips-ritter.jpg",
           "header": "Wie Fips ein Ritter wurde",
           "paragraphs": [
@@ -67,6 +69,7 @@
           }
         },
         {
+          "id": "fipsPirat",
           "image": "assets/img/covers/fips-pirat.jpg",
           "header": "Wie Fips ein Pirat wurde",
           "paragraphs": [
@@ -94,6 +97,7 @@
           }
         },
         {
+          "id": "fipsPolizist",
           "image": "assets/img/covers/fips-polizist.jpg",
           "header": "Wie Fips ein Polizist wurde",
           "paragraphs": [
@@ -121,6 +125,7 @@
           }
         },
         {
+          "id": "ninaMoro",
           "image": "assets/img/covers/nina-moro.jpg",
           "header": "Nina und die Reise zu Moro",
           "paragraphs": [
@@ -148,6 +153,7 @@
           }
         },
         {
+          "id": "ninaSchneefee",
           "image": "assets/img/covers/nina-schneefee.jpg",
           "header": "Nina und die Reise zur Schneefee",
           "paragraphs": [
@@ -175,6 +181,7 @@
           }
         },
         {
+          "id": "ninaHimmel",
           "image": "assets/img/covers/nina-himmel.jpg",
           "header": "Nina und die Reise in den Himmel",
           "paragraphs": [

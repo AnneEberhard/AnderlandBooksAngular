@@ -195,11 +195,12 @@ export class PageService {
    * This method clears the selected book, re-enables scrolling on the main container,
    * and restores the scroll event handling for the main container element.
    */
-  closeOverlay(): void {
+  closeOverlay(bookId: string): void {
     this.selectedBook = null;
     this.scrollContainer.removeEventListener('scroll', this.onWindowScroll.bind(this));
     this.scrollContainer = document.getElementById('contentContainer') as HTMLElement;
     this.scrollContainer.classList.remove('noScroll');
     this.scrollContainer.addEventListener('scroll', this.onWindowScroll.bind(this));
+    this.scrollToSection(bookId);
   }
 }

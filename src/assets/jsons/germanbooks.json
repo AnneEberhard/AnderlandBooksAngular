@@ -5,7 +5,8 @@
             "title": "Historical Novels",
             "books": [
                 {
-                    "image": "assets/img/covers/der-geist-in-brand.jpg",
+                    "id": "derGeistInBrand",
+                    "image": "assets/img/covers/derGeistInBrand.jpg",
                     "paragraphs": [
                         "1787 – Heinrich Berlingen, Baron von Satten, braucht einen Erben für seinen Titel und sein Lebenswerk, aber will sich nicht binden. So kommt Niklas von Altenmark, ein siebenjähriger preußischer Krautjunker zu dem ruhelosen älteren Herrn, und dass, obwohl er doch niemals von daheim fort wollte.",
                         "Unter den Fittichen des Barons reist Niklas über Berlin ins vorrevolutionäre Paris, erlebt die letzte Blüte des Rokokos, bevor der Ausbruch der Französischen Revolution sie nach London treibt, und von dort über den halben Kontinent. Er lernt Personen seiner Zeit kennen, von Marie Antoinette zu Danton, von Beau Brummell zur Duchess of Devonshire, vom späteren Zar Alexander I. zu Königin Luise, von Josef Haydn bis zu Ludwig van Beethoven. Die ganze Zeit hängt eine Frage über ihnen: Was treibt den Baron an, und was ist in seiner Jugend wirklich geschehen, so dass er nie sesshaft geworden ist?",
@@ -32,6 +33,7 @@
                     }
                 },
                 {
+                    "id": "alsterdiamanten",
                     "image": "assets/img/covers/alsterdiamanten.jpg",
                     "paragraphs": [
                         "Hamburg, 1838 – Sophie Achtmann ist die jüngste, etwas reizlose Tochter einer aufstrebenden Kaufmannsfamilie. Sie kennt die Rolle, die ihre Familie ihr zugedacht hat: Sie muss vorteilhaft heiraten und damit den Credit der Achtmanns mehren, ihrer älteren und schöneren Cousine gleich. Aber Sophie fürchtet, niemals einen Mann zu finden, den ihr Großvater akzeptieren wird. Und sie ist nicht die Einzige, die an der ihr zugedachten Aufgabe verzweifelt: Auch ihre Brüder hadern mit dem Schicksal, jeder auf seine Weise.",
@@ -58,7 +60,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/irrfahrt.jpg",
+                    "id": "irrfahrtInsGelobteLand",
+                    "image": "assets/img/covers/irrfahrtInsGelobteLand.jpg",
                     "paragraphs": [
                         "Man schreibt das Jahr 1147. Die Sarazenen haben soeben das christliche Edessa im Orient erobert. Als Antwort darauf macht sich der zweite Kreuzzug aus dem Abend­land auf nach Osten, um den Feind wieder zu zurückzudrängen. Teil dieses Zuges sind die fünfzehnjährige Katharina mit Ehemann und Kindern sowie die Brüder Rudolph und Maximilian.",
                         "Inspiriert vom Erfolg des ersten Kreuzzuges sind sie aufgebrochen, erfüllt von hehren Zielen, Profitgier und dem Glauben an die eigene Unbesiegbarkeit. Aber die Realität schlägt zu. Plötzlich, unvermittelt, stehen Max und Katja alleine da und müssen sich selbst ihren Weg durch ein feindliches Land suchen …"
@@ -84,7 +87,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/die-masken-von-florenz.jpg",
+                    "id": "dieMaskenVonFlorenz",
+                    "image": "assets/img/covers/dieMaskenVonFlorenz.jpg",
                     "paragraphs": [
                         "Gianni ist erst zwölf und damit das unbedeutendste Mitglied einer Florentiner Kaufmannsfamilie zu Zeiten der Medici; doch sein Leben scheint bereits klar vorgezeichnet.",
                         "In der Frühzeit der italienischen Renaissance ist die Zukunft aber alles andere als gewiss. Der Verlust seiner Verlobten ist dabei nur eines der Dinge, die nicht nach Plan verlaufen. Giannis Weg führt ihn über die Anfänge der Buchdruckkunst, die Werkstätten der Bildhauer und Künstler bis hin zur Politik Lorenzo des Prächtigen. Dabei verfolgt ihn immer dasselbe Geheimnis: Was ist seiner jungen Braut zugestoßen, die einst spurlos im Karneval verschwand?"
@@ -116,7 +120,8 @@
             "title": "Urban Fantasy",
             "books": [
                 {
-                    "image": "assets/img/covers/von-elfen-und-woelfen.jpg",
+                    "id": "vonElfenundWoelfen",
+                    "image": "assets/img/covers/vonElfenundWoelfen.jpg",
                     "paragraphs": [
                         "Lucie Martin ist neu – das ist ihr nicht unbekannt. Normalerweise hat  sie keine Probleme, Freunde zu finden. Aber bei den Kindern des Nachbarhauses stößt sie auf eine echte Herausforderung. Dabei sind diese  ungewöhnlich genug: eine Tochter mit Aggressionsproblemen, ein Haufen  Pflegekinder, der Älteste von ihnen ein verschlossener Junge mit  schlohweißen Haaren, die sich nicht färben lassen. Lucie ist wider  Willen fasziniert von Noel Tyll. Da ist noch etwas anders an ihm, etwas,  das seine Pflegeschwester Cara alle Geschütze ausfahren lässt, etwas,  das über seine Haare und seine seltsam betörende Stimme hinausgeht.",
                         "Aber  als Lucie schließlich herausfindet, was Noels Geheimnis ist, erfährt  sie mehr, als sie wissen wollte – und auch mehr über ihre eigene Familie  und ihre eigenen Wurzeln …",
@@ -143,7 +148,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/hexen-mittendrin-im-mix.jpg",
+                    "id": "hexenMittendrinImMix",
+                    "image": "assets/img/covers/hexenMittendrinImMix.jpg",
                     "paragraphs": [
                         "Bina Birnbaum ist die stärkste Hexe ihrer Generation - nur leider weiß  das kaum einer. Umso begeisterter stürzt sich Bina auf ihren neuesten  Auftrag: das Heben des Fluches, mit dem die benachbarten Werwölfe, die  Martins, belegt sind. Ihr zur Seite steht der Waldelf Cianán, der selber  gerade erst die Welt außerhalb seines Waldes entdeckt.",
                         "Allerdings  stellt sich der Auftrag als nicht so einfach wie gedacht heraus, und  weckt zudem Geister der Vergangenheit, die Bina und ihre Freunde bald in  ziemliche Bedrängnis bringen...",
@@ -170,7 +176,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/in-namen-der-menschen.jpg",
+                    "id": "imNamenDerMenschen",
+                    "image": "assets/img/covers/imNamenDerMenschen.jpg",
                     "paragraphs": [
                         "Lena Meyer hat genug von Elfen und Wölfen und allem, was dazu gehört.  Sie will studieren, nach ihrer verkorksten Jugend als Essgestörte  endlich normal sein, und ihrem Pflegebruder Noel nur ihren Bruder sehen,  nicht den geheimen Prinzen der Elfen.",
                         "Aber dann stößt sie in ihrer  WG auf ein gefährliches Buch, ihre Mitbewohner entpuppen sich nicht alle  als menschlich, und plötzlich ist Lena sich nicht einmal mehr sicher,  inwieweit sie noch sie selber ist.",
@@ -198,6 +205,7 @@
                     }
                 },
                 {
+                    "id": "daemonenritt",
                     "image": "assets/img/covers/daemonenritt.jpg",
                     "paragraphs": [
                         "Wer hätte gedacht, dass es Dämonen wirklich gibt? Und nicht nur sie – auch Dämonenjäger?",
@@ -227,6 +235,7 @@
                     }
                 },
                 {
+                    "id": "daemonensprung",
                     "image": "assets/img/covers/daemonensprung.jpg",
                     "paragraphs": [
                         "Die Reise der Kinder der Engel geht weiter…",
@@ -256,6 +265,7 @@
                     }
                 },
                 {
+                    "id": "daemonentraum",
                     "image": "assets/img/covers/daemonentraum.jpg",
                     "paragraphs": [
                         "Die Reise der Kinder der Engel erreicht ihren Höhepunkt …",
@@ -292,6 +302,7 @@
             "title": "High Fantasy",
             "books": [
                 {
+                    "id": "elfenweg",
                     "image": "assets/img/covers/elfenweg.jpg",
                     "paragraphs": [
                         "Kommt mit in die fantastische Welt Thurán ...",
@@ -319,6 +330,7 @@
                     }
                 },
                 {
+                    "id": "sumpfzauber",
                     "image": "assets/img/covers/sumpfzauber.jpg",
                     "paragraphs": [
                         "Kommt mit in die fantastische Welt Thurán ...",
@@ -346,6 +358,7 @@
                     }
                 },
                 {
+                    "id": "weltenringen",
                     "image": "assets/img/covers/weltenringen.jpg",
                     "paragraphs": [
                         "Kommt mit in die fantastische Welt Thurán ...",
@@ -379,7 +392,8 @@
             "title": "Spy Novels",
             "books": [
                 {
-                    "image": "assets/img/covers/unheilige mittel.jpg",
+                    "id": "unheiligeMittel",
+                    "image": "assets/img/covers/unheiligeMittel.jpg",
                     "paragraphs": [
                         "Ein Junge, ausgebildet zum Spion und Dieb ...",
                         "Ein hinkendes Mädchen, das keine Barmherzigkeit kennt ...",
@@ -410,7 +424,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/hehre zwecke.jpg",
+                    "id": "hehreZwecke",
+                    "image": "assets/img/covers/hehreZwecke.jpg",
                     "paragraphs": [
                         "Erschüttert von den Ereignissen von Samos und des anschließenden Medienrummels halten sich Jack, Ada und Logan versteckt, verzweifelt bemüht, die schockierende Wahrheit zu verarbeiten. Neue Informationen helfen ihnen dabei gegen die Jagd auf sie.",
                         "Aber dann fangen die Beteiligten des Projekts Culter an, wie die Fliegen zu sterben.",
@@ -445,6 +460,7 @@
             "title": "Romance",
             "books": [
                 {
+                    "id": "ertolia",
                     "image": "assets/img/covers/ertolia.jpg",
                     "paragraphs": [
                         "David ist der Ranghöchste unter den Ertolianern. Er wird König, sobald der Zyklus vollendet ist – alle wissen das.",
@@ -473,7 +489,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/lilys-stil.jpg",
+                    "id": "lilysStil",
+                    "image": "assets/img/covers/lilysStil.jpg",
                     "paragraphs": [
                         "Lily und Mark sind Stiefgeschwister, beides Sprösslinge ehrgeiziger Alleinerziehender, die miteinander ein zweites Glück gefunden haben. Eigentlich mögen Lily und Mark sich nicht besonders – aber als eine Verkettung von Umständen dazu führt, dass sie einander doch sehr viel näherkommen als von ihren Eltern geplant, löst dies eine wahre Kaskade an Probleme aus.",
                         "Immerhin – Stiefgeschwister sind doch so etwas wie Geschwister, oder?"
@@ -505,7 +522,8 @@
             "title": "Short stories and novellas",
             "books": [
                 {
-                    "image": "assets/img/covers/tanz-mit-dem-wind.jpg",
+                    "id": "tanzMitDemWind",
+                    "image": "assets/img/covers/tanzMitDemWind.jpg",
                     "paragraphs": [
                         "Sie ist eine Tänzerin auf Marktplätzen, Festen und Feiern, Teil einer  kleinen Gauklertruppe. Tessa tanzt zu allem, was Jo, der Fiedler,  spielen kann. Aber das Leben auf der Straße ist nicht leicht, vor allem,  wenn man viel verloren hat und sich vor weiteren Enttäuschungen  schützen will ...",
                         "Kurzgeschichte, 32 Seiten"
@@ -531,7 +549,8 @@
                     }
                 },
                 {
-                    "image": "assets/img/covers/LebensAbschnitt.jpg",
+                    "id": "lebensAbschnitt",
+                    "image": "assets/img/covers/lebensAbschnitt.jpg",
                     "paragraphs": [
                         "Eine Zeitreisende zieht durch die Geschichte der Menschheit, begleitet vom toten Alexander dem Großen. Ihr gemeinsamer Weg führt sie von den Ursprüngen des sichtbaren Lebens bis in die Neuzeit – beobachtend, manchmal auch teilhabend und dabei Antworten suchend auf Fragen, die sie sich selber gar nicht stellen mag:",
                         "Wer ist sie, und warum ist sie weder an Zeit noch Raum gebunden?",

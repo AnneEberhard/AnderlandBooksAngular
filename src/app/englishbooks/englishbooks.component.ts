@@ -66,10 +66,10 @@ export class EnglishbooksComponent implements OnInit {
  */
   registerDynamicElements() {
     this.englishBooks.forEach((section: any, i: number) => {
-      this.pageService.registerElement(`englishBooksSectionTitle${i}`);
+      this.pageService.registerElement(section.section);
       section.books.forEach((book: any, j: number) => {
-        this.pageService.registerElement(`englishBooksCover${i}${j}`);
-        this.pageService.registerElement(`englishBooksContainerText${i}${j}`);
+        this.pageService.registerElement(book.id);
+        this.pageService.registerElement(`ContainerText${book.id}`);
       });
     });
   }

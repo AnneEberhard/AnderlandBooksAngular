@@ -11,7 +11,7 @@
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement2')">
     <a
       *ngFor="let section of childrensBooks let i = index"
-      (click)="this.pageService.scrollToSection('childrensBooksSectionTitle' + i)"
+      (click)="this.pageService.scrollToSection(section.section)"
       translate
       >{{ section.title }}</a
     >
@@ -19,9 +19,9 @@
   <div *ngFor="let section of childrensBooks; let i = index">
     <h2
       translate
-      [id]="'childrensBooksSectionTitle' + i"
+      [id]="section.section"
       [@slideInFromLeft]="
-        this.pageService.getElementState('childrensBooksSectionTitle' + i)
+        this.pageService.getElementState(section.section)
       "
     >
       {{ section.title }}
@@ -35,16 +35,16 @@
           [src]="book.image"
           alt="Book Image"
           (click)="this.pageService.showOverlay(book)"
-          [id]="'childrensBooksCover' + i + j"
+          [id]="book.id"
           [@slideInFromLeft]="
-            this.pageService.getElementState('childrensBooksCover' + i + j)
+            this.pageService.getElementState(book.id)
           "
         />
         <div
           class="bookContainerText dNone500"
-          [id]="'childrensBooksContainerText' + i + j"
+          [id]="'ContainerText' + book.id"
           [@slideInFromRight]="
-            this.pageService.getElementState('childrensBooksContainerText' + i + j)
+            this.pageService.getElementState('ContainerText' + book.id)
           "
         >
           <div *ngFor="let paragraph of book.paragraphs">
@@ -56,7 +56,7 @@
               <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                 <ng-container *ngIf="!last">
                   <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                  <span> – </span>
+                  <span>  </span>
                 </ng-container>
                 <ng-container *ngIf="last">
                   <a [href]="format.link" target="_blank">{{ format.label }}</a>
@@ -75,7 +75,7 @@
 </section>
 
   <div *ngIf="this.pageService.selectedBook" id="overlay">
-    <div id="overlayCloseButton" class="closeX" (click)="this.pageService.closeOverlay()">X</div>
+    <div id="overlayCloseButton" class="closeX" (click)="this.pageService.closeOverlay(this.pageService.selectedBook.id)">X</div>
     <div class="overlayBox">
       <img [src]="this.pageService.selectedBook.image" alt="Book Image" (contextmenu)="this.pageService.preventRightClick($event)" />
       <div class="overlayRight">
@@ -91,7 +91,7 @@
           <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
             <ng-container *ngIf="!last">
               <a [href]="format.link" target="_blank">{{ format.label }}</a>
-              <span> – </span>
+              <span>  </span>
             </ng-container>
             <ng-container *ngIf="last">
               <a [href]="format.link" target="_blank">{{ format.label }}</a>

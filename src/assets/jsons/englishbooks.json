@@ -5,7 +5,8 @@
       "title": "Historical Novels",
       "books": [
         {
-          "image": "assets/img/covers/Odyssey.jpg",
+          "id": "odysseyToThePromisedLand",
+          "image": "assets/img/covers/odysseyToThePromisedLand.jpg",
           "paragraphs": [
             "The year is 1147, the Saracens just having conquered Christian Edessa in the Orient. In response, the Second Crusade sets out from the West to drive back the enemy in the East. Part of this procession are fifteen-year-old Katharina with her husband and children, as well as the brothers Rudolph and Maximilian. ",
             "They set out inspired by the success of the First Crusade, filled with noble goals, greed for profit, and a belief in their own invincibility. But reality strikes, hard. Suddenly, abruptly, Max and Katja find themselves alone and have to make their own way through a hostile country.",
@@ -32,7 +33,8 @@
           }
         },
         {
-          "image": "assets/img/covers/the-masks-of-florence.jpg",
+          "id": "theMasksOfFlorence",
+          "image": "assets/img/covers/theMasksOfFlorence.jpg",
           "paragraphs": [
             "Gianni is only twelve and thus the most insignificant member of a Florentine merchant family in Medici times; but his life already seems clearly mapped out.",
             "In the early days of Italian Renaissance, however, the future is anything but certain. The loss of his fiancée is just one of the things that do not go according to plan. Gianni's path leads him through the beginnings of the art of printing, the workshops of sculptors and artists, up to the politics of Lorenzo the Magnificent. All the while, he is haunted by the same mystery: what truly happened to his young bride who disappeared without a trace during carnival?",
@@ -59,6 +61,7 @@
           }
         },
         {
+          "id": "alsterdiamonds",
           "image": "assets/img/covers/alsterdiamonds.jpg",
           "paragraphs": [
             "Hamburg, 1838 – Sophie Achtmann is the youngest, somewhat charmless daughter of an ambitious merchant family. She knows the role her family has assigned her: she must secure a good marriage and thus increase the Achtmanns' credit, like her older and more beautiful cousin. But Sophie fears she will never find a husband her grandfather will accept. And she is not the only one who despairs of the task assigned to her: Her brothers also struggle with their fate, each in their own way.",
@@ -86,7 +89,8 @@
           }
         },
         {
-          "image": "assets/img/covers/a-darkhappiness.jpg",
+          "id": "aDarkHappiness",
+          "image": "assets/img/covers/aDarkHappiness.jpg",
           "paragraphs": [
             "A lowly Austrian secret agent almost prevents the assassination of Archduke Franz Ferdinand.",
             "Tobias Ault, of Austro-Hungary’s intelligence service, hears rumors Black Hand, Serbia’s secret terrorist organization, plans to launch attacks against Vienna. He investigates and stumbles onto a new find: Black Hand intends to kill Franz Ferdinand and his wife, Sophie, in Sarajevo.",
@@ -122,7 +126,8 @@
       "title": "Contemporary",
       "books": [
         {
-          "image": "assets/img/covers/base-means.jpg",
+          "id": "baseMeans",
+          "image": "assets/img/covers/baseMeans.jpg",
           "paragraphs": [
             "A boy trained to be a spy and a thief",
             "A crippled girl who is a stranger to mercy",
@@ -153,7 +158,8 @@
           }
         },
         {
-          "image": "assets/img/covers/great-ends.jpg",
+          "id": "greatEnds",
+          "image": "assets/img/covers/greatEnds.jpg",
           "paragraphs": [
             "Reeling from the events on Samos and the subsequent media hype, Jack, Ada, and Logan are in hiding, trying to come to terms with the truth. When new information reaches them, they use it in an attempt to end the hunt.",
             "But then, people involved with Project Culter are starting to drop like flies. They are not the only survivors, it appears – and yet, who is responsible for the deaths? And why?",
@@ -182,7 +188,8 @@
           }
         },
         {
-          "image": "assets/img/covers/a-fine-day.jpg",
+          "id": "aFineDayInMarch",
+          "image": "assets/img/covers/aFineDayInMarch.jpg",
           "paragraphs": [
             "Nathan Young used to be the most popular boy of Harrison High, the  uncrowned king – before. But what happened in late March of his senior year has turned his world upside down, has made him topple violently off  his sunny place. He has to deal with the fall-out – and he is not quite sure if he is going to make it.",
             "And then she steps in his way.",
@@ -217,7 +224,8 @@
       "title": "Dystopia",
       "books": [
         {
-          "image": "assets/img/covers/chasing-wild-dreams.jpg",
+          "id": "chasingWildDreams",
+          "image": "assets/img/covers/chasingWildDreams.jpg",
           "paragraphs": [
             "Cyn is a trickster, playing bait to catch the wild dreams that haunt his dystopian world. Enters Lys, a solver, who could be his perfect match. But Cyn can't even trust himself enough to not screw this up royally.",
             "When he tries to fix his mistake, he and the girl end up outside their society, in a place that slowly rouses their suspicions.",
@@ -246,7 +254,8 @@
           }
         },
         {
-          "image": "assets/img/covers/yuli.jpg",
+          "id": "yuliInTheAftermath",
+          "image": "assets/img/covers/yuliInTheAftermath.jpg",
           "paragraphs": [
             "Yuli is Rafe’s wife, his fourth and youngest, living in a post-apocalyptic world after a virus has wiped out most of mankind – and disproportionally more men. It is the choice she made, and she should be happy. She lives, after all, in a world without aggression.",
             "But life is not easy with these strict rules deciding their paths in life. Polygamy, as Yuli and Rafe have grown up to, is one way of dealing with the decreased number in men. It is, however, not the only.",
@@ -279,7 +288,8 @@
       "title": "Urban Fantasy",
       "books": [
         {
-          "image": "assets/img/covers/demon-ride.jpg",
+          "id": "demonRide",
+          "image": "assets/img/covers/demonRide.jpg",
           "paragraphs": [
             "Who would have thought that demons really exist? And not only them - demon hunters too?",
             "Daniel encounters three of them at once when he gets involved with a demon while searching for his brother. With the hunters, he hopes, he has a better chance of tracking Zach down.",
@@ -308,7 +318,8 @@
           }
         },        
         {
-          "image": "assets/img/covers/demon-leap.jpg",
+          "id": "demonLeap",
+          "image": "assets/img/covers/demonLeap.jpg",
           "paragraphs": [
             "The journey of the children of angels continues...",
             "Flo, Miriam, and Daniel did it - they inserted one of the lost shards into the Heart of the Angels, as the prophecies said they would. But this has unforeseen consequences, especially for Daniel, the first human to be exposed to the unrestrained power of the channelers.",
@@ -337,6 +348,7 @@
           }
         },
         {
+          "id": "demonDream",
           "image": "assets/img/covers/demon-dream.jpg",
           "paragraphs": [
             "The journey of the children of angels reaches its climax...",
@@ -366,7 +378,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lucie-new.jpg",
+          "id": "lucieIsNew",
+          "image": "assets/img/covers/lucieIsNew.jpg",
           "paragraphs": [
             "Lucie Martin is new – she is familiar with that. Normally, she has no problems making friends, but the children of the neighboring house pose a real challenge. They are unusual enough: an aggressive daughter, a bunch of foster kids, the oldest of them a withdrawn boy with snow-white hair. Lucie is intrigued, against her will, by Noel Tyll. There's something else about him, something that makes his foster sister pull out all the stops, something beyond his hair and strangely beguiling voice.",
             "But when Lucie finally finds out what Noel's secret is, she learns more than she wanted to know – and more about her own family and roots...",
@@ -393,7 +406,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lucie-nature.jpg",
+          "id": "lucieForceOfNature",
+          "image": "assets/img/covers/lucieForceOfNature.jpg",
           "paragraphs": [
             "Lucie and Noel are in love, and all could be well! But slowly, Noel is changing, as if the big old forest is pulling him in, further and further away from Lucie and the world of the humans. He shows an ruthless side she does not like.",
             "When things escalate dramatically, it's up to Lucie to fight back and show her elf prince his true colors..",
@@ -420,7 +434,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lucie-loose.jpg",
+          "id": "lucieOnTheLoose",
+          "image": "assets/img/covers/lucieOnTheLoose.jpg",
           "paragraphs": [
             "Highschool is out, and against all odds, Lucie and Noel are still together. University, a new life with new people and new challenges awaits them. But this includes also new and unforeseen dangers.",
             "Suddenly, Lucie is lost, and now it is up to Noel. Can he overcome the old hostilities and form an unlikely alliance – for the sake of his girl",
@@ -447,7 +462,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lucie-secret.jpg",
+          "id": "lucieInSecretMission",
+          "image": "assets/img/covers/lucieInSecretMission.jpg",
           "paragraphs": [
             "The events of the last year still have both Lucie and Noel reeling. In order to tackle the new challenge, Noel needs to ask his people some very big favors. But in doing this, he may also offer them the chance they have waited for so long.",
             "Can Lucie and Noel bring this adventure to a good end? Can they help undo the damage that was caused by their ancestors?",
@@ -475,7 +491,8 @@
           }
         },
         {
-          "image": "assets/img/covers/bina-curiosity.jpg",
+          "id": "binaAndTheDarnCuriosity",
+          "image": "assets/img/covers/binaAndTheDarnCuriosity.jpg",
           "paragraphs": [
             "Bina Birnbaum is the strongest witch of her generation – which unfortunately hardly anyone knows. All the more enthusiastically, Bina throws herself into her newest mission: lifting the curse placed on the neighboring werewolves, the Martins. At her side is the wood elf Cianán, who is only just discovering the world outside his forest.",
             "However, their mission turns out to be not as easy as they thought, and also awakens ghosts of the past that soon put Bina and her friends in quite a predicament ...",
@@ -502,7 +519,8 @@
           }
         },
         {
-          "image": "assets/img/covers/bina-curse.jpg",
+          "id": "binaAndTheDarnCurse",
+          "image": "assets/img/covers/binaAndTheDarnCurse.jpg",
           "paragraphs": [
             "Bina might have bitten off more than she can chew – her attempt of prolonging Ben Martin’s life has tangled her up with the curse for good. In addition, her meddling has alerted old fiends. Suddenly, not only her life is in peril, but also Cianáns – and that when she just wanted to get her agency up and running.",
             "It needs the help of the ghosts of her ancestors and some good old chaos to finally deal with this curse. But Bina wouldn’t be Bina if she shied away from a challenge!",
@@ -529,7 +547,8 @@
           }
         },
         {
-          "image": "assets/img/covers/bina-drama.jpg",
+          "id": "binaAndTheDarnDrama",
+          "image": "assets/img/covers/binaAndTheDarnDrama.jpg",
           "paragraphs": [
             "The curse may be gone, but the cure almost cost Bina her life. Time for her sister to put her foot down – and time for the people to step up. Thus, an unlikely alliance is formed, for the first time in what might be ever: Bina the witch, Cianán the wood elf, Joseph the werewolf, and Malachi the vampire are supposed to deal with this ‘drama mage’.",
             "But in order to succeed, they first need to overcome their differences. Oh, and both Cianán and Bina need to learn that sometimes, it is better to first form a good plan and then charge in…",
@@ -556,7 +575,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lena-live.jpg",
+          "id": "lenaWantsToLive",
+          "image": "assets/img/covers/lenaWantsToLive.jpg",
           "paragraphs": [
             "Lena Meyer has had enough of elves and wolves and everything that goes with them. She wants to study, to finally be normal after her messed-up youth with an eating disorder, and to see in her foster brother Noel only the brother, not the secret prince of the elves.",
             "But then she comes across a dangerous book in her student dorm, her roommates don't all turn out to be human, and suddenly Lena isn't even sure to what extent she's still herself.",
@@ -583,7 +603,8 @@
           }
         },
         {
-          "image": "assets/img/covers/lena-justice.jpg",
+          "id": "lenaWantsJustice",
+          "image": "assets/img/covers/lenaWantsJustice.jpg",
           "paragraphs": [
             "Lena has somehow made her peace with her new role, but of course, her life is not supposed to be easy. Ghosts of the past appear – of both hers and her vampire’s. And a new challenge arises from the side of humans, the people she has vowed to protect.",
             "But are these people still human? And can Mal and Lena deal with them, preventing an outright war?",
@@ -611,7 +632,8 @@
           }
         },
         {
-          "image": "assets/img/covers/spirit-chase.jpg",
+          "id": "spiritChase",
+          "image": "assets/img/covers/spiritChase.jpg",
           "paragraphs": [
             "In the realm of spirits, creatures that feed on human emotions – years ago, twin incubi set out to do something very stupid…",
             "Now, Lior just wants to find a cure for his brother and fix what went wrong. Unlike Louan, he is not ready to give up and open to the most drastic measures – even if it puts his chapter of incubi and succubae at risk",
@@ -640,7 +662,8 @@
           }
         },
         {
-          "image": "assets/img/covers/spirit-chant.jpg",
+          "id": "spiritChant",
+          "image": "assets/img/covers/spiritChant.jpg",
           "paragraphs": [
             "After his twin has managed to get the human soul sliver out of Louan, the young incubus is able to entice again, pulling his weight once more in Lord Asmode’s club. But his own soul sliver is still stuck in the human girl who has finally woken up. Inevitably, the girl is drawn to him, disrupting his existence, causing him once more to look for help.",
             "Maddie Ravi, the young witch, has made herself at home at the chapter of incubi and succubae, seeking for ways to get justice for the wrongs done to her family. However, she is still first and foremost a champion for humans. When the girl Louan possessed years ago turns up, stars in her eyes, she knows at once whose side she’ll be on.",
@@ -668,7 +691,8 @@
           }
         },
         {
-          "image": "assets/img/covers/spirit-circle.jpg",
+          "id": "spiritCircle",
+          "image": "assets/img/covers/spiritCircle.jpg",
           "paragraphs": [
             "The mythical gems reunited, the shades cured – years have passed, and Benny Ravi should be able to find his place in this world. But Rose and Chris, two enigmas that drop into his lap, might pull said world asunder.",
             "Rose never understood why her dad left her. She never understood why she was able to see people others did not notice either. When she stumbles across one of those creatures, she is determined to get answers. But the world she discovers was kept from her for a reason – and is a lot more dangerous than she at first believes.",
@@ -703,7 +727,8 @@
       "title": "Short Stories",
       "books": [
         {
-          "image": "assets/img/covers/lifestages.jpg",
+          "id": "lifeStages",
+          "image": "assets/img/covers/lifeStages.jpg",
           "paragraphs": [
             "A time traveler moves through the history of mankind, accompanied  by the dead Alexander the Great. Their path leads them from the origins  of visible life to modern times - observing, sometimes also  participating, and thereby seeking answers to questions she may not even  ask herself: Who is she, and why is she bound neither to time nor  space?",
             ""
@@ -729,7 +754,8 @@
           }
         },
         {
-          "image": "assets/img/covers/dance-the-wind.jpg",
+          "id": "danceTheWind",
+          "image": "assets/img/covers/danceTheWind.jpg",
           "paragraphs": [
             "She is a dancer in marketplaces, at festivals and fairs, part of a small troupe of gleemen. Tessa dances to everything the fiddler Jo plays.",
             "But life on the roads is not easy, especially when you have lost a lot and want to protect yourself from further disappointment.",
@@ -756,7 +782,8 @@
           }
         },
         {
-          "image": "assets/img/covers/purgatory.jpg",
+          "id": "purgatoryAtLarge",
+          "image": "assets/img/covers/purgatoryAtLarge.jpg",
           "paragraphs": [
             "Up in the sky, invisible to the living human eye, lies purgatory, run by the Angel of Salvation and her counterpart, the Devil of Damnation. These two, like the entire world created in balance, battle each other for souls, decide whether those in between will go to heaven or hell, whether they will get to rest or be cleansed.  It has been like this for eternity.",
             "But Ange feels she’s increasingly losing the battle, like her work is pointless. And thus, on a whim, she does the unthinkable: She quits.",
@@ -785,7 +812,8 @@
           }
         },
         {
-          "image": "assets/img/covers/fairytales-of-the-forbidden-twins.jpg",
+          "id": "theFairytalesOfTheForbiddenTwins",
+          "image": "assets/img/covers/theFairytalesOfTheForbiddenTwins.jpg",
           "paragraphs": [
             "Twins, born out of a promise and a lie, grow up in a kingdom of hills and castles, of knights and warlords. They make their way, influencing the people around them, while always trying to protect their biggest secret: Love.",
             "Fantastic novella, mature content",

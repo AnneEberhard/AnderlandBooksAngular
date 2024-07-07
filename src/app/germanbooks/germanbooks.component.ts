@@ -68,10 +68,10 @@ export class GermanbooksComponent implements AfterContentInit {
  */
   registerDynamicElements() {
     this.germanBooks.forEach((section: any, i: number) => {
-      this.pageService.registerElement(`germanBooksSectionTitle${i}`);
+      this.pageService.registerElement(section.section);
       section.books.forEach((book: any, j: number) => {
-        this.pageService.registerElement(`germanBooksCover${i}${j}`);
-        this.pageService.registerElement(`germanBooksContainerText${i}${j}`);
+        this.pageService.registerElement(book.id);
+        this.pageService.registerElement(`ContainerText${book.id}`);
       });
     });
   }
