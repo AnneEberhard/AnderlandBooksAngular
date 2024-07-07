@@ -193,7 +193,10 @@ export class PageService {
    * Closes the overlay and re-enables scrolling on the main container.
    *
    * This method clears the selected book, re-enables scrolling on the main container,
-   * and restores the scroll event handling for the main container element.
+   * restores the scroll event handling for the main container element
+   * and scrolls to the place it wwas opened from.
+   * @param {string} bookId - The bookId needed to return to the container.
+
    */
   closeOverlay(bookId: string): void {
     this.selectedBook = null;
