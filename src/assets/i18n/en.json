@@ -2,6 +2,7 @@
 	"Authors": "Authors",
 	"You'll find stories and books of the following authors at Anderland Books:": "You'll find stories and books of the following authors at Anderland Books:",
 	"Back to Homepage": "Back to Homepage",
+
 	"Background of The Spirit Chapters": "Background of The Spirit Chapters",
 	"Bree Nan's page": "Bree Nan's page",
 	"This site is dedicated to the world of the Spirit Chapters - all those details that would have made the appendix to long to read. Please be aware that this may include spoilers! If you rather read the books first, go here:": "This site is dedicated to the world of the Spirit Chapters - all those details that would have made the appendix to long to read. Please be aware that this may include spoilers! If you rather read the books first, go here:",
@@ -163,8 +164,13 @@
 	"Back to English Stories": "Back to English Stories",
 
 	"Children's Books": "Children's Books",
-
+	"English Stories": "English Stories",
+	"Imprint": "Imprint",
+	"German Stories": "German Stories",
+	"Homepage": "Homepage",
+	"Services": "Services",
 	"Contact": "Contact",
+
 	"Contact us!": "Contact us!",
 	"If you have an interesting story to publish...": "If you have an interesting story to publish...",
 	"If you need one of our services...": "If you need one of our services...",
@@ -181,13 +187,6 @@
 	"and agree to the progressing of my data as outlined.": "and agree to the progressing of my data as outlined.",
 	"privacy policy": "privacy policy",
 	"Please accept the privacy policy": "Please accept the privacy policy",
-
-	"English Stories": "English Stories",
-	"Imprint": "Imprint",
-	"German Stories": "German Stories",
-	"Homepage": "Homepage",
-	"Services": "Services",
-	"Kontakt": "Kontakt",
 
 	"Information according to § 5 TMG": "Information according to § 5 TMG",
 	"Anne Eberhard": "Anne Eberhard",
@@ -328,6 +327,9 @@
 	"Fairytales" :"Fairytales",
 	"Fips and Nina stories" :"Fips and Nina stories",
 	"Available as:" : "Available as:",
+	"Click on cover for more info" : "Click on cover for more info",
+	"Paperback" : "Paperback",
+	"Hardcover" : "Hardcover",
 	
 	"Sigrid E. Thomas writes only in German." : "Sigrid E. Thomas writes only in German.",
 	"Even when she was a little girl herself, Sigrid loved making up stories to tell her brother. She always wanted to write children's books, but with starting her own family and working as a primary school teacher, she never found the time." : "Even when she was a little girl herself, Sigrid loved making up stories to tell her brother. She always wanted to write children's books, but with starting her own family and working as a primary school teacher, she never found the time.",

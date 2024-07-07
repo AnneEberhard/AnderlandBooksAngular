@@ -11,13 +11,15 @@
     
     </div>
     <div *ngFor="let section of englishBooks; let i = index">
-      <h2
-        translate
-        [id]="section.section"
-        [@slideInFromLeft]="
-          this.pageService.getElementState(section.section)">
+      <div
+      [id]="section.section"
+      [@slideInFromLeft]="this.pageService.getElementState(section.section)"
+    >
+      <h2 translate>
         {{ section.title }}
       </h2>
+      <h4 class="clickCoverInfo" translate>Click on cover for more info</h4>
+    </div>
       <div class="bookContainerWrap">
         <div
           class="bookContainer"
@@ -47,11 +49,11 @@
               <div class="bookLinks">
                 <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                   <ng-container *ngIf="!last">
-                    <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                    <span>  </span>
+                    <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                    <span class="dNone863"> - </span>
                   </ng-container>
                   <ng-container *ngIf="last">
-                    <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                    <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
                   </ng-container>
                 </div>
               </div>
@@ -77,11 +79,11 @@
           <div class="bookLinks">
             <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
               <ng-container *ngIf="!last">
-                <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                <span>  </span>
+                <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                <span class="dNone863"> - </span>
               </ng-container>
               <ng-container *ngIf="last">
-                <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
               </ng-container>
             </div>
           </div>

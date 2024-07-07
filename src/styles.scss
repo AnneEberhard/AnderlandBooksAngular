@@ -143,7 +143,6 @@ section {
   color: white;
   z-index: 100;
   height: 100vh;
-  padding-bottom: 200px;
 
   img {
     height: 300px;
@@ -202,21 +201,46 @@ section {
   }
 }
 
-@media (max-width: 800px) {
+.clickCoverInfo {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  #overlay {
+    justify-content: space-evenly;
+    box-sizing: border-box;
+
+    img {
+      height: 150px;
+    }
+  }
+
+  .overlayBox {
+    margin-top: 80px;
+  }
+
+  .overlayBottom {
+    margin-bottom: 80px;
+  }
+}
+@media (max-width: 863px) {
   section {
     padding: 20px 20px 20px 20px;
+  }
+
+  .dNone863 {
+    display: none;
   }
 
   .bookLinksContainer {
     flex-direction: column;
     gap: 0px;
-    margin-bottom: 8px;
     span {
       margin: 8px 0 4px 0;
     }
   }
 
-  .bookLinks{
+  .bookLinks {
     flex-direction: column;
     align-items: center;
   }
@@ -228,10 +252,23 @@ section {
     justify-content: center;
   }
 }
-@media (max-width: 500px) {
-h2 {
-  text-align: center;
+
+@media (max-width: 600px) {
+  .bookContainer {
+    flex-direction: column;
+  }
 }
+
+@media (max-width: 500px) {
+  h2 {
+    text-align: center;
+  }
+
+  .clickCoverInfo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
 
   .bookContainer {
     display: flex;
@@ -253,7 +290,7 @@ h2 {
 
   .overlayRight {
     p {
-        margin-block-end: 0;
+      margin-block-end: 0;
     }
   }
 
@@ -266,6 +303,7 @@ h2 {
 
   #overlay {
     justify-content: space-evenly;
+    box-sizing: border-box;
 
     img {
       height: 150px;

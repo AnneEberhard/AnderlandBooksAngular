@@ -20,15 +20,16 @@
     >
   </div>
   <div *ngFor="let section of germanBooks; let i = index">
-    <h2
-      translate
+    <div
       [id]="section.section"
-      [@slideInFromLeft]="
-        this.pageService.getElementState(section.section)
-      "
+      [@slideInFromLeft]="this.pageService.getElementState(section.section)"
     >
-      {{ section.title }}
-    </h2>
+      <h2 translate>
+        {{ section.title }}
+      </h2>
+      <h4 class="clickCoverInfo" translate>Click on cover for more info</h4>
+    </div>
+
     <div class="bookContainerWrap">
       <div
         class="bookContainer"
@@ -39,9 +40,7 @@
           alt="Book Image"
           (click)="this.pageService.showOverlay(book)"
           [id]="book.id"
-          [@slideInFromLeft]="
-            this.pageService.getElementState(book.id)
-          "
+          [@slideInFromLeft]="this.pageService.getElementState(book.id)"
         />
         <div
           class="bookContainerText dNone500"
@@ -56,13 +55,18 @@
           <div class="bookLinksContainer">
             <span translate>Available as: </span>
             <div class="bookLinks">
-              <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
+              <div
+                *ngFor="
+                  let format of this.pageService.getBookFormats(book);
+                  let last = last
+                "
+              >
                 <ng-container *ngIf="!last">
-                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
-                  <span>  </span>
+                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                  <span class="dNone863"> - </span>
                 </ng-container>
                 <ng-container *ngIf="last">
-                  <a [href]="format.link" target="_blank">{{ format.label }}</a>
+                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
                 </ng-container>
               </div>
             </div>
@@ -102,16 +106,18 @@
       <div class="bookLinks">
         <div
           *ngFor="
-            let format of this.pageService.getBookFormats(this.pageService.selectedBook);
+            let format of this.pageService.getBookFormats(
+              this.pageService.selectedBook
+            );
             let last = last
           "
         >
           <ng-container *ngIf="!last">
-            <a [href]="format.link" target="_blank">{{ format.label }}</a>
-            <span>  </span>
+            <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+            <span class="dNone863"> - </span>
           </ng-container>
           <ng-container *ngIf="last">
-            <a [href]="format.link" target="_blank">{{ format.label }}</a>
+            <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
           </ng-container>
         </div>
       </div>

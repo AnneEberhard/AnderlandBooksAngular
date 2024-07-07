@@ -2,6 +2,7 @@
 	"Authors": "Autoren",
 	"You'll find stories and books of the following authors at Anderland Books:": "Bücher und Geschichten der folgenden Autoren findet Ihr bei Anderland Books:",
 	"Back to Homepage": "Zurück zur Homepage",
+	
 	"Background of The Spirit Chapters": "Hintergrund The Spirit Chapters",
 	"Bree Nan's page": "Bree Nan's page",
 	"This site is dedicated to the world of the Spirit Chapters - all those details that would have made the appendix to long to read. Please be aware that this may include spoilers! If you rather read the books first, go here:": "Diese Seite ist der Welt der Spirit Chapters gewidmet - mit all den Details, die den Anhang zu lang gemacht hätten. Bitte beachtet, dass diese Seite Spoiler enthalten kann! Wer lieber zuerst die Bücher lesen möchte, geht hierhin:",
@@ -161,9 +162,15 @@
 	"physician at the county hospital": "physician at the county hospital",
 	"Back to Authors": "Zurück zu Autoren",
 	"Back to English Stories": "Zurück zu den englischen Geschichten",
-	"Children's Books": "Kinderbücher",
 
+	"Children's Books": "Kinderbücher",
+	"Imprint": "Impressum",
+	"English Stories": "Englische Geschichten",
+	"German Stories": "Deutsche Geschichten",
+	"Homepage": "Homepage",
+	"Services": "Services",
 	"Contact": "Kontakt",
+
 	"Contact us!": "Meldet Euch!",
 	"If you have an interesting story to publish...": "Falls Ihr eine interessante Geschichte veröffentlichen möchtet ...",
 	"If you need one of our services...": "Falls Ihr einer unserer Services braucht ...",
@@ -179,12 +186,6 @@
 	"and agree to the progressing of my data as outlined.": "gelesen und erkläre mich damit einverstanden, dass meine Daten wie beschrieben weitergegeben werden.",
 	"privacy policy": "Datenschutzerklärung",
 	"Please accept the privacy policy": "Bitte akzeptieren Sie die Datenschutzerklärung",
-
-	"Imprint": "Impressum",
-	"English Stories": "Englische Geschichten",
-	"German Stories": "Deutsche Geschichten",
-	"Homepage": "Homepage",
-	"Services": "Services",
 
 	"Information according to § 5 TMG": "Angaben gemäß § 5 TMG",
 	"Anne Eberhard": "Anne Eberhard",
@@ -307,7 +308,7 @@
 	"You have a story in English, published or not, and want to expand into other languages? Here's your chance to get an affordable translation corrected by a native German speaker. This services is only open for indie authors and tiny publishers. We do prose and poetry - ask us for prices.": "Du hast eine Geschichte auf Englisch, veröffentlicht oder unveröffentlicht, und möchtest sie in andere Sprachen übersetzen lassen? Hier hast du die Möglichkeit, eine kostengünstige Übersetzung von einem Muttersprachler Korrektur lesen zu lassen. Dieser Service steht nur unabhängigen Autoren und Mini-Verlagen zur Verfügung. Wir machen Prosa und Lyrik - frag uns nach Preisen.",
 	"You want an example of the translations done so far? Check out these:": "Du willst ein Beispiel für die bisher angefertigten Übersetzungen? Sieh dir diese an:",
 	"You've written a wonderful story, but formatting is just not your thing? Yet, you want your manuscript to be perfect, or you even want to self-publish it - e-Book, paperback or hardcover? We can do this for you - page numbering, headers, indents, incorporation of pictures - let us know what you need and we will discuss prices.": "Ihr habt eine wunderbare Geschichte geschrieben, aber Formatierung ist einfach nicht euer Ding? Ihr wollt jedoch, dass das Manuskript perfekt wird oder es sogar selbst veröffentlichen - e-Book, Taschenbuch oder gebundenes Buch? Wir können das  erledigen - Seitennummerierung, Kopfzeilen, Einzüge, Einbindung von Bildern - lasst uns wissen, was ihr braucht, und wir besprechen die Preise.",
-		"At some point, you simply become blind to your work - when you have written a text yourself, you no longer notice the small mistakes. We offer a comprehensive proofreading service for German manuscripts. Prices vary according to requirements. We deliver a track-changes and a clean version in MSWord.": "Irgendwann wird man einfach betriebsblind - wenn man selbst einen Text geschrieben hat, fallen einem die kleinen Fehler nicht mehr auf. Wir bieten ein umfangreiches Korrektorat für deutsche Manuskripte an. Preise variieren je nach Bedarf. Geliefert wird eine track-changes und eine clean Version in MSWord.",
+	"At some point, you simply become blind to your work - when you have written a text yourself, you no longer notice the small mistakes. We offer a comprehensive proofreading service for German manuscripts. Prices vary according to requirements. We deliver a track-changes and a clean version in MSWord.": "Irgendwann wird man einfach betriebsblind - wenn man selbst einen Text geschrieben hat, fallen einem die kleinen Fehler nicht mehr auf. Wir bieten ein umfangreiches Korrektorat für deutsche Manuskripte an. Preise variieren je nach Bedarf. Geliefert wird eine track-changes und eine clean Version in MSWord.",
 	"English" : "Englisch",
 	"German" : "Deutsch",
 	"Is it just a sentence you want to have checked? As long as it's just one, it is for free." : "Ist es nur ein Satz, den du überprüfen lassen möchtest? Solange es nur ein Satz ist, ist es kostenlos.",
@@ -328,6 +329,9 @@
 	"Fairytales" : "Märchen",
 	"Fips and Nina stories" : "Fips und Nina Geschichten",
 	"Available as:" : "Erhältlich als:",
+	"Click on cover for more info" : "Für mehr Info auf Cover klicken",
+	"Paperback" : "Taschenbuch",
+	"Hardcover" : "Gebundenes Buch",
 	
 	"Sigrid E. Thomas writes only in German." : "Sigrid E. Thomas schreibt nur auf Deutsch.",
 	"Even when she was a little girl herself, Sigrid loved making up stories to tell her brother. She always wanted to write children's books, but with starting her own family and working as a primary school teacher, she never found the time." : "Schon als sie selbst noch ein kleines Mädchen war, dachte sich Sigrid sehr gerne Geschichten aus, die sie dann ihrem Bruder erzählte. Sie wollte immer Kinderbücher schreiben, aber mit der Gründung ihrer eigenen Familie und dem Beruf als Grundschullehrerin fand sich nie die Zeit dazu.",
