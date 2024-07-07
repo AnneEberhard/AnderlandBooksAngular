@@ -1,13 +1,12 @@
 import { AfterContentInit, AfterViewInit, Component, OnDestroy, OnInit } from '@angular/core';
-import { trigger, state, style, transition, animate } from '@angular/animations';
 import { PageService } from '../shared/services/page-service/page.service';
-import { slideInFromLeft, slideInFromRight } from '../shared/animations';
+import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
 
 @Component({
   selector: 'app-main-page',
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.scss'],
-  animations: [slideInFromLeft, slideInFromRight]
+  animations: [slideInFromLeft, slideInFromRight, fadeIn]
 })
 
 export class MainPageComponent implements AfterContentInit {

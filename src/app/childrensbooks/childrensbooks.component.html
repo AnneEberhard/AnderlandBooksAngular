@@ -43,7 +43,7 @@
         <div
           class="bookContainerText dNone500"
           [id]="'ContainerText' + book.id"
-          [@slideInFromRight]="
+          [@fadeIn]="
             this.pageService.getElementState('ContainerText' + book.id)
           "
         >

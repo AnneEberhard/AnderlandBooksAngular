@@ -1,6 +1,7 @@
 <div class="slideshowContainer">
     <img *ngIf="showImage"  class="slideshowImage" src="{{images[currentImage]}}">
   </div>
+  <div (click)="navigateHome()" id="enterText" translate>Find your next story!</div>
   <div class="slideshowContainer slideshowOverlay" (click)="navigateHome()">
   <p *ngIf="showImage" class="fadeIn">
     {{headlines[currentHeadline]}}

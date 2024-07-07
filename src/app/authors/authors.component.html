@@ -3,20 +3,20 @@
   <h1
     id="authorElement0"
     translate
-    [@slideInFromLeft]="this.pageService.getElementState('authorElement0')"
+    [@fadeIn]="this.pageService.getElementState('authorElement0')"
   >
     Authors
   </h1>
   <p
     id="authorElement1"
     translate
-    [@slideInFromLeft]="this.pageService.getElementState('authorElement1')"
+    [@fadeIn]="this.pageService.getElementState('authorElement1')"
   >
     You'll find stories and books of the following authors at Anderland Books:
   </p>
   <div
     id="authorElement2"
-    [@slideInFromLeft]="this.pageService.getElementState('authorElement2')"
+    [@fadeIn]="this.pageService.getElementState('authorElement2')"
     class="siteNavTop"
   >
     <a *ngFor="let author of authors" (click)="scrollToSection(author.name)">{{
@@ -27,7 +27,7 @@
   <div *ngFor="let author of authors; let i = index">
     <div
       [id]="'authorName' + i"
-      [@slideInFromLeft]="this.pageService.getElementState('authorName' + i)"
+      [@fadeIn]="this.pageService.getElementState('authorName' + i)"
     >
       <h2 id="{{ author.name }}">{{ author.name }}</h2>
       <p *ngIf="author.language" translate>{{ author.language }}</p>
@@ -55,7 +55,7 @@
     <div
       *ngIf="author.books && author.books.length > 0"
       [id]="'authorBooks' + i"
-      [@slideInFromRight]="this.pageService.getElementState('authorBooks' + i)"
+      [@fadeIn]="this.pageService.getElementState('authorBooks' + i)"
     >
       <h3 translate>Books by {{ author.name }}</h3>
       <table>

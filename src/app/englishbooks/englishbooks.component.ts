@@ -3,13 +3,13 @@ import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
-import { slideInFromLeft, slideInFromRight } from '../shared/animations';
+import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
 
 @Component({
   selector: 'app-englishbooks',
   templateUrl: './englishbooks.component.html',
   styleUrls: ['./englishbooks.component.scss'],
-  animations: [slideInFromLeft, slideInFromRight]
+  animations: [slideInFromLeft, slideInFromRight, fadeIn]
 })
 export class EnglishbooksComponent implements OnInit {
 

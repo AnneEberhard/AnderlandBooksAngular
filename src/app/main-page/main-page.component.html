@@ -1,15 +1,15 @@
 <app-header></app-header>
 <section>
-  <h1 id="mainElement0" translate [@slideInFromLeft]="this.pageService.getElementState('mainElement0') || 'visible'" >What is Anderland Books?</h1>
-  <div id="mainElement1" class="homepageContent" [@slideInFromLeft]="this.pageService.getElementState('mainElement1') || 'visible'">
+  <h1 id="mainElement0" translate [@fadeIn]="this.pageService.getElementState('mainElement0') || 'visible'" >What is Anderland Books?</h1>
+  <div id="mainElement1" class="homepageContent" [@fadeIn]="this.pageService.getElementState('mainElement1') || 'visible'">
     <p translate>
       Anderland Books is a tiny publisher. We love the unusal stories, a little
       quaint, full of imagination and empathy.
     </p>
     <img src="assets/img/logo-typewriter.png" alt="old typewriter" />
   </div>
-  <h2 id="mainElement2" translate [@slideInFromRight]="this.pageService.getElementState('mainElement2') || 'visible'">What does Anderland Books offer?</h2>
-  <div id="mainElement3" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('mainElement3') || 'visible'">
+  <h2 id="mainElement2" translate [@fadeIn]="this.pageService.getElementState('mainElement2') || 'visible'">What does Anderland Books offer?</h2>
+  <div id="mainElement3" class="homepageContent" [@fadeIn]="this.pageService.getElementState('mainElement3') || 'visible'">
     <img src="assets/img/family-book.png" alt="open book" />
     <p translate>
       Anderland Books publishes selected books, offers translation from English
@@ -17,8 +17,8 @@
       manuscripts, as well as proofreading of German manuscripts.
     </p>
   </div>
-  <h2 id="mainElement4" translate [@slideInFromLeft]="this.pageService.getElementState('mainElement4') || 'visible'">Philosophy</h2>
-  <div id="mainElement5" class="homepageContent" [@slideInFromLeft]="this.pageService.getElementState('mainElement5') || 'visible'">
+  <h2 id="mainElement4" translate [@fadeIn]="this.pageService.getElementState('mainElement4') || 'visible'">Philosophy</h2>
+  <div id="mainElement5" class="homepageContent" [@fadeIn]="this.pageService.getElementState('mainElement5') || 'visible'">
     <p translate>
       We don't want to get rich. Yes, we have bills to pay too, but basically we
       are about publishing and sharing special stories. We want to use the
@@ -27,8 +27,8 @@
     </p>
     <img src="assets/img/omas-typewriter.png" alt="old typewriter" />
   </div>
-  <h2 id="mainElement6" translate [@slideInFromRight]="this.pageService.getElementState('mainElement6') || 'visible'">How do I get to Anderland Books?</h2>
-  <div id="mainElement7" class="homepageContent" [@slideInFromRight]="this.pageService.getElementState('mainElement7') || 'visible'">
+  <h2 id="mainElement6" translate [@fadeIn]="this.pageService.getElementState('mainElement6') || 'visible'">How do I get to Anderland Books?</h2>
+  <div id="mainElement7" class="homepageContent" [@fadeIn]="this.pageService.getElementState('mainElement7') || 'visible'">
     <img src="assets/img/laptop.png" alt="laptop and smartphone" />
     <p translate>
       The easiest: Write an <a routerLink="/contact" translate routerLinkActive="active">email</a>. But we are also on

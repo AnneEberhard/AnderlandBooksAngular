@@ -1,13 +1,13 @@
 import { AfterContentInit, Component } from '@angular/core';
 import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
-import { slideInFromLeft, slideInFromRight } from '../shared/animations';
+import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
 
 @Component({
   selector: 'app-services',
   templateUrl: './offered-services.component.html',
   styleUrls: ['./offered-services.component.scss'],
-  animations: [slideInFromLeft, slideInFromRight]
+  animations: [slideInFromLeft, slideInFromRight, fadeIn]
 })
 export class OfferedServicesComponent implements AfterContentInit {
 
