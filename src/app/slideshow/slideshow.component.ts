@@ -43,8 +43,8 @@ excludedCovers = [
 ]
   headlines = [
   'Dream a little Dream', 
-  'Have a little Faith', 
-  'Trust in Yourself',
+  'Lose Yourself in Other Worlds', 
+  'Find Your Next Story',
   ];
   currentImage = 0;
   currentHeadline = 0;
