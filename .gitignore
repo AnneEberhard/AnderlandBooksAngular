@@ -43,3 +43,5 @@ Thumbs.db
 
 src/assets/fonts/
 src/assets/img/
+# Sentry Config File
+.sentryclirc

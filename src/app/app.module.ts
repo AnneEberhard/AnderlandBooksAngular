@@ -1,4 +1,6 @@
-import { NgModule } from '@angular/core';
+import { APP_INITIALIZER, ErrorHandler, NgModule } from '@angular/core';
+import { Router } from "@angular/router";
+import * as Sentry from "@sentry/angular";
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,9 +15,9 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { ContactComponent } from './contact/contact.component';
 import { OfferedServicesComponent } from './offered-services/offered-services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
-import {HttpClientModule, HttpClient} from '@angular/common/http';
-import {TranslateModule, TranslateLoader} from '@ngx-translate/core';
-import {TranslateHttpLoader} from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AuthorsComponent } from './authors/authors.component';
 import { ScrollToTopButtonComponent } from './shared/components/scroll-to-top-button/scroll-to-top-button.component';
 import { BackgroundContainerComponent } from './shared/components/background-container/background-container.component';
@@ -61,7 +63,23 @@ export function HttpLoaderFactory(http: HttpClient) {
   })
 
   ],
-  providers: [],
+  providers: [
+    {
+      provide: ErrorHandler,
+      useValue: Sentry.createErrorHandler({
+        showDialog: true,
+      }),
+    }, {
+      provide: Sentry.TraceService,
+      deps: [Router],
+    },
+    {
+      provide: APP_INITIALIZER,
+      useFactory: () => () => {},
+      deps: [Sentry.TraceService],
+      multi: true,
+    },
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

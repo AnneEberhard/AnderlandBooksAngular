@@ -2,13 +2,14 @@
   "name": "anderlandbooks",
   "version": "0.0.0",
   "scripts": {
-    "ng": "ng",
+    "ng": "ng && npm run sentry:sourcemaps",
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "i18n:init": "ngx-translate-extract --input ./src --output ./src/assets/i18n/en.json  ./src/assets/i18n/de.json --key-as-default-value --replace --format json",
-    "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/en.json ./src/assets/i18n/de.json --clean --format json"
+    "i18n:extract": "ngx-translate-extract --input ./src --output ./src/assets/i18n/en.json ./src/assets/i18n/de.json --clean --format json",
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org anderland-books --project anderlandbooks dist/anderlandbooks && sentry-cli sourcemaps upload --org anderland-books --project anderlandbooks dist/anderlandbooks"
   },
   "private": true,
   "dependencies": {
@@ -22,6 +23,8 @@
     "@angular/router": "^17.3.11",
     "@ngx-translate/core": "^15.0.0",
     "@ngx-translate/http-loader": "^8.0.0",
+    "@sentry/angular": "^8.17.0",
+    "@sentry/cli": "^2.32.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.6.3",
     "zone.js": "^0.14.7"
