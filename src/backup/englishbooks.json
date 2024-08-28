@@ -13,13 +13,17 @@
             "Odyssey to the Promised Land is set during the times of the Second Crusade, young future Emperor Barbarossa and Eleanor of Aquitaine. Please read the content note first."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/ToThePromisedLand"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/4Np6xG"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/ToThePromisedLand_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/ToThePromisedLand_HC"
             }
           },
           "additionalInfo": {
@@ -37,13 +41,17 @@
             "The Masks of Florence is set during the times of the older Medici line, Leonardo da Vinci and Sandro Botticelli."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/MasksOfFlorence"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/MasksOfFlorence_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/MasksOfFlorence_HC"
             }
           },
           "additionalInfo": {
@@ -61,13 +69,17 @@
             "Alster Diamonds is a historical novel taking place in the German city Hamburg at the river Alster in the middle of the Nineteenth Century. Please read the content note first."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/AlsterDiamonds"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/AlsterDiamonds_TB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/AlsterDiamonds_HC"
             }
           },
           "additionalInfo": {
@@ -88,13 +100,17 @@
             ""
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/ADarkHappiness"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/ADarkHappinessPaper "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/ADarkHappiness_HC"
             }
           },
           "additionalInfo": {
@@ -122,13 +138,17 @@
             "And what game are the people at the TABLE truly playing?"
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "https://mybook.to/BaseMeans"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/BaseMeans "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/BaseMeansPaperback "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/BaseMeans_HC"
             }
           },
           "additionalInfo": {
@@ -148,13 +168,17 @@
             "Great Ends is the second part of a complete duology about the story of Jack and Ada, part spy novel, part psychological/medical mystery, part New Adult with a dash of M/F, M/M romance."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/GreatEnds"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/GreatEndsPaperback "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/GreatEnds_HC"
             }
           },
           "additionalInfo": {
@@ -174,13 +198,17 @@
             "And sometimes you find solace where no one wants you to find it."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "https://mybook.to/AFineDayinMarch"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/AFineDayinMarch "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/4NW0j9"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/AFineDayinMarch-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/FineDayinMarch_HC"
             }
           },
           "additionalInfo": {
@@ -206,13 +234,17 @@
             "But why?"
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/ChasingWildDreams"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/mYlGpY"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/ChasingWildDreams_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/ChasingWildDreams_HC"
             }
           },
           "additionalInfo": {
@@ -230,13 +262,17 @@
             "When nature forces them to flee their home and family, Rafe and Yuli find out more about the way mankind is handling the new situation – much more than they actually had wanted to…"
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/YuliintheAftermath "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/3J2yMe"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/YuliintheAftermath-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/Yuli-HC"
             }
           },
           "additionalInfo": {
@@ -262,13 +298,17 @@
             "Demon Ride is the first book of the completed series “The Children of Angels”."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Demon-Ride"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/DemonRide_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/DemonRide_HC"
             }
           },
           "additionalInfo": {
@@ -288,13 +328,17 @@
             "Demon Ride is the second book of the completed series “The Children of Angels”."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Demon-Leap"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/DemonLeap_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/DemonLeap_HC"
             }
           },
           "additionalInfo": {
@@ -314,13 +358,17 @@
             "Demon Ride is the last book of the completed series “The Children of Angels”."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Demon-Dream"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/DemonDream_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/DemonDream_HC"
             }
           },
           "additionalInfo": {
@@ -338,13 +386,17 @@
             "Lucie is New is the first book of the series “Of Elves and Wolves” and the first of the Lucie arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lucie_is_New"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/mByzaO"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lucie_is_new-TB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LucieisNew_HC"
             }
           },
           "additionalInfo": {
@@ -362,13 +414,17 @@
             "Lucie, Force of Nature is the second book of the series “Of Elves and Wolves” and the second of the Lucie arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lucie_force_of_Nature"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": " https://books2read.com/u/brd1NW"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lucie_ForceofNature_TB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LucieForceofNature-HC"
             }
           },
           "additionalInfo": {
@@ -386,13 +442,17 @@
             "Lucie on the Loose is the third book of the series “Of Elves and Wolves” and the third of the Lucie arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lucie_on_the_Loose"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": " https://books2read.com/u/mVl8MA"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lucie_on_the_Loose"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LucieontheLoose-HC"
             }
           },
           "additionalInfo": {
@@ -411,13 +471,17 @@
             "Lucie on Secret Mission is the fourth book of the series “Of Elves and Wolves” and the last of the Lucie arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lucie_on_SecretMission"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/mg87Ax"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lucie_secretMission_TB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LucieonSecretMission-HC"
             }
           },
           "additionalInfo": {
@@ -435,13 +499,17 @@
             "Bina and the Darn Curiosity is the fifth book of the series “Of Elves and Wolves” and the first of the Bina arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Bina_Curiosity"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/3JldPJ"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Bina_Curiosity-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/BinaCuriosity-HC"
             }
           },
           "additionalInfo": {
@@ -459,13 +527,17 @@
             "Bina and the Darn Curse is the sixth book of the series “Of Elves and Wolves” and the second of the Bina arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "mybook.to/Bina_Curse"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/3ny0o8"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/BinaCurse-HC"
             }
           },
           "additionalInfo": {
@@ -483,13 +555,17 @@
             "Bina and the Darn Drama is the seventh book of the series “Of Elves and Wolves” and the third of the Bina arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Bina_Drama"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/mg8Qq7"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Bina_drama-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/BinaDrama-HC"
             }
           },
           "additionalInfo": {
@@ -507,13 +583,17 @@
             "Lena wants to live is the eighth book of the series “Of Elves and Wolves” and the first of the Lena arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lena_wantstolive"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/bPGLrR"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lena_live-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/Lenawantstolive-HC"
             }
           },
           "additionalInfo": {
@@ -532,13 +612,17 @@
             "Lena wants the Justice is the last book of the series “Of Elves and Wolves” and the second of the Lena arc."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/Lena_wantsJustice"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/bPGLrR"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Lena_justice-PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LenawantsJustice-HC"
             }
           },
           "additionalInfo": {
@@ -558,13 +642,17 @@
             "Spirit Chase is the first of The Spirit Chapters trilogy. Books contain mature scenes."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "https://mybook.to/SpiritChase-PB"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritChase-PB "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/SpiritChase-PB "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/SpiritChase_HC"
             }
           },
           "additionalInfo": {
@@ -583,13 +671,17 @@
             "Spirit Chant is the second of The Spirit Chapters trilogy. Books contain mature scenes."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "https://mybook.to/SpiritChant"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritChant "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/SpiritChant-PB "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/SpiritChant-HC"
             }
           },
           "additionalInfo": {
@@ -609,13 +701,17 @@
             "Spirit Circle is the last of The Spirit Chapters trilogy. Books contain mature scenes."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
-              "link": "https://mybook.to/SpiritCircle"
+            "eBook": {
+              "title": "eBook",
+              "link": "https://mybook.to/SpiritCircle "
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/Spirit-circle-PB "
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/SpiritCircle-HC"
             }
           },
           "additionalInfo": {
@@ -638,13 +734,17 @@
             ""
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/LifeStages"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/LifeStages_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/LifeStages_HC"
             }
           },
           "additionalInfo": {
@@ -662,13 +762,17 @@
             "Dance the Wind is a 8,000 short story."
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/DanceTheWind"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/4jpoyD"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/DanceTheWind_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/DanceTheWind_HC"
             }
           },
           "additionalInfo": {
@@ -688,13 +792,17 @@
             "And a world whose balance is about to topple…"
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "https://mybook.to/PurgatoryAtLarge"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": ""
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/PurgatoryAtLargePB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/PurgatoryAtLargeHC"
             }
           },
           "additionalInfo": {
@@ -712,13 +820,17 @@
             "Paragraph 3"
           ],
           "formats": {
-            "amazon": {
-              "title": "Amazon",
+            "eBook": {
+              "title": "eBook",
               "link": "http://mybook.to/TheFairytaleoftheFor"
             },
-            "other": {
-              "title": "Other Retailers",
-              "link": "https://books2read.com/u/3GLXw8"
+            "paperback": {
+              "title": "Paperback",
+              "link": "https://mybook.to/FairytaleTwins_PB"
+            },
+            "hardcover": {
+              "title": "Hardcover",
+              "link": "https://mybook.to/Twins_HC"
             }
           },
           "additionalInfo": {

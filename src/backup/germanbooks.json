@@ -17,9 +17,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/DerGeistInBrand"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Der_Geist_in_Brand/W-432-683-565"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/Geist-Brand-Krautjunker-zwischen-Revolution/dp/3969771099/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1671020802&sr=8-1"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/Geist-Brand-Krautjunker-zwischen-Revolution/dp/3969771102/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1671020802&sr=8-1"
                         }
                     },
                     "additionalInfo": {
@@ -40,9 +44,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Alsterdiamanten"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Alsterdiamanten/W-753-410-384"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/3969771129/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969771226?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -63,9 +71,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/IrrfahrtInsGelobteLand"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Irrfahrt_ins_Gelobte_Land/W-120-108-034"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/Irrfahrt-ins-Gelobte-Land-Geschichte/dp/3969770076/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1603695817&sr=1-1"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969770998?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -86,9 +98,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/DieMaskenvonFlorenz"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Die_Masken_von_Florenz/W-332-407-855"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/3969770092/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1603695555&sr=1-1"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969770947?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -116,9 +132,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/VonElfenUndWoelfen"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Von_Elfen_und_Wölfen/W-762-701-095"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/c6QZTSH"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/02iM6d7"
                         }
                     },
                     "additionalInfo": {
@@ -140,9 +160,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/HexenMittendrinImMix"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Hexen_Mittendrin_im_Mix/W-629-496-577"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/0uT0RMM"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/aRLvy6Z"
                         }
                     },
                     "additionalInfo": {
@@ -165,9 +189,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/ImNamenDerMenschen"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Im_Namen_der_Menschen/W-295-972-950"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/8aAPGQ2"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/4rhpKC2"
                         }
                     },
                     "additionalInfo": {
@@ -191,9 +219,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Daemonenritt"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Dämonenritt/W-449-202-132"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/3sEodmI"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/5oFwTdi"
                         }
                     },
                     "additionalInfo": {
@@ -217,9 +249,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Daemonensprung"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Dämonensprung/W-776-930-632"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/7b7yTck"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/eC7NtO1"
                         }
                     },
                     "additionalInfo": {
@@ -243,9 +279,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Daemonentraum"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Dämonentraum/W-352-795-207"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/aNPCZ62"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/3SwNOwD"
                         }
                     },
                     "additionalInfo": {
@@ -273,9 +313,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Elfenweg"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Elfenweg/W-167-581-096"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/izEWolF"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/8SDdtB7"
                         }
                     },
                     "additionalInfo": {
@@ -297,9 +341,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Sumpfzauber"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Sumpfzauber/W-752-942-696"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/3969770033?ref_=pe_3052080_397514860"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969771145?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -321,9 +369,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Weltenringen"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Weltenringen/W-161-861-784"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/396977005X?ref_=pe_3052080_397514860"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969771153?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -355,9 +407,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/UnheiligeMittel"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Unheilige_Mittel/W-817-984-514"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/3969770963/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969771005?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -381,9 +437,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/HehreZwecke "
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Hehre_Zwecke/W-643-629-443"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/dp/396977098X/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/dp/3969771013?ref_=pe_3052080_397514860"
                         }
                     },
                     "additionalInfo": {
@@ -412,9 +472,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/Ertolia  "
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Ein_Stern_für_Ertolia/W-167-073-479"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/Ein-Stern-Ertolia-Lotte-Liesbeth/dp/3969770777/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1651397391&sr=8-1"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/Ein-Stern-Ertolia-Lotte-Liesbeth/dp/3969771293/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1651397391&sr=8-1"
                         }
                     },
                     "additionalInfo": {
@@ -435,9 +499,13 @@
                             "title": "eBook",
                             "link": "https://mybook.to/LilysStil"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Lilys_Stil/W-528-796-655"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/Lilys-Stil-Eine-Erz%C3%A4hlung-Erotik/dp/3969770270/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr="
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/Lilys-Stil-Eine-Erz%C3%A4hlung-Erotik/dp/3969771242/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=&sr="
                         }
                     },
                     "additionalInfo": {
@@ -464,9 +532,13 @@
                             "title": "eBook",
                             "link": "https://amzn.eu/d/iJQMv80"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/Tanz_mit_dem_Wind/W-356-690-813"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://amzn.eu/d/6QGXL9e"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://amzn.eu/d/aJ6TX09"
                         }
                     },
                     "additionalInfo": {
@@ -488,9 +560,13 @@
                             "title": "eBook",
                             "link": "https://www.amazon.de/LebensAbschnitt-Eine-Reise-durch-Zeit-eBook/dp/B08GJZ8TF5/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1598258693&sr=8-13"
                         },
-                        "other": {
-                            "title": "Other Retailers",
-                            "link": "https://shop.tredition.com/booktitle/LebensAbschnitt/W-496-343-997"
+                        "paperback": {
+                            "title": "Paperback",
+                            "link": "https://www.amazon.de/LebensAbschnitt-Eine-Reise-durch-Zeit/dp/3969770416/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=1598258693&sr=8-13"
+                        },
+                        "hardcover": {
+                            "title": "Hardcover",
+                            "link": "https://www.amazon.de/LebensAbschnitt-Eine-Reise-durch-Zeit/dp/3969771277/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1598258693&sr=8-13"
                         }
                     },
                     "additionalInfo": {

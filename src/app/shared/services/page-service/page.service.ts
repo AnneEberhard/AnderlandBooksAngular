@@ -105,7 +105,6 @@ export class PageService {
    * @param {string} elementId - The ID of the element to register.
    */
   registerElement(elementId: string): void {
-    console.log('registered: ', elementId);
     this.elementStates[elementId] = 'visible';
   }
 

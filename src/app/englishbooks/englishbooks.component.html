@@ -1,6 +1,8 @@
 <app-header></app-header>
 <section>
     <h1 translate>English Stories</h1>
+    <span translate>Books are currently being moved from being exlusively on Amazon to other retailers as well. The respective links will be updated as soon as the move is complete.</span> <br>
+    <span translate>All books are available as eBook, paperback, and hardcover.</span>
     <div class="siteNavTop">
       <a
         *ngFor="let section of englishBooks; let i = index"
@@ -45,7 +47,7 @@
               <p>{{ paragraph }}</p>
             </div>
             <div class="bookLinksContainer">
-              <span translate>Available as: </span>
+              <span translate>Available at: </span>
               <div class="bookLinks">
                 <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                   <ng-container *ngIf="!last">
@@ -75,7 +77,7 @@
       </div>
       <div class="overlayBottom">
         <div class="bookLinksContainer">
-          <span translate>Available as: </span>
+          <span translate>Available at: </span>
           <div class="bookLinks">
             <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
               <ng-container *ngIf="!last">
