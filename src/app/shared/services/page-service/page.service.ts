@@ -205,4 +205,10 @@ export class PageService {
     this.scrollContainer.addEventListener('scroll', this.onWindowScroll.bind(this));
     this.scrollToSection(bookId);
   }
+
+  hasNextLink(index: number, book: any): boolean {
+    const formatsArray = Object.values(this.getBookFormats(book));
+    return formatsArray.slice(index + 1).some(format => format.link);
+  }
+  
 }

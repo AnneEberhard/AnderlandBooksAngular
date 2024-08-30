@@ -58,18 +58,10 @@
           <div class="bookLinksContainer">
             <span translate>Available at: </span>
             <div class="bookLinks">
-              <div
-                *ngFor="
-                  let format of this.pageService.getBookFormats(book);
-                  let last = last
-                "
-              >
-                <ng-container *ngIf="!last">
+              <div *ngFor="let format of this.pageService.getBookFormats(book); let i = index">
+                <ng-container *ngIf="format.link">
                   <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
-                  <span class="dNone863"> - </span>
-                </ng-container>
-                <ng-container *ngIf="last">
-                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                  <span class="dNone863" *ngIf="i < this.pageService.getBookFormats(book).length - 1 && this.pageService.getBookFormats(book)[i + 1].link"> - </span>
                 </ng-container>
               </div>
             </div>
