@@ -5,6 +5,30 @@
             "title": "Historical Novels",
             "books": [
                 {
+                    "id": "derDienerDesGrafen",
+                    "image": "assets/img/covers/derDienerdesGrafen.jpg",
+                    "paragraphs": [
+                        "Gabriel Zurmühlen kennt seine Herkunft nicht – als Neugeborener fand man ihn einst im barocken Berlin, eingewickelt in ein Seidentuch mit einem mysteriösen Wappen. Von diesem Rätsel angetrieben ist er in den Diensten des skrupellosen Grafen von Winsterburg gelandet.",
+                        "Im Auftrag seines Herrn taucht Gabriel in das glanzvolle, aber gefährliche Paris Ludwigs XIV. ein, verführt Männer und Frauen, gewinnt Freunde und Feinde, stiehlt, mordet und setzt dabei mehrfach sein Leben aufs Spiel.",
+                        "Aber erst, als das Schicksal den Haushalt des Grafen zurück an die Spree führt, beginnt er, die Hintergründe seines Lebens besser zu verstehen – und damit sich selbst."
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon",
+                            "link": "https://mybook.to/DerDienerDesGrafen "
+                        },
+                        "other": {
+                            "title": "Other Retailers",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                {
                     "id": "derGeistInBrand",
                     "image": "assets/img/covers/derGeistInBrand.jpg",
                     "paragraphs": [
@@ -14,7 +38,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/DerGeistInBrand"
                         },
                         "other": {
@@ -23,9 +47,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -37,7 +61,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Alsterdiamanten"
                         },
                         "other": {
@@ -46,9 +70,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -60,7 +84,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/IrrfahrtInsGelobteLand"
                         },
                         "other": {
@@ -69,9 +93,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -83,7 +107,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/DieMaskenvonFlorenz"
                         },
                         "other": {
@@ -92,9 +116,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
@@ -113,7 +137,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/VonElfenUndWoelfen"
                         },
                         "other": {
@@ -122,9 +146,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -137,7 +161,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/HexenMittendrinImMix"
                         },
                         "other": {
@@ -146,9 +170,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -162,7 +186,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/ImNamenDerMenschen"
                         },
                         "other": {
@@ -171,9 +195,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -188,7 +212,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Daemonenritt"
                         },
                         "other": {
@@ -197,9 +221,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -214,7 +238,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Daemonensprung"
                         },
                         "other": {
@@ -223,9 +247,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -240,7 +264,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Daemonentraum"
                         },
                         "other": {
@@ -249,9 +273,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
@@ -270,7 +294,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Elfenweg"
                         },
                         "other": {
@@ -279,9 +303,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -294,7 +318,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Sumpfzauber"
                         },
                         "other": {
@@ -303,9 +327,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -318,7 +342,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Weltenringen"
                         },
                         "other": {
@@ -327,9 +351,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
@@ -352,7 +376,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/UnheiligeMittel"
                         },
                         "other": {
@@ -361,9 +385,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -378,7 +402,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/HehreZwecke "
                         },
                         "other": {
@@ -387,9 +411,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
@@ -409,7 +433,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/Ertolia  "
                         },
                         "other": {
@@ -418,9 +442,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -432,7 +456,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://mybook.to/LilysStil"
                         },
                         "other": {
@@ -441,9 +465,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
@@ -461,7 +485,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://amzn.eu/d/iJQMv80"
                         },
                         "other": {
@@ -470,9 +494,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 },
                 {
@@ -485,7 +509,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "eBook",
+                            "title": "Amazon",
                             "link": "https://www.amazon.de/LebensAbschnitt-Eine-Reise-durch-Zeit-eBook/dp/B08GJZ8TF5/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1598258693&sr=8-13"
                         },
                         "other": {
@@ -494,9 +518,9 @@
                         }
                     },
                     "additionalInfo": {
-                      "label": "",
-                      "text": "",
-                      "link": ""
+                        "label": "",
+                        "text": "",
+                        "link": ""
                     }
                 }
             ]
