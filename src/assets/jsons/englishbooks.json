@@ -5,6 +5,31 @@
       "title": "Historical Novels",
       "books": [
         {
+          "id": "theCountsServant",
+          "image": "assets/img/covers/theCountsServant.jpg",
+          "paragraphs": [
+            "Gabriel Zurmühlen does not know his origins - as a newborn, he was found in baroque Berlin, wrapped in a silk scarf embroidered with a mysterious coat of arms. Driven by this mystery, he has ended up in the service of the unscrupulous Count of Winsterburg.",
+            "On behalf of his master, Gabriel immerses himself in the glamorous but dangerous Paris of Louis XIV, seduces men and women, wins friends and enemies, steals, murders and risks his life several times in the process.",
+            "But it is only when fate leads the Count's household back to the Spree that he begins to better understand the background to his life - and thus himself.",
+            "Available on March 1st!"
+          ],
+          "formats": {
+            "amazon": {
+              "title": "Amazon",
+              "link": "https://mybook.to/CountsServant"
+            },
+            "other": {
+              "title": "Other Retailers",
+              "link": ""
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        {
           "id": "theMindOnFire",
           "image": "assets/img/covers/TheMindOnFire.jpg",
           "paragraphs": [
