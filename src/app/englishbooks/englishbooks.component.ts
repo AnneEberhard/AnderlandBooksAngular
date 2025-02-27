@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-englishbooks',
@@ -15,7 +16,7 @@ export class EnglishbooksComponent implements OnInit {
 
   englishBooks: any;
 
-  constructor(public pageService: PageService, public translate: TranslateService, private http: HttpClient) { }
+  constructor(public pageService: PageService, public translate: TranslateService, private http: HttpClient, private route: ActivatedRoute) { }
 
  /**
  * Lifecycle hook that is called after Angular has fully initialized
@@ -25,6 +26,16 @@ export class EnglishbooksComponent implements OnInit {
   ngOnInit(): void {
     this.loadData();
     this.registerStaticElements();
+    this.route.fragment.subscribe(fragment => {
+      if (fragment) {
+        setTimeout(() => {
+          const element = document.getElementById(fragment);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }
+        }, 500); // Falls nötig, Zeit erhöhen
+      }
+    });
   }
 
  /**

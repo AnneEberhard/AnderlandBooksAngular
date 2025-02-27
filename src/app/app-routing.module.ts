@@ -12,6 +12,8 @@ import { OfferedServicesComponent } from './offered-services/offered-services.co
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
 import { AuthorsComponent } from './authors/authors.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { RedirectComponent } from './redirect/redirect.component';
+import { shortlinkResolver } from './shared/services/shortlink-resolver.service';
 
 const routes: Routes = [
   { path: 'home', component: MainPageComponent },
@@ -26,10 +28,12 @@ const routes: Routes = [
   { path: 'privacy-policy', component: PrivacyPolicyComponent },
   { path: 'authors', component: AuthorsComponent },
   { path: 'bree-nan', component: BreeNanComponent },
+  { path: ':shortId', resolve: { redirect: shortlinkResolver }, component: RedirectComponent },
+  { path: '**', redirectTo: '/home' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { anchorScrolling: 'enabled', scrollPositionRestoration: 'enabled' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
