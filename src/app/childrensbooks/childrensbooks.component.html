@@ -6,6 +6,8 @@
   <h3 translate
   id="childrensBooksElement1"
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement1')">Currently German books only</h3>
+    <span translate>All books are available as eBook, paperback, and hardcover.</span> <br>
+    <span translate>Print versions are also available in bookstores.</span> <br>
   <div class="siteNavTop"
   id="childrensBooksElement2"
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement2')">
@@ -51,7 +53,7 @@
             <p>{{ paragraph }}</p>
           </div>
           <div class="bookLinksContainer">
-            <span translate>Available as: </span>
+            <span translate>Available at: </span>
             <div class="bookLinks">
               <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                 <ng-container *ngIf="!last">
