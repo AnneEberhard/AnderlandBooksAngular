@@ -1,3 +1,9 @@
+# To add new books
+Update respective book JSON
+Update shortlinks.json
+CAVE: generates-shortlinks.js will only generate shortlinks using bookids
+
+
 # Anderlandbooks
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.

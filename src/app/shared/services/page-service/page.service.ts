@@ -210,27 +210,38 @@ export class PageService {
     this.scrollToSection(bookId);
   }
 
-  hasNextLink(index: number, book: any): boolean {
-    const formatsArray = Object.values(this.getBookFormats(book));
-    return formatsArray.slice(index + 1).some(format => format.link);
-  }
-
-  /**
- * Searches for persons based on the search term and updates the search results.
+/**
+ * Checks if there is another format available for a given book after the specified index.
+ * @param index - The current index in the formats array.
+ * @param book - The book object containing format information.
+ * @returns {boolean} - Returns true if there is another format with a link, otherwise false.
  */
-  searchBook() {
-    if (!this.searchTerm.trim()) return;
+hasNextLink(index: number, book: any): boolean {
+  const formatsArray = Object.values(this.getBookFormats(book));
+  return formatsArray.slice(index + 1).some(format => format.link);
+}
 
-    const formattedSearch = this.searchTerm.replace(/\s+/g, '').toLowerCase();
-    const url = this.shortlinks[formattedSearch];
+/**
+* Searches for a book using the entered search term and checks against shortlinks.json.
+* If a matching shortlink is found, it navigates to the corresponding page and anchor.
+* Otherwise, an alert is displayed.
+*/
+searchBook() {
+  if (!this.searchTerm.trim()) return;
 
-    if (url) {
-      window.location.href = url; // Zur passenden Buchseite springen
-    } else {
-      alert('Book not found!'); // Falls kein Treffer
-    }
-    this.searchTerm = '';
+  // Format the search term by removing spaces and converting to lowercase
+  const formattedSearch = this.searchTerm.replace(/\s+/g, '').toLowerCase();
+  const url = this.shortlinks[formattedSearch];
+
+  if (url) {
+      // Redirect the user to the found URL
+      window.location.href = url;
+  } else {
+      alert('Book not found!');
   }
 
+  // Clear the search input after execution
+  this.searchTerm = '';
+}
 
 }
