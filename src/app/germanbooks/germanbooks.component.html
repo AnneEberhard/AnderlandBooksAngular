@@ -7,9 +7,31 @@
   >
     German Stories
   </h1>
-  <span translate>With a few exceptions  all books have been moved from exlusively Amazon (and KindleUnlimited) to other retailers as well. You will find the respective links at 'other retailers'.</span> <br>
-    <span translate>All books are available as eBook, paperback, and hardcover.</span> <br>
-    <span translate>With a few exceptions, print versions are also available in bookstores.</span> <br>
+  <span translate
+    >With a few exceptions, all books have been moved from exclusively Amazon
+    (and Kindle Unlimited) to other retailers as well. You will find the
+    respective links at 'other retailers'.</span
+  >
+  <br />
+  <span translate
+    >All books are available as eBook, paperback, and hardcover.</span
+  >
+  <br />
+  <span translate
+    >With a few exceptions, print versions are also available in
+    bookstores.</span
+  >
+  <br />
+
+  <div class="searchContainer">
+    <input
+      [(ngModel)]="pageService.searchTerm"
+      (keyup.enter)="pageService.searchBook()"
+      placeholder="Titel"
+    />
+    <button (click)="pageService.searchBook()">Go</button>
+  </div>
+
   <div
     class="siteNavTop"
     id="germanBooksElement1"
@@ -58,10 +80,25 @@
           <div class="bookLinksContainer">
             <span translate>Available at: </span>
             <div class="bookLinks">
-              <div *ngFor="let format of this.pageService.getBookFormats(book); let i = index">
+              <div
+                *ngFor="
+                  let format of this.pageService.getBookFormats(book);
+                  let i = index
+                "
+              >
                 <ng-container *ngIf="format.link">
-                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
-                  <span class="dNone863" *ngIf="i < this.pageService.getBookFormats(book).length - 1 && this.pageService.getBookFormats(book)[i + 1].link"> - </span>
+                  <a [href]="format.link" target="_blank" translate>{{
+                    format.label
+                  }}</a>
+                  <span
+                    class="dNone863"
+                    *ngIf="
+                      i < this.pageService.getBookFormats(book).length - 1 &&
+                      this.pageService.getBookFormats(book)[i + 1].link
+                    "
+                  >
+                    -
+                  </span>
                 </ng-container>
               </div>
             </div>
@@ -108,11 +145,15 @@
           "
         >
           <ng-container *ngIf="!last">
-            <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+            <a [href]="format.link" target="_blank" translate>{{
+              format.label
+            }}</a>
             <span class="dNone863"> - </span>
           </ng-container>
           <ng-container *ngIf="last">
-            <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+            <a [href]="format.link" target="_blank" translate>{{
+              format.label
+            }}</a>
           </ng-container>
         </div>
       </div>

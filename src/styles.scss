@@ -85,6 +85,32 @@ section {
 
 /*for booksites*/
 
+.searchContainer {
+  margin: 20px 0 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  input {
+    border: solid 1px rgb(19, 79, 92);
+    border-radius: 10px;
+    padding: 15px 25px 15px 25px;
+  }
+  button {
+    border-radius: 10px;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    justify-content: center;
+    background-color: #134F5C;
+    &:hover {
+      cursor: pointer;
+      font-weight: bold;
+    }
+  }
+}
+
 .bookContainer {
   display: flex;
   gap: 40px;

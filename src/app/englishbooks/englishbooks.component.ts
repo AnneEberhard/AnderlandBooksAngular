@@ -51,6 +51,7 @@ export class EnglishbooksComponent implements OnInit {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/englishbooks.json'));
       this.englishBooks = data.englishBooks;
       this.registerDynamicElements();
+      console.log(this.englishBooks);
     } catch (error) {
       console.error('Fehler beim Laden der Daten:', error);
     }
@@ -84,5 +85,6 @@ export class EnglishbooksComponent implements OnInit {
       });
     });
   }
+
 
 }

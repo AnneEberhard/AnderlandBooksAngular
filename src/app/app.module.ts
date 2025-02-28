@@ -23,6 +23,8 @@ import { ScrollToTopButtonComponent } from './shared/components/scroll-to-top-bu
 import { BackgroundContainerComponent } from './shared/components/background-container/background-container.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -50,6 +52,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   ],
   imports: [
     BrowserModule,
+    CommonModule, 
+    FormsModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,

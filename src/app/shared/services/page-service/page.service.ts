@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import shortlinksData from 'src/assets/jsons/shortlinks.json';
 
 @Injectable({
   providedIn: 'root'
@@ -8,6 +9,9 @@ export class PageService {
   elementStates: { [key: string]: string } = {};
   scrollContainer!: HTMLElement;
   selectedBook: any;
+  searchTerm: string = '';
+  shortlinks: { [key: string]: string } = shortlinksData;
+
 
   /**
    * Initializes the PageService.
@@ -120,16 +124,16 @@ export class PageService {
     return this.elementStates[elementId];
   }
 
-/**
- * Retrieves the available formats for a given book.
- * 
- * This method extracts the format information from a book object,
- * maps each format to an object containing the format's title and link,
- * and returns an array of these objects.
- * 
- * @param {any} book - The book object containing format information.
- * @returns {any[]} An array of objects, each representing a format with a title and link.
- */
+  /**
+   * Retrieves the available formats for a given book.
+   * 
+   * This method extracts the format information from a book object,
+   * maps each format to an object containing the format's title and link,
+   * and returns an array of these objects.
+   * 
+   * @param {any} book - The book object containing format information.
+   * @returns {any[]} An array of objects, each representing a format with a title and link.
+   */
   getBookFormats(book: any): any[] {
     const formats = book.formats || {};
     return Object.keys(formats).map(format => {
@@ -210,5 +214,23 @@ export class PageService {
     const formatsArray = Object.values(this.getBookFormats(book));
     return formatsArray.slice(index + 1).some(format => format.link);
   }
-  
+
+  /**
+ * Searches for persons based on the search term and updates the search results.
+ */
+  searchBook() {
+    if (!this.searchTerm.trim()) return;
+
+    const formattedSearch = this.searchTerm.replace(/\s+/g, '').toLowerCase();
+    const url = this.shortlinks[formattedSearch];
+
+    if (url) {
+      window.location.href = url; // Zur passenden Buchseite springen
+    } else {
+      alert('Book not found!'); // Falls kein Treffer
+    }
+    this.searchTerm = '';
+  }
+
+
 }

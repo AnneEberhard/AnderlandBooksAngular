@@ -8,6 +8,15 @@
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement1')">Currently German books only</h3>
     <span translate>All books are available as eBook, paperback, and hardcover.</span> <br>
     <span translate>Print versions are also available in bookstores.</span> <br>
+
+    <div class="searchContainer">
+      <input
+        [(ngModel)]="pageService.searchTerm"
+        (keyup.enter)="pageService.searchBook()"
+        placeholder="Titel"
+      />
+      <button (click)="pageService.searchBook()">Go</button>
+    </div>
   <div class="siteNavTop"
   id="childrensBooksElement2"
     [@slideInFromLeft]="this.pageService.getElementState('childrensBooksElement2')">
