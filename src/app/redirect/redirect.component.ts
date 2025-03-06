@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { ShortlinkService } from '../shared/services/shortlink.service';
+import { ShortlinkService } from '../shared/services/shortlink-service/shortlink.service';
 
 @Component({
   selector: 'app-redirect',
