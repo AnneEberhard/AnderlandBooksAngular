@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, tap } from 'rxjs';
 
 @Injectable({
   providedIn: 'root' // The service is provided globally in the application
@@ -17,6 +17,8 @@ export class ShortlinkService {
    * @returns Observable containing a mapping of shortlink IDs to target URLs.
    */
   getShortlinks(): Observable<Record<string, string>> {
-    return this.http.get<Record<string, string>>(this.shortlinksUrl);
+    return this.http.get<Record<string, string>>(this.shortlinksUrl).pipe(
+      tap((shortlinks: any) => console.log('📄 Geladene Shortlinks:', shortlinks)) // <-- Debugging
+    );
   }
 }

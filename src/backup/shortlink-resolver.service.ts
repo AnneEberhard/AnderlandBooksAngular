@@ -1,6 +1,6 @@
 import { inject } from '@angular/core';
 import { ResolveFn, ActivatedRouteSnapshot } from '@angular/router';
-import { map } from 'rxjs/operators';
+import { distinctUntilChanged, map } from 'rxjs/operators';
 import { ShortlinkService } from './shortlink.service';
 
 /**
@@ -9,17 +9,24 @@ import { ShortlinkService } from './shortlink.service';
  */
 export const shortlinkResolver: ResolveFn<string | null> = (route: ActivatedRouteSnapshot) => {
   // Extract the shortlink ID from the route parameters
-  const shortId = route.paramMap.get('shortId');
+  const shortId = route.paramMap.get('shortId')?.toLowerCase();
   const shortlinkService = inject(ShortlinkService);
 
   console.log('Shortlink Resolver triggered for:', shortId); // Debugging
 
   return shortlinkService.getShortlinks().pipe(
+    distinctUntilChanged(),
     map(shortlinks => {
-      // Find the corresponding target URL for the given shortlink ID
-      const target = shortId ? shortlinks[shortId] : null;
+      const normalizedShortlinks = Object.keys(shortlinks).reduce((acc, key) => {
+        acc[key.toLowerCase()] = shortlinks[key]; // Alle Keys in Kleinbuchstaben speichern
+        return acc;
+      }, {} as Record<string, string>);
+
+      console.log('Normalized Shortlinks:', normalizedShortlinks); // Debugging
+      const target = shortId ? normalizedShortlinks[shortId] : null;
       console.log('Resolved target URL:', target); // Debugging
-      return target; // Return the target URL instead of performing navigation
+
+      return target;
     })
   );
 };
