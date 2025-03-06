@@ -3,6 +3,9 @@ Update respective book JSON
 Update shortlinks.json
 CAVE: generates-shortlinks.js will only generate shortlinks using bookids
 
+Using shortlinks:
+anderlandbooks.com/re/#count
+
 
 # Anderlandbooks
 
