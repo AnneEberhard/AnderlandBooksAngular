@@ -1,4 +1,10 @@
 {
+  "time" : "/english-books/#TimeCurves",
+  "timecurves" : "/english-books/#TimeCurves",
+  "curves" : "/english-books/#TimeCurves",
+  "zeit" : "/german-books/#KurvenDerZeit",
+  "kurven" : "/german-books/#KurvenDerZeit",
+  "kurvenderzeit" : "/german-books/#KurvenDerZeit",
   "thecountsservant": "/english-books/#theCountsServant",
   "countsservant": "/english-books/#theCountsServant",
   "count": "/english-books/#theCountsServant",

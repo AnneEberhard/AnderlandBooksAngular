@@ -10,17 +10,19 @@
                     "paragraphs": [
                         "Gabriel Zurmühlen kennt seine Herkunft nicht – als Neugeborener fand man ihn einst im barocken Berlin, eingewickelt in ein Seidentuch mit einem mysteriösen Wappen. Von diesem Rätsel angetrieben ist er in den Diensten des skrupellosen Grafen von Winsterburg gelandet.",
                         "Im Auftrag seines Herrn taucht Gabriel in das glanzvolle, aber gefährliche Paris Ludwigs XIV. ein, verführt Männer und Frauen, gewinnt Freunde und Feinde, stiehlt, mordet und setzt dabei mehrfach sein Leben aufs Spiel.",
-                        "Aber erst, als das Schicksal den Haushalt des Grafen zurück an die Spree führt, beginnt er, die Hintergründe seines Lebens besser zu verstehen – und damit sich selbst.",
-                        "",
-                        "Vorbestellung möglich - ab 01.02. erhältlich!"
+                        "Aber erst, als das Schicksal den Haushalt des Grafen zurück an die Spree führt, beginnt er, die Hintergründe seines Lebens besser zu verstehen – und damit sich selbst."
                     ],
                     "formats": {
                         "eBook": {
                             "title": "Amazon",
                             "link": "https://mybook.to/DienerDesGrafen "
                         },
-                        "other": {
-                            "title": "Other Retailers",
+                        "other_ebook": {
+                            "title": "Other Retailers: eBook",
+                            "link": "https://books2read.com/u/3GgKr8"
+                        },
+                        "other_print": {
+                            "title": "Other Retailers: Print",
                             "link": "https://shop.tredition.com/booktitle/Der_Diener_des_Grafen/W-702-235-858"
                         }
                     },
@@ -129,6 +131,36 @@
             "section": "urbanFantasy",
             "title": "Urban Fantasy",
             "books": [
+                {
+                    "id": "KurvenDerZeit",
+                    "image": "assets/img/covers/kurvenDerZeit.jpg",
+                    "paragraphs": [
+                        "Als Vera die Leiche eines Jungen am Flussufer entdeckt, rechnet sie kaum damit, dass derselbe Junge kurz darauf quicklebendig neben ihr steht und sie um Hilfe bittet. Gegen jede Vernunft willigt Vera ein, Jules aus seiner misslichen Lage zu befreien. Sie ahnt nicht, dass sie dies in sein seltsames Leben hineinzieht, in dem er immer wieder stirbt, ins Zentrum der Zeit zu seiner verlorenen Schwester reist und zurückkehrt.",
+                        "Offenbar ist Vera Jules in mehr als nur einer Hinsicht ähnlich.",
+                        "Und so begeben sie sich gemeinsam auf eine Reise durch die Kurven der Zeit, entschlossen, ihre verschwundenen Angehörigen zu retten",
+                        "Kurven der Zeit ist eine Geschichte über Zeitreisen für junge Erwachsene.",
+                        ""
+                    ],
+                    "formats": {
+                        "soon": {
+                            "title": "bald erhältlich",
+                            "link": "https://anderlandbooks.com/german-books"
+                        },
+                        "eBook": {
+                            "title": "Amazon",
+                            "link": ""
+                        },
+                        "other": {
+                            "title": "Other Retailers",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
                 {
                     "id": "vonElfenundWoelfen",
                     "image": "assets/img/covers/vonElfenundWoelfen.jpg",
