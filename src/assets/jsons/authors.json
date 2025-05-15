@@ -16,7 +16,7 @@
             "books": [
                 {
                     "title": "Nina und die Reise zu Moro",
-                    "link": "https://anderlandbooks/re/#nina1",
+                    "link": "https://anderlandbooks.com/re/#nina1",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -26,7 +26,7 @@
                 },
                 {
                     "title": "Nina und die Reise zur Schneefee",
-                    "link": "https://anderlandbooks/re/#nina2",
+                    "link": "https://anderlandbooks.com/re/#nina2",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -35,7 +35,7 @@
                       }]
                 },                {
                     "title": "Nina und die Reise in den Himmel",
-                    "link": "https://anderlandbooks/re/#nina3",
+                    "link": "https://anderlandbooks.com/re/#nina3",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -45,7 +45,7 @@
                 },
                 {
                     "title": "Wie Fips ein Ritter wurde",
-                    "link": "https://anderlandbooks/re/#fips1",
+                    "link": "https://anderlandbooks.com/re/#fips1",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -54,7 +54,7 @@
                       }]
                 },                {
                     "title": "Wie Fips ein Pirat wurde",
-                    "link": "https://anderlandbooks/re/#fips2",
+                    "link": "https://anderlandbooks.com/re/#fips2",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -64,7 +64,7 @@
                 },
                 {
                     "title": "Wie Fips ein Polizist wurde",
-                    "link": "https://anderlandbooks/re/#fips3",
+                    "link": "https://anderlandbooks.com/re/#fips3",
                     "description": "Illustrated children's book",
                     "translations": [
                       {
@@ -88,7 +88,7 @@
             "books": [
                 {
                     "title": "Das Meerschaumkleid - Märchen von Wald und Meer",
-                    "link": "https://anderlandbooks/re/#meerschaum",
+                    "link": "https://anderlandbooks.com/re/#meerschaum",
                     "description": "Assortment of Fairytales",
                     "translations": [
                       {
@@ -112,7 +112,7 @@
             "books": [
                 {
                     "title": "A Dark Happiness - The Assassination of Archduke Franz Ferdinand",
-                    "link": "https://anderlandbooks/re/#aDarkHappiness ",
+                    "link": "https://anderlandbooks.com/re/#adarkhappiness ",
                     "description": "Historical novel set at the Belle Epoque",
                     "translations": [
                       {
@@ -136,67 +136,67 @@
             "books": [
                 {
                     "title": "Irrfahrt ins Gelobte Land",
-                    "link": "https://anderlandbooks/re/#IrrfahrtInsGelobteLand",
+                    "link": "https://anderlandbooks.com/re/#IrrfahrtInsGelobteLand",
                     "description": "Historical novel at the time of the Crusades",
                     "translations": [
                       {
                         "title": "Odyssey to the Promised Land",
-                        "link": "https://anderlandbooks/re/#odyssey"
+                        "link": "https://anderlandbooks.com/re/#odyssey"
                       }]
                 },
                 {
                     "title": "Die Masken von Florenz",
-                    "link": "https://anderlandbooks/re/#masken",
+                    "link": "https://anderlandbooks.com/re/#masken",
                     "description": "Historical novel set during the Renaissance",
                     "translations": [
                       {
                         "title": "The Masks of Florence",
-                        "link": "https://anderlandbooks/re/#masks"
+                        "link": "https://anderlandbooks.com/re/#masks"
                       }]
                 },
                 {
                     "title": "Alsterdiamanten",
-                    "link": "https://anderlandbooks/re/#alsterdiamanten",
+                    "link": "https://anderlandbooks.com/re/#alsterdiamanten",
                     "description": "Historical novel set in Biedermeier Hamburg",
                     "translations": [
                       {
                         "title": "Alster Diamonds",
-                        "link": "https://anderlandbooks/re/#alsterdiamonds"
+                        "link": "https://anderlandbooks.com/re/#alsterdiamonds"
                       }]
                 },
                 {
                     "title": "Der Geist in Brand",
-                    "link": "https://anderlandbooks/re/#geist",
+                    "link": "https://anderlandbooks.com/re/#geist",
                     "description": "A Krautjunker between Rococo and Revolution",
                     "translations": [
                       {
                         "title": "The Mind on Fire",
-                        "link": "https://anderlandbooks/re/#mind"
+                        "link": "https://anderlandbooks.com/re/#mind"
                       }]
                 },
                 {
                   "title": "Der Diener des Grafen",
-                  "link": "https://anderlandbooks/re/#diener",
+                  "link": "https://anderlandbooks.com/re/#diener",
                   "description": "Historical novel in Baroque Paris and Berlin",
                   "translations": [
                     {
                       "title": "The Count's Servant",
-                      "link": "https://anderlandbooks/re/#count"
+                      "link": "https://anderlandbooks.com/re/#count"
                     }]
               },
               {
                 "title": "Die Kurven der Zeit",
-                "link": "https://anderlandbooks/re/#zeit",
+                "link": "https://anderlandbooks.com/re/#zeit",
                 "description": "Time Travel Novel",
                 "translations": [
                   {
                     "title": "Time Curves",
-                    "link": "https://anderlandbooks/re/#time"
+                    "link": "https://anderlandbooks.com/re/#time"
                   }]
             },
                 {
                     "title": "Elfenweg",
-                    "link": "hhttps://anderlandbooks/re/#elfenweg",
+                    "link": "hhttps://anderlandbooks.com/re/#elfenweg",
                     "description": "The Bards of Thurán 1, Classic Fantasy",
                     "translations": [
                       {
@@ -206,7 +206,7 @@
                 },
                 {
                     "title": "Sumpfzauber",
-                    "link": "https://anderlandbooks/re/#sumpfzauber",
+                    "link": "https://anderlandbooks.com/re/#sumpfzauber",
                     "description": "The Bards of Thurán 2, Classic Fantasy",
                     "translations": [
                       {
@@ -216,7 +216,7 @@
                 },
                 {
                     "title": "Weltenringen",
-                    "link": "https://anderlandbooks/re/#weltenringen",
+                    "link": "https://anderlandbooks.com/re/#weltenringen",
                     "description": "The Bards of Thurán 3, Classic Fantasy",
                     "translations": [
                       {
@@ -226,82 +226,82 @@
                 },
                 {
                     "title": "Dämonenritt",
-                    "link": "https://anderlandbooks/re/#daemonen1",
+                    "link": "https://anderlandbooks.com/re/#daemonen1",
                     "description": "Children of Angels 1, Urban Fantasy",
                     "translations": [
                       {
                         "title": "The Children of Angels - Demon Ride",
-                        "link": "https://anderlandbooks/re/#demon1"
+                        "link": "https://anderlandbooks.com/re/#demon1"
                       }]
                 },
                 {
                     "title": "Dämonensprung",
-                    "link": "https://anderlandbooks/re/#daemonen2",
+                    "link": "https://anderlandbooks.com/re/#daemonen2",
                     "description": "Children of Angels 2, Urban Fantasy",
                     "translations": [
                       {
                         "title": "The Children of Angels - Demon Leap",
-                        "link": "https://anderlandbooks/re/#demon2"
+                        "link": "https://anderlandbooks.com/re/#demon2"
                       }]
                 },
                 {
                     "title": "Dämonentraum",
-                    "link": "https://anderlandbooks/re/#daemonen3",
+                    "link": "https://anderlandbooks.com/re/#daemonen3",
                     "description": "Children of Angels 3, Urban Fantasy",
                     "translations": [
                       {
                         "title": "The Children of Angels - Demon Dream",
-                        "link": "https://anderlandbooks/re/#demon3"
+                        "link": "https://anderlandbooks.com/re/#demon3"
                       }]
                 },
                 {
                     "title": "Von Elfen und Wölfen",
-                    "link": "https://anderlandbooks/re/#elfen",
+                    "link": "https://anderlandbooks.com/re/#elfen",
                     "description": "Of Elves and Wolves (German) 1, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Lucie's arc",
-                        "link": "https://anderlandbooks/re/#lucie1"
+                        "link": "https://anderlandbooks.com/re/#lucie1"
                       }]
                 },
                 {
                     "title": "Hexen mittendrin im Mix",
-                    "link": "https://anderlandbooks/re/#hexen",
+                    "link": "https://anderlandbooks.com/re/#hexen",
                     "description": "Of Elves and Wolves (German) 2, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Bina's arc",
-                        "link": "https://anderlandbooks/re/#bina1"
+                        "link": "https://anderlandbooks.com/re/#bina1"
                       }]
                 },
                 {
                     "title": "In Namen der Menschen",
-                    "link": "https://anderlandbooks/re/#menschen",
+                    "link": "https://anderlandbooks.com/re/#menschen",
                     "description": "Of Elves and Wolves (German) 3, Urban Fantasy",
                     "translations": [
                       {
                         "title": "Of Elves and Wolves - Lena's arc",
-                        "link": "https://anderlandbooks/re/#lena1"
+                        "link": "https://anderlandbooks.com/re/#lena1"
                       }]
                 },
                 {
                     "title": "Tanz mit dem Wind",
-                    "link": "https://anderlandbooks/re/#tanz",
+                    "link": "https://anderlandbooks.com/re/#tanz",
                     "description": "A short story",
                     "translations": [
                       {
                         "title": "Dance the Wind",
-                        "link": "https://anderlandbooks/re/#dance"
+                        "link": "https://anderlandbooks.com/re/#dance"
                       }]
                 },
                 {
                     "title": "LebensAbschnitt",
-                    "link": "https://anderlandbooks/re/#lebensabschnitt",
+                    "link": "https://anderlandbooks.com/re/#lebensabschnitt",
                     "description": "A journey through time",
                     "translations": [
                       {
                         "title": "LifeStages - A Journey Through Time",
-                        "link": "https://anderlandbooks/re/#lifestages"
+                        "link": "https://anderlandbooks.com/re/#lifestages"
                       }]
                 }
             ]
@@ -320,7 +320,7 @@
             "books": [
                 {
                     "title": "A fine Day in March",
-                    "link": "https://anderlandbooks/re/#march",
+                    "link": "https://anderlandbooks.com/re/#march",
                     "description": "Novella",
                     "translations": [
                       {
@@ -330,7 +330,7 @@
                 },
                 {
                     "title": "The Fairytale of the Forbidden Twins",
-                    "link": "https://anderlandbooks/re/#fairytale",
+                    "link": "https://anderlandbooks.com/re/#fairytale",
                     "description": "Fantastic novella",
                     "translations": [
                       {
@@ -340,7 +340,7 @@
                 },
                 {
                     "title": "Yuli in the Aftermath",
-                    "link": "https://anderlandbooks/re/#yuli",
+                    "link": "https://anderlandbooks.com/re/#yuli",
                     "description": "Dystopian novel",
                     "translations": [
                       {
@@ -350,7 +350,7 @@
                 },
                 {
                     "title": "Chasing Wild Dreams",
-                    "link": "https://anderlandbooks/re/#wilddreams",
+                    "link": "https://anderlandbooks.com/re/#wilddreams",
                     "description": "Dystopian novel",
                     "translations": [
                       {
@@ -360,27 +360,27 @@
                 },
                 {
                     "title": "Base Means - The Story of Jack and Ada",
-                    "link": "https://anderlandbooks/re/#basemeans",
+                    "link": "https://anderlandbooks.com/re/#basemeans",
                     "description": "Spy novel, Part 1",
                     "translations": [
                       {
                         "title": "Unheilige Mittel - Die Geschichte von Jack und Ada",
-                        "link": "https://anderlandbooks/re/#mittel"
+                        "link": "https://anderlandbooks.com/re/#mittel"
                       }]
                 },
                 {
                     "title": "Great Ends - The Story of Jack and Ada 2",
-                    "link": "https://anderlandbooks/re/#greatends",
+                    "link": "https://anderlandbooks.com/re/#greatends",
                     "description": "Spy novel, Part 2",
                     "translations": [
                       {
                         "title": "Hehre Zwecke  - Die Geschichte von Jack und Ada",
-                        "link": "https://anderlandbooks/re/#zwecke"
+                        "link": "https://anderlandbooks.com/re/#zwecke"
                       }]
                 },
                 {
                     "title": "Spirit Chase. The Spirit Chapters: First Chapter.",
-                    "link": "https://anderlandbooks/re/#spiritchase",
+                    "link": "https://anderlandbooks.com/re/#spiritchase",
                     "description": "Urban Fantasy",
                     "translations": [
                       {
@@ -390,7 +390,7 @@
                 },
                 {
                     "title": "Spirit Chant. The Spirit Chapters: Second Chapter",
-                    "link": "https://anderlandbooks/re/#spiritchant",
+                    "link": "https://anderlandbooks.com/re/#spiritchant",
                     "description": "Urban Fantasy",
                     "translations": [
                       {
@@ -400,7 +400,7 @@
                 },
                 {
                     "title": "Spirit Circle. The Spirit Chapters: Third Chapter",
-                    "link": "https://anderlandbooks/re/#spiritcircle",
+                    "link": "https://anderlandbooks.com/re/#spiritcircle",
                     "description": "Urban fantasy",
                     "translations": [
                       {
@@ -424,7 +424,7 @@
             "books": [
                 {
                     "title": "Lilys Stil",
-                    "link": "https://anderlandbooks/re/#lily",
+                    "link": "https://anderlandbooks.com/re/#lily",
                     "description": "Novella",
                     "translations": [
                       {
@@ -434,7 +434,7 @@
                 },
                 {
                     "title": "Ein Stern für Ertolia",
-                    "link": "https://anderlandbooks/re/#ertolia",
+                    "link": "https://anderlandbooks.com/re/#ertolia",
                     "description": "A Fairytale with a twist",
                     "translations": [
                       {

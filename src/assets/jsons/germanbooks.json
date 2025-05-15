@@ -148,10 +148,14 @@
                         },
                         "eBook": {
                             "title": "Amazon",
-                            "link": ""
+                            "link": "https://mybook.to/KurvenDerZeit  "
                         },
-                        "other": {
-                            "title": "Other Retailers",
+                        "other_ebook": {
+                            "title": "Other Retailers: eBook",
+                            "link": "https://books2read.com/u/mKrJrd"
+                        },
+                        "other_print": {
+                            "title": "Other Retailers: Print",
                             "link": ""
                         }
                     },

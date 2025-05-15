@@ -68,7 +68,7 @@
         <tbody>
           <tr *ngFor="let book of author.books">
             <td>
-              <a [href]="book.link" target="_blank">{{ book.title }}</a>
+              <a [href]="book.link">{{ book.title }}</a>
               <span *ngIf="book.description" translate>
                 - {{ book.description }}</span
               >
@@ -77,7 +77,7 @@
               *ngIf="book.translations && book.translations.length > 0"
               class="paddingLeft"
             >
-              <a [href]="book.translations[0].link" target="_blank">{{
+              <a [href]="book.translations[0].link">{{
                 book.translations[0].title
               }}</a>
             </td>
