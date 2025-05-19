@@ -142,10 +142,6 @@
                         ""
                     ],
                     "formats": {
-                        "soon": {
-                            "title": "bald erhältlich",
-                            "link": "https://anderlandbooks.com/german-books"
-                        },
                         "eBook": {
                             "title": "Amazon",
                             "link": "https://mybook.to/KurvenDerZeit  "
@@ -461,13 +457,41 @@
             "title": "Romance",
             "books": [
                 {
+                    "id": "spielUmsMorgen",
+                    "image": "assets/img/covers/spielUmsMorgen.jpg",
+                    "paragraphs": [
+                        "Jenny braucht Geld - viel Geld, um ihre alleinerziehende Mutter zu unterstützen, ihre kranken Kusinen, die alte Oma. Nur deshalb meldet sich die zurückhaltende Zweiundzwanzigjährige für einen besonderen Wettbewerb an. In einer Mischung aus Big Brother und Spielshow soll sie über mehrere Wochen mit ihrem zugelosten Partner die verschiedensten Aufgaben bewältigen.",
+                        "So weit, so gut. Sie ist clever und kreativ, und im Gegensatz zu vielen ihrer Mitstreiter weniger an der Aufmerksamkeit der Medien als am Gewinn interessiert. Sie rechnet sich also gute Chancen aus.",
+                        "Womit sie allerdings nicht gerechnet hat, ist, dass ihr ausgerechnet der Frauenheld der Gruppe als Partner zugelost wird.",
+                        "Sie hat auch nicht damit gerechnet, dass sie Daniel Goldlaub tatsächlich mag.",
+                        "Und vor allem hat sie nicht mit den Spielleitern gerechnet, deren Interesse ein ganz Anderes als Jennys ist ...",
+                        "Spiel ums Morgen ist eine Liebesgeschichte mit erotischen Untertönen. Empfohlen ab Achtzehn."
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon",
+                            "link": "https://mybook.to/SpielUmsMorgen"
+                        },
+                        "other": {
+                            "title": "",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                {
                     "id": "ertolia",
                     "image": "assets/img/covers/ertolia.jpg",
                     "paragraphs": [
                         "David ist der Ranghöchste unter den Ertolianern. Er wird König, sobald der Zyklus vollendet ist – alle wissen das.",
                         "Julia, seine Halbcousine, ist zu seiner Königin bestimmt, denn sie ist die Zweithöchste, in ihrem Rang nur von David übertroffen. Auch dies wissen alle, inklusive Davids bestem Freund Eduard, der mehr oder minder heimlich in Julia verliebt ist.",
                         "Aber dann kommt Sissy von Tarmaran an den Hof, das exotische Mündel eines Botschafters, unvertraut mit ihren Gebräuchen, unvoreingenommen und erfrischend in ihrer Unbedarftheit. Und plötzlich wird all das, was so gewiss und vorgezeichnet schien, von Ertolias zukünftigem König auf den Kopf gestellt …",
-                        "Ein Stern für Ertolia ist ein Märchen mit einem Twist und spielt in einer fiktiven Welt ähnlich des vorindustriellen Europas, jedoch mit deutlich anderen sozialen Regeln."
+                        "Ein Stern für Ertolia ist ein Märchen mit einem Twist und spielt in einer fiktiven Welt ähnlich des vorindustriellen Europas, jedoch mit deutlich anderen sozialen Regeln.",
+                        "Empfohlen ab Achtzehn."
                     ],
                     "formats": {
                         "eBook": {
@@ -490,7 +514,8 @@
                     "image": "assets/img/covers/lilysStil.jpg",
                     "paragraphs": [
                         "Lily und Mark sind Stiefgeschwister, beides Sprösslinge ehrgeiziger Alleinerziehender, die miteinander ein zweites Glück gefunden haben. Eigentlich mögen Lily und Mark sich nicht besonders – aber als eine Verkettung von Umständen dazu führt, dass sie einander doch sehr viel näherkommen als von ihren Eltern geplant, löst dies eine wahre Kaskade an Probleme aus.",
-                        "Immerhin – Stiefgeschwister sind doch so etwas wie Geschwister, oder?"
+                        "Immerhin – Stiefgeschwister sind doch so etwas wie Geschwister, oder?",
+                        "Empfohlen ab Achtzehn."
                     ],
                     "formats": {
                         "eBook": {

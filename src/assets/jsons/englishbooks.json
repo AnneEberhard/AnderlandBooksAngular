@@ -341,17 +341,13 @@
               "Content Warning: Contains strong language."
           ],
           "formats": {
-            "soon": {
-                  "title": "Coming soon",
-                  "link": "https://anderlandbooks.com/english-books"
-              },
               "eBook": {
                   "title": "Amazon",
-                  "link": ""
+                  "link": "https://mybook.to/TimeCurves"
               },
               "other": {
                   "title": "Other Retailers",
-                  "link": ""
+                  "link": "https://books2read.com/u/mZD5Gl"
               }
           },
           "additionalInfo": {

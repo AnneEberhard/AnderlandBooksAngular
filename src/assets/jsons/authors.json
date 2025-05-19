@@ -422,6 +422,16 @@
                 ""
             ],
             "books": [
+              {
+                    "title": "Spiel ums Morgen",
+                    "link": "https://anderlandbooks.com/re/#spiel",
+                    "description": "Romance with erotic undertones",
+                    "translations": [
+                      {
+                        "title": "",
+                        "link": ""
+                      }]
+                },
                 {
                     "title": "Lilys Stil",
                     "link": "https://anderlandbooks.com/re/#lily",
