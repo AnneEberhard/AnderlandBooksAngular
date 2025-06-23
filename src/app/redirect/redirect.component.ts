@@ -23,7 +23,7 @@ export class RedirectComponent implements OnInit {
     // Shortlink-Liste laden
     this.shortlinkService.getShortlinks().subscribe(shortlinks => {
       const normalizedShortlinks = Object.keys(shortlinks).reduce((acc, key) => {
-        acc[key.toLowerCase()] = shortlinks[key]; // Alles klein machen
+        acc[key.toLowerCase()] = shortlinks[key];
         return acc;
       }, {} as Record<string, string>);
 
@@ -33,7 +33,7 @@ export class RedirectComponent implements OnInit {
       if (target) {
         console.log('Redirecting to:', target);
         setTimeout(() => {
-          window.location.href = target; // Direkte Weiterleitung
+          window.location.href = target;
         }, 0);
       } else {
         console.warn('Kein Ziel gefunden für:', shortId);
