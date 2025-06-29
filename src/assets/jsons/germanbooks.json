@@ -14,15 +14,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/DienerDesGrafen"
                         },
                         "other_ebook": {
-                            "title": "Other Retailers: eBook",
+                            "title": "Other Retailers (ebook)",
                             "link": "https://books2read.com/u/3GgKr8"
                         },
                         "other_print": {
-                            "title": "Other Retailers: Print",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Der_Diener_des_Grafen/W-702-235-858"
                         }
                     },
@@ -42,11 +42,14 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/DerGeistInBrand"
+                        },"other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Der_Geist_in_Brand/W-432-683-565"
                         }
                     },
@@ -65,11 +68,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Alsterdiamanten"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Alsterdiamanten/W-753-410-384"
                         }
                     },
@@ -88,11 +95,14 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/IrrfahrtInsGelobteLand"
+                        },"other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Irrfahrt_ins_Gelobte_Land/W-120-108-034"
                         }
                     },
@@ -111,11 +121,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/DieMaskenvonFlorenz"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Die_Masken_von_Florenz/W-332-407-855"
                         }
                     },
@@ -143,15 +157,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/KurvenDerZeit  "
                         },
                         "other_ebook": {
-                            "title": "Other Retailers: eBook",
+                            "title": "Other Retailers (ebook)",
                             "link": "https://books2read.com/u/mKrJrd"
                         },
                         "other_print": {
-                            "title": "Other Retailers: Print",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Kurven_der_Zeit/W-779-965-605"
                         }
                     },
@@ -171,11 +185,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/VonElfenUndWoelfen"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Von_Elfen_und_Wölfen/W-762-701-095"
                         }
                     },
@@ -195,11 +213,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/HexenMittendrinImMix"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Hexen_Mittendrin_im_Mix/W-629-496-577"
                         }
                     },
@@ -220,11 +242,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/ImNamenDerMenschen"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Im_Namen_der_Menschen/W-295-972-950"
                         }
                     },
@@ -246,11 +272,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Daemonenritt"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Dämonenritt/W-449-202-132"
                         }
                     },
@@ -272,11 +302,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Daemonensprung"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Dämonensprung/W-776-930-632"
                         }
                     },
@@ -298,11 +332,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Daemonentraum"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": ""
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Dämonentraum/W-352-795-207"
                         }
                     },
@@ -328,11 +366,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Elfenweg"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/elfenweg"
                         }
                     },
@@ -352,11 +390,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Sumpfzauber"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/sumpfzauber"
                         }
                     },
@@ -376,11 +414,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Weltenringen"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/weltenringen"
                         }
                     },
@@ -410,11 +448,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/UnheiligeMittel"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/unheiligemittel"
                         }
                     },
@@ -436,11 +474,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/HehreZwecke "
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/hehrezwecke"
                         }
                     },
@@ -469,7 +507,7 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/SpielUmsMorgen"
                         },
                         "other": {
@@ -495,11 +533,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/Ertolia  "
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, paperback, hardcover)",
                             "link": "https://linktr.ee/ertolia"
                         }
                     },
@@ -519,11 +557,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/LilysStil"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook,hardcover)",
                             "link": "https://linktr.ee/lilysstil"
                         }
                     },
@@ -548,11 +586,15 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://amzn.eu/d/iJQMv80"
                         },
+                        "other_ebook": {
+                            "title": "Other Retailers (ebook)",
+                            "link": "https://books2read.com/u/bzxO9j"
+                        },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Tanz_mit_dem_Wind/W-356-690-813"
                         }
                     },
@@ -572,11 +614,11 @@
                     ],
                     "formats": {
                         "eBook": {
-                            "title": "Amazon",
+                            "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://www.amazon.de/LebensAbschnitt-Eine-Reise-durch-Zeit-eBook/dp/B08GJZ8TF5/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=1598258693&sr=8-13"
                         },
                         "other": {
-                            "title": "Other Retailers",
+                            "title": "Other Retailers (ebook, hardcover)",
                             "link": "https://linktr.ee/lebensabschnitt"
                         }
                     },

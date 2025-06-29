@@ -103,7 +103,7 @@ section {
     font-size: 16px;
     text-decoration: none;
     justify-content: center;
-    background-color: #134F5C;
+    background-color: #134f5c;
     &:hover {
       cursor: pointer;
       font-weight: bold;
@@ -231,6 +231,17 @@ section {
   display: none;
 }
 
+@media (max-width: 1250px) {
+  .bookLinksContainer {
+    flex-direction: column;
+    gap: 0px;
+    span {
+      margin: 8px 0 4px 0;
+    }
+  }
+
+}
+
 @media (max-width: 1000px) {
   #overlay {
     justify-content: space-evenly;
@@ -241,6 +252,10 @@ section {
     }
   }
 
+    .dNone1000 {
+    display: none;
+  }
+
   .overlayBox {
     margin-top: 80px;
   }
@@ -249,29 +264,15 @@ section {
     margin-bottom: 80px;
   }
 
-  .bookLinksContainer {
-    flex-direction: column;
-    gap: 0px;
-    span {
-      margin: 8px 0 4px 0;
-    }
-  }
-
   .bookLinks {
     flex-direction: column;
     align-items: center;
   }
-
 }
 @media (max-width: 863px) {
   section {
     padding: 20px 20px 20px 20px;
   }
-
-  .dNone863 {
-    display: none;
-  }
-
 
   .additional {
     display: flex;
