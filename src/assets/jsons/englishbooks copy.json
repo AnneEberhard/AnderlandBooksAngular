@@ -1,4 +1,7 @@
 {
+  "backupHTML": [{
+    "backup": "  <span translate>A pilot has started with audible books. A few of them are avaiblabe at amazon/audible.com - but not on the Amazon sites of other countries. Another pilot has started with Apple Books. You find the respective links below.</span><br />"}
+  ],
   "englishBooks": [
     {
       "section": "historical",
@@ -20,6 +23,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/br8VYA"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/The-Counts-Servant-Audiobook/B0F2L9YSYH?qid=1744701605&sr=1-3&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_3"
             }
           },
           "additionalInfo": {
@@ -44,6 +51,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/bxXvvq"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/The-Mind-On-Fire-Audiobook/B0CY6MYYJK?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -68,6 +79,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/4Np6xG"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Odyssey-to-the-Promised-Land-Audiobook/B0F3P6XRCV?qid=1744701605&sr=1-8&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_8"
             }
           },
           "additionalInfo": {
@@ -92,6 +107,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/3JBO2v"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/The-Masks-of-Florence-Audiobook/B0F3P5D12P?qid=1744701605&sr=1-4&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_4"
             }
           },
           "additionalInfo": {
@@ -116,6 +135,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/m0Nd57"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Alster-Diamonds-Audiobook/B0D7X33JW4?qid=1744701605&sr=1-6&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_6"
             }
           },
           "additionalInfo": {
@@ -177,6 +200,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mlzGRv"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Base-Means-Audiobook/B0F3P5DBH1?overrideBaseCountry=true&ipRedirectOverride=true&ref_pageloadid=not_applicable&pf_rd_p=b283519d-f7a3-4b8f-87e3-e985e5bd97f8&pf_rd_r=DJN9WWZEQT8RH3EFKNBE&plink=w2Oaxd2fsESo6nDG&pageLoadId=4H5gATNEsHhxDn9V&creativeId=b50d3acf-bf15-400e-8f43-f1ebd0e505ca"
             }
           },
           "additionalInfo": {
@@ -203,6 +230,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mdaAJ5"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Great-Ends-Audiobook/B0F3PB4694?qid=1744701436&sr=1-1&ref_pageloadid=qZT46AHqafWTkjx5&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=ZH7CZMETPN0PQC2DATSV&plink=26K20cymkG8orkfR&pageLoadId=gOnTMUkWUkQCXMue&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_1"
             }
           },
           "additionalInfo": {
@@ -284,6 +315,10 @@
             },"other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/3J2yMe"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Yuli-in-the-Aftermath-Audiobook/B0D8LDKFR9?qid=1744701436&sr=1-3&ref_pageloadid=qZT46AHqafWTkjx5&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=ZH7CZMETPN0PQC2DATSV&plink=26K20cymkG8orkfR&pageLoadId=gOnTMUkWUkQCXMue&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_3"
             }
           },
           "additionalInfo": {
@@ -342,6 +377,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mKBwGZ"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Demon-Ride-Audiobook/B0CY936PCQ?qid=1744701605&sr=1-7&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_7"
             }
           },
           "additionalInfo": {
@@ -368,6 +407,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/b6Bvo6"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Demon-Leap-Audiobook/B0F3P1TNB6?qid=1744701605&sr=1-5&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_5"
             }
           },
           "additionalInfo": {
@@ -394,6 +437,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mBB2LD"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Demon-Dream-Audiobook/B0F3P2JH1F?qid=1744701605&sr=1-1&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JM6HKT66J8SYY22C4VJB&plink=cHmhgLynM84lhZv1&pageLoadId=gTofO9jR3KTL1pLo&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_1"
             }
           },
           "additionalInfo": {
@@ -418,6 +465,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mByzaO"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Lucie-is-New-Audiobook/B0FCSF9V9F?overrideBaseCountry=true&ipRedirectOverride=true&ref_pageloadid=not_applicable&plink=wZ9oXh10TK7yJFPR&pageLoadId=5KP0pxuimWpbMHs0&creativeId=b50d3acf-bf15-400e-8f43-f1ebd0e505ca"
             }
           },
           "additionalInfo": {
@@ -442,6 +493,14 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": " https://books2read.com/u/brd1NW"
+            },
+            "apple": {
+              "title": "Other Retailers (audiobook)",
+              "link": "https://books.apple.com/us/audiobook/lucie-force-of-nature/id1806145252"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Lucie-Force-of-Nature-Audiobook/B0CY9X5C6R?qid=1750591795&sr=1-7&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=K7NGCJ7TH9RTHPTQW7CS&plink=4FbWJuZKwhvloxSD&pageLoadId=2b3aAqntOjqk01tk&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_7"
             }
           },
           "additionalInfo": {
@@ -466,6 +525,14 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mVl8MA"
+            },
+            "apple": {
+              "title": "Other Retailers (audiobook)",
+              "link": "https://books.apple.com/us/audiobook/lucie-on-the-loose/id1806145192"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Lucie-on-the-Loose-Audiobook/B0F8S1HWHB?qid=1750591795&sr=1-5&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=K7NGCJ7TH9RTHPTQW7CS&plink=4FbWJuZKwhvloxSD&pageLoadId=2b3aAqntOjqk01tk&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_5"
             }
           },
           "additionalInfo": {
@@ -491,6 +558,14 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mg87Ax"
+            },
+            "apple": {
+              "title": "Other Retailers (audiobook)",
+              "link": "https://books.apple.com/us/audiobook/lucie-on-secret-mission/id1806144999"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Lucie-on-Secret-Mission-Audiobook/B0D2BC143M?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -515,6 +590,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/3JldPJ"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Bina-and-the-Darn-Curiosity-Audiobook/B0DWMD5Z86?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -539,6 +618,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/3ny0o8"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Bina-and-the-Darn-Curse-Audiobook/B0CZT1KDLN?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -563,6 +646,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/mg8Qq7"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/Bina-and-the-Darn-Curse-Audiobook/B0CZT1KDLN?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -587,6 +674,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/bPGLrR"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/B0FF4MVLB5?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
@@ -612,6 +703,10 @@
             "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/bPGLrR"
+            },
+            "audible": {
+              "title": "Audible (audiobook)",
+              "link": "https://www.audible.com/pd/B0FF4KXJKH?source_code=ASSGB149080119000H&share_location=pdp"
             }
           },
           "additionalInfo": {
