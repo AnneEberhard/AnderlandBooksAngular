@@ -501,6 +501,32 @@
             "title": "Romance",
             "books": [
                 {
+                    "id": "bundZuDritt",
+                    "image": "assets/img/covers/bundZuDritt.jpg",
+                    "paragraphs": [
+                        "Saya wird Prinz Dions Braut, in dem märchenhaften Reich Kattysia, in dem die Herrscher auf besondere Weise mit ihrem Land verbunden sind. Sie hat die notwendige Kraft, um mit ihm den Bund einzugehen, der Kattysia am Leben erhält.",
+                        "Doch da ist auch Viktor, Dions Gefährte seit Kindertagen, der weitaus mehr ist als nur ein Freund.",
+                        "Können Dion, Saya und Viktor ein Leben zu dritt führen?",
+                        "Und was geschieht, wenn andere, machthungrige Geister sich einmischen?",
+                        "Bund zu Dritt ist ein erotisches Märchen mit einer polyamoren Liebesbeziehung (M/M/F). Empfohlen ab Achtzehn."
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon (ebook, paperback, hardcover)",
+                            "link": "https://amzn.eu/d/2ivoa2z"
+                        },
+                        "other": {
+                            "title": "",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                {
                     "id": "spielUmsMorgen",
                     "image": "assets/img/covers/spielUmsMorgen.jpg",
                     "paragraphs": [

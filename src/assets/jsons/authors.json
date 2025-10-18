@@ -423,6 +423,16 @@
             ],
             "books": [
               {
+                    "title": "Bund zu Dritt",
+                    "link": "https://anderlandbooks.com/re/#bund",
+                    "description": "Polyamourous Romantasy",
+                    "translations": [
+                      {
+                        "title": "",
+                        "link": ""
+                      }]
+                },
+              {
                     "title": "Spiel ums Morgen",
                     "link": "https://anderlandbooks.com/re/#spiel",
                     "description": "Romance with erotic undertones",
