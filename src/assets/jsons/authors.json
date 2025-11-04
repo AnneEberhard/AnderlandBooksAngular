@@ -2,6 +2,7 @@
     "authors": [
         {
             "name": "Sigrid E. Thomas",
+            "id": "sigrid",
             "website": "",
             "isExternalUrl": false,
             "language": "Sigrid E. Thomas writes only in German.",
@@ -76,6 +77,7 @@
         },
         {
             "name": "Tanja Trögele",
+            "id": "tanja",
             "website": "",
             "isExternalUrl": false,
             "language": "Tanja Trögele writes only in German.",
@@ -100,6 +102,7 @@
         },
         {
             "name": "Robert T. Hunting",
+            "id": "robert",
             "website": "",
             "isExternalUrl": false,
             "language": "Robert T. Hunting writes only in English.",
@@ -124,6 +127,7 @@
         },
         {
             "name": "Anna K. Thomas",
+            "id": "anna",
             "website": "https://www.annakthomas.de",
             "isExternalUrl": true,
             "language": "Anna K. Thomas writes in German, but there are now translations of some of her stories into English.",
@@ -308,6 +312,7 @@
         },
         {
             "name": "Bree Nan",
+            "id": "bree",
             "website": "/bree-nan",
             "isExternalUrl": false,
             "language": "Bree Nan writes only in English, but her story of Jack and Ada has been translated into German.",
@@ -412,6 +417,7 @@
         },
         {
             "name": "Lotte Liesbeth",
+            "id": "lotte",
             "isExternalUrl": false,
             "website": "",
             "language": "Lotte Liesbeth writes only in German.",

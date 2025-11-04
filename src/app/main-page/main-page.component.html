@@ -78,7 +78,8 @@
       Paperback editions of English books can be found at all distribution channels served by Ingram, including Barnes and Noble and most independent bookstores in the US.<br />
       Printed German books are available via Tredition and can be ordered by
       German bookstores (mainly hardcover editions).<br />
-      Selected books are also available as audiobooks.<br /><br>
+      Selected books are also available as audiobooks.<br />
+      The German book 'Der Geist in Brand' was voiced by Max Müller.<br><br>
       Direct links to the stores can be found next to the respective book:<br />
       <a routerLink="/english-books" translate routerLinkActive="active"
         >English Stories</a
@@ -92,6 +93,47 @@
       >
     </p>
   </div>
+    <h2
+    id="mainElement8"
+    translate
+    [@fadeIn]="this.pageService.getElementState('mainElement8') || 'visible'"
+  >
+    Who are the authors?
+  </h2>
+  <div
+    id="mainElement9"
+    class="homepageContent"
+    [@fadeIn]="this.pageService.getElementState('mainElement9') || 'visible'"
+  >
+    <div>
+    <p translate>All our authors are introduced with a small bio and their books on our
+      <a routerLink="/authors" translate routerLinkActive="active"
+        >author page</a
+      >.
+      <br /></p>
+      <p translate>Or find them directly via the shortlinks:<br>
+      <a [routerLink]="['/authors']" fragment="anna"translate routerLinkActive="active"
+        >Anna K. Thomas</a
+      ><br />
+      <a [routerLink]="['/authors']" fragment="bree"translate routerLinkActive="active"
+        >Bree Nan</a
+      ><br />
+      <a [routerLink]="['/authors']" fragment="lotte"translate routerLinkActive="active"
+        >Lotte Liesbeth</a
+      ><br />
+      <a [routerLink]="['/authors']" fragment="robert"translate routerLinkActive="active"
+        >Robert T. Hunting</a
+      ><br />
+      <a [routerLink]="['/authors']" fragment="sigrid"translate routerLinkActive="active"
+        >Sigrid E. Thomas</a
+      ><br />
+      <a [routerLink]="['/authors']" fragment="tanja"translate routerLinkActive="active"
+        >Tanja Trögele</a
+      ><br />
+    </p>
+  </div>   
+  <img src="assets/img/author.png" alt="pot of coffee on a sheet next to someone scribbling in a notebook" /></div>
+
 </section>
 <app-footer></app-footer>
 <app-scroll-to-top-button></app-scroll-to-top-button>

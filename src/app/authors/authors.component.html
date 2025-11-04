@@ -19,7 +19,7 @@
     [@fadeIn]="this.pageService.getElementState('authorElement2')"
     class="siteNavTop"
   >
-    <a *ngFor="let author of authors" (click)="scrollToSection(author.name)">{{
+    <a *ngFor="let author of authors" (click)="scrollToSection(author.id)">{{
       author.name
     }}</a>
   </div>
@@ -29,7 +29,7 @@
       [id]="'authorName' + i"
       [@fadeIn]="this.pageService.getElementState('authorName' + i)"
     >
-      <h2 id="{{ author.name }}">{{ author.name }}</h2>
+      <h2 id="{{ author.id }}">{{ author.name }}</h2>
       <p *ngIf="author.language" translate>{{ author.language }}</p>
 
       <div *ngIf="author.paragraphs && author.paragraphs.length > 0">

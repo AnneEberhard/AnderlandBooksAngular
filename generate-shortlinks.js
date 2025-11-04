@@ -14,6 +14,7 @@ function loadJSON(filename) {
 const englishBooks = loadJSON('src/assets/jsons/englishbooks.json');
 const germanBooks = loadJSON('src/assets/jsons/germanbooks.json');
 const childrenBooks = loadJSON('src/assets/jsons/childrensbooks.json');
+const authors = loadJSON('src/assets/jsons/authors.json');
 
 const booksData = [
   { category: 'english-books', books: englishBooks.englishBooks },

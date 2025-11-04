@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-authors',
@@ -15,17 +16,37 @@ export class AuthorsComponent implements AfterContentInit {
 
   authors: any;
 
-  constructor(public pageService: PageService, private http: HttpClient, public translate: TranslateService) { }
+  constructor(private route: ActivatedRoute, public pageService: PageService, private http: HttpClient, public translate: TranslateService) { }
 
  /**
  * Lifecycle hook that is called after Angular has fully initialized
  * the component's content. This method loads the necessary data and
  * registers static elements for animations.
+ * Also ensures shortlinks from main page work
  */
   ngAfterContentInit(): void {
     this.loadData();
     this.registerStaticElements();
+    this.route.fragment.subscribe(fragment => {
+    if (fragment) {
+      // warte, bis loadData() fertig ist
+      setTimeout(() => this.scrollToFragment(fragment), 300);
+    }
+  });
+}
+
+/**
+ * scrolls to each author from main page 
+ * @param fragment: author id
+ */
+
+private scrollToFragment(fragment: string) {
+  const el = document.getElementById(fragment);
+  if (el) {
+    el.scrollIntoView({ behavior: 'smooth' });
   }
+}
+  
 
 /**
  * Asynchronously loads data from a JSON file and assigns it to the

@@ -22,7 +22,7 @@ export class MainPageComponent implements AfterContentInit {
    */  
   ngAfterContentInit(): void {
     this.pageService.clearStates();
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 10; i++) {
       this.pageService.registerElement(`mainElement${i}`);
     }
   }
