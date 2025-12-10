@@ -6,6 +6,10 @@
 	"Amazon (ebook, paperback, hardcover, audiobook)": "Amazon (ebook, paperback, hardcover, audiobook)",
 	"Other Retailers (ebook, paperback)": "Other Retailers (ebook, paperback)",
 	"Other Retailers (ebook, hardcover)": "Other Retailers (ebook, hardcover)",
+	"Tredition (ebook, hardcover)": "Tredition (ebook, hardcover)",
+	"Tredition (ebook, paperback, hardcover)": "Tredition (ebook, paperback, hardcover)",
+	"Tredition (ebook)": "Tredition (ebook)",
+	"Tredition (hardcover)": "Tredition (hardcover)",
 	"Other Retailers (audiobook)": "Other Retailers (audiobook)",
 	"Audible (audiobook)": "Audible (audiobook)",
 
@@ -350,6 +354,7 @@
 	"Paperback" : "Paperback",
 	"Hardcover" : "Hardcover",
 	"With a few exceptions, all books have been moved from exclusively Amazon (and Kindle Unlimited) to other retailers as well. You will find the respective links at 'other retailers'.": "With a few exceptions, all books have been moved from exclusively Amazon (and Kindle Unlimited) to other retailers as well. You will find the respective links at 'other retailers'.",
+	"With a few exceptions, all books have been moved from exclusively Amazon (and Kindle Unlimited) to other retailers as well. On this page, you will find Links to Amazon and Tredition, but the books should be available at many stores.": "With a few exceptions, all books have been moved from exclusively Amazon (and Kindle Unlimited) to other retailers as well. On this page, you will find Links to Amazon and Tredition, but the books should be available at many stores.",
 	"All books are available as eBook, paperback, and hardcover." : "All books are available as eBook, paperback, and hardcover.",
 	"Other Retailers (hardcover)" : "Other Retailers (hardcover)",
 	"Other Retailers (ebook)" : "Other Retailers (ebook)",
