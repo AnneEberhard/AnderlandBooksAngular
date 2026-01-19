@@ -101,31 +101,6 @@
             ]
         },
         {
-            "name": "Robert T. Hunting",
-            "id": "robert",
-            "website": "",
-            "isExternalUrl": false,
-            "language": "Robert T. Hunting writes only in English.",
-            "hasTranslations": false,
-            "paragraphs": [
-                "Robert T. Hunting has always thought himself as a wordsmith and a great lover of books. At eight, he remembers a field trip to a library, where he received his first library card. He used it to take out the first book in the Freddy the Pig detective series. Robert is still drawn into good yarns, especially those with compelling characters and well-developed plotlines. As a writer, he favors placing normal characters in abnormal situations, battling and getting the better of unmanageable odds. Whether caught in the slipstream of war, or through other demanding predicaments, his characters never give up on life. After all, what would a story be without high challenge? Robert leans toward historical fiction, but enjoys other genres as well.",
-                "Robert is the author of eight novels.",
-                ""
-            ],
-            "books": [
-                {
-                    "title": "A Dark Happiness - The Assassination of Archduke Franz Ferdinand",
-                    "link": "https://anderlandbooks.com/re/#adarkhappiness ",
-                    "description": "Historical novel set at the Belle Epoque",
-                    "translations": [
-                      {
-                        "title": "",
-                        "link": ""
-                      }]
-                }
-            ]
-        },
-        {
             "name": "Anna K. Thomas",
             "id": "anna",
             "website": "https://www.annakthomas.de",
