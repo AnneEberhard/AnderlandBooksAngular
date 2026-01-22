@@ -501,6 +501,33 @@
             "title": "Romance",
             "books": [
                 {
+                    "id": "upperGirl",
+                    "image": "assets/img/covers/upperGirl.jpg",
+                    "paragraphs": [
+                        "Alma, Tochter aus reichem Haus, bricht aus: Sie fährt nicht wie abgesprochen über den Sommer in ihr Trainingslager, sondern folgt stattdessen der Einladung von Lairi, einem Mädchen aus der Unterstadt. Damit verlässt sie das vom Leistungsdruck getriebene Oberviertel und taucht in die Partyszene der Unterstadt ab.",
+                        "Hier, bei Lairi, lernt sie Drogen und Feiern kennen, die Freiheit eines ungeplanten Tages, die Ekstase des Tanzes. Hier trifft sie auf Marou, der den Spitznamen Partyboy nicht zu Unrecht trägt.",
+                        "Und Partyboy verliebt sich in das Upper-Girl.",
+                        "Dumm nur, dass Marou Lairis heimlicher Schwarm ist. Und ohne Lairi hat Alma in der Unterstadt keine Chance.",
+                        "Hinweis: Dies ist nicht unsere Welt. Es sind nicht unsere Drogen, nicht unsere Krankheiten, nicht unsere Therapien, nicht unsere Regeln. Sie basieren nur lose auf einer möglichen Zukunft.",
+                        "Inhaltswarnung: Sex, Drugs und ja, ein Mord passiert auch."
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon (ebook, paperback, hardcover)",
+                            "link": "https://amzn.eu/d/d8MSkRC"
+                        },
+                        "other": {
+                            "title": "",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                {
                     "id": "bundZuDritt",
                     "image": "assets/img/covers/bundZuDritt.jpg",
                     "paragraphs": [

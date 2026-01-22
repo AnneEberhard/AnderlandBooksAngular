@@ -404,6 +404,16 @@
             ],
             "books": [
               {
+                    "title": "Upper-Girl und Partyboy",
+                    "link": "https://anderlandbooks.com/re/#upperGirl",
+                    "description": "Dystopic Romantasy",
+                    "translations": [
+                      {
+                        "title": "",
+                        "link": ""
+                      }]
+                },
+              {
                     "title": "Bund zu Dritt",
                     "link": "https://anderlandbooks.com/re/#bundZuDritt",
                     "description": "Polyamourous Romantasy",
