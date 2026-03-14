@@ -5,6 +5,37 @@
             "title": "Historical Novels",
             "books": [
                 {
+                    "id": "fridaVonHameln",
+                    "image": "assets/img/covers/fridaVonHameln.jpg",
+                    "paragraphs": [
+                        "Hameln, 1283/4 – Frida hat Mann und Kinder begraben. Nun klammert sie sich an das Einzige, was ihr geblieben ist: ihre Schuhmacherwerkstatt – bis man ihr Marek als Gesellen aufdrängt. Der junge Fremde sucht seine Wurzeln: Seine Mutter Svanhild verschwand einst bei Nacht und Nebel aus Hameln. Frida kann helfen – aber Mareks Onkel Dietrich reagiert mit einer Feindseligkeit, die beide verstört.",
+                        "Während Frida langsam ins Leben zurückfindet und Marek um Anerkennung ringt, erscheint ein Dritter in der Stadt: Nikolaus von Spiegelberg wirbt für die Aussiedlung gen Osten.",
+                        "Perfekt für Marek, findet Dietrich, zumal das Ansinnen bei den meisten Hamelnern auf wenig Interesse stößt.",
+                        "Doch da greift Nikolaus von Spiegelberg zu einem Trick …",
+                        "",
+                        "Die Legende vom Rattenfänger von Hameln – neu erzählt: Kein Horror, keine Verschwörungstheorie, sondern eine bewegende Geschichte über Menschen, die damals wirklich gelebt haben könnten."
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon (ebook, paperback, hardcover)",
+                            "link": "https://mybook.to/FridavonHameln"
+                        },
+                        "other_ebook": {
+                            "title": "",
+                            "link": ""
+                        },
+                        "other_print": {
+                            "title": "",
+                            "link": ""
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                {
                     "id": "derDienerDesGrafen",
                     "image": "assets/img/covers/derDienerdesGrafen.jpg",
                     "paragraphs": [
@@ -45,7 +76,8 @@
                         "eBook": {
                             "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/DerGeistInBrand"
-                        },"other_ebook": {
+                        },
+                        "other_ebook": {
                             "title": "Tredition (ebook)",
                             "link": "https://shop.tredition.com/booktitle/Der_Geist_in_Brand/W-306-239-156"
                         },

@@ -5,6 +5,33 @@
       "title": "Historical Novels",
       "books": [
         {
+          "id": "fridaOfHamelin",
+          "image": "assets/img/covers/fridaOfHamelin.jpg",
+          "paragraphs": [
+            "Hamelin, 1283/4 – Frida has buried her husband and children. Now she clings to the only thing she has left: her shoemaker's workshop – until Marek is forced upon her as a journeyman.",
+            "The young stranger is searching for his roots: his mother Svanhild once disappeared from Hamelin under cover of night. Frida can help – but Marek's uncle Dietrich reacts with a hostility that unsettles them both.",
+            "While Frida slowly finds her way back to life and Marek struggles for acceptance, a third person appears in town: Nikolaus von Spiegelberg promotes resettlement to the east.",
+            "Perfect for Marek, Dietrich thinks, especially since most of Hamelin's residents show little interest in the idea.",
+            "But then Nikolaus von Spiegelberg resorts to a trick...",
+            "The legend of the Pied Piper of Hamelin – in a new outfit: no horror, no conspiracy theory, but a moving story about people who could have truly lived back then."
+          ],
+          "formats": {
+            "amazon": {
+              "title": "Coming soon",
+              "link": "https://anderlandbooks.com/re/#fridaOfHamelin"
+            },
+            "other": {
+              "title": "",
+              "link": ""
+            }
+          },
+          "additionalInfo": {
+            "label": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        {
           "id": "theCountsServant",
           "image": "assets/img/covers/theCountsServant.jpg",
           "paragraphs": [
@@ -254,7 +281,8 @@
             "amazon": {
               "title": "Amazon (ebook, paperback, hardcover)",
               "link": "https://mybook.to/YuliintheAftermath"
-            },"other": {
+            },
+            "other": {
               "title": "Other Retailers (ebook, paperback)",
               "link": "https://books2read.com/u/3J2yMe"
             }
@@ -275,28 +303,28 @@
           "id": "TimeCurves",
           "image": "assets/img/covers/timeCurves.jpg",
           "paragraphs": [
-              "When Vera discovers the dead body of a boy her age by the riverside, she surely does not expect to find the same boy shortly after alive and next to her, begging her for help. Against all reason, Vera agrees to get Jules out of his predicament, not knowing that this will draw her into his strange life of repeated dying, traveling to the center of time where his lost sister resides, and reviving.",
-              "Turns out, Vera is very much like Jules, in more than one regard.",
-              "And thus, the pair embark on a journey through the time curves, determined to save their lost loved ones.",
-              "Time Curves is a story about time travel for young adults. ",
-              "Content Warning: Contains strong language."
+            "When Vera discovers the dead body of a boy her age by the riverside, she surely does not expect to find the same boy shortly after alive and next to her, begging her for help. Against all reason, Vera agrees to get Jules out of his predicament, not knowing that this will draw her into his strange life of repeated dying, traveling to the center of time where his lost sister resides, and reviving.",
+            "Turns out, Vera is very much like Jules, in more than one regard.",
+            "And thus, the pair embark on a journey through the time curves, determined to save their lost loved ones.",
+            "Time Curves is a story about time travel for young adults. ",
+            "Content Warning: Contains strong language."
           ],
           "formats": {
-              "eBook": {
-                  "title": "Amazon (ebook, paperback, hardcover)",
-                  "link": "https://mybook.to/TimeCurves"
-              },
-              "other": {
-                  "title": "Other Retailers (ebook, paperback)",
-                  "link": "https://books2read.com/u/mZD5Gl"
-              }
+            "eBook": {
+              "title": "Amazon (ebook, paperback, hardcover)",
+              "link": "https://mybook.to/TimeCurves"
+            },
+            "other": {
+              "title": "Other Retailers (ebook, paperback)",
+              "link": "https://books2read.com/u/mZD5Gl"
+            }
           },
           "additionalInfo": {
-              "label": "",
-              "text": "",
-              "link": ""
+            "label": "",
+            "text": "",
+            "link": ""
           }
-      },
+        },
         {
           "id": "demonRide",
           "image": "assets/img/covers/demonRide.jpg",
@@ -322,7 +350,7 @@
             "text": "",
             "link": ""
           }
-        },        
+        },
         {
           "id": "demonLeap",
           "image": "assets/img/covers/demonLeap.jpg",

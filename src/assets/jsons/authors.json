@@ -113,6 +113,16 @@
                 "In the real world, Anna lives in a large German city and, like most people, has a full-time job. Evenings and weekends are often spent writing, which has already led to protests from friends and family... But who has a hobby that is so fulfilling? And if you ever drag her away from the computer for cocktails, she's bound to have a thing or two to tell you about her worlds."
             ],
             "books": [
+              {
+                    "title": "Frida von Hameln",
+                    "link": "https://anderlandbooks.com/re/#fridaVonHameln",
+                    "description": "Historical novel at the time of the Pied Piper",
+                    "translations": [
+                      {
+                        "title": "Frida of Hamelin",
+                        "link": "https://anderlandbooks.com/re/#fridaOfHameln"
+                      }]
+                },
                 {
                     "title": "Irrfahrt ins Gelobte Land",
                     "link": "https://anderlandbooks.com/re/#IrrfahrtInsGelobteLand",
