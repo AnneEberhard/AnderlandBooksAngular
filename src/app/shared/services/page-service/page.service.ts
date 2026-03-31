@@ -228,7 +228,7 @@ hasNextLink(index: number, book: any): boolean {
 */
 searchBook() {
   if (!this.searchTerm.trim()) return;
-
+debugger;
   // Format the search term by removing spaces and converting to lowercase
   const formattedSearch = this.searchTerm.replace(/\s+/g, '').toLowerCase();
   const url = this.shortlinks[formattedSearch];

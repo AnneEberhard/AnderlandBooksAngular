@@ -162,5 +162,8 @@
   "lotte": "/authors/#lotte",
   "frida": "/german-books/#fridaVonHameln",
   "fridaVonHameln": "/german-books/#fridaVonHameln",
-  "fridaOfHamelin": "/english-books/#fridaOfHamelin"
+  "fridaOfHamelin": "/english-books/#fridaOfHamelin",
+  "LuciedieNeue": "/german-books/#vonElfenundWoelfenDieReihe",
+  "lucie,dieneue": "/german-books/#vonElfenundWoelfenDieReihe",
+  "luciedieneue": "/german-books/#vonElfenundWoelfenDieReihe"
 }

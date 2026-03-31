@@ -18,7 +18,7 @@
                     "formats": {
                         "eBook": {
                             "title": "Amazon (ebook, paperback, hardcover)",
-                            "link": "https://mybook.to/FridavonHameln"
+                            "link": "https://mybook.to/FridaVonHameln"
                         },
                         "other_ebook": {
                             "title": "",
@@ -290,6 +290,26 @@
                         "other": {
                             "title": "Tredition (hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Im_Namen_der_Menschen/W-295-972-950"
+                        }
+                    },
+                    "additionalInfo": {
+                        "label": "",
+                        "text": "",
+                        "link": ""
+                    }
+                },
+                                {
+                    "id": "vonElfenundWoelfenDieReihe",
+                    "image": "assets/img/covers/lucieDieNeue.jpg",
+                    "paragraphs": [
+                        "Für alle die, denen die 'Von Elfen und Wölfen'-Trilogie aus zu dicken Büchern besteht:",
+                        "Hier geht es zur Reihe - die Bücher aufgesplittet in kleinere, leichter verdauliche Bücher.",
+                        "Mit 'Lucie, die Neue' geht los - die anderen Bücher folgen dahinter!"
+                    ],
+                    "formats": {
+                        "eBook": {
+                            "title": "Amazon (ebook, paperback, hardcover)",
+                            "link": "https://amzn.eu/d/07Lkebwz"
                         }
                     },
                     "additionalInfo": {
