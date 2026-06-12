@@ -44,7 +44,7 @@
           <ng-container
             *ngIf="isExternalUrl(author.website); else internalLink"
           >
-            <a [href]="author.website" target="_blank">{{ author.name }}</a>
+            <a [href]="author.website" target="_blank" rel="noopener noreferrer">{{ author.name }}</a>
           </ng-container>
           <ng-template #internalLink>
             <a [routerLink]="[author.website]">{{ author.name }}</a>

@@ -87,7 +87,7 @@
                 "
               >
                 <ng-container *ngIf="format.link">
-                  <a [href]="format.link" target="_blank" translate>{{
+                  <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
                     format.label
                   }}</a>
                   <span
@@ -145,13 +145,13 @@
           "
         >
           <ng-container *ngIf="!last">
-            <a [href]="format.link" target="_blank" translate>{{
+            <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
               format.label
             }}</a>
             <span class="dNone863"> - </span>
           </ng-container>
           <ng-container *ngIf="last">
-            <a [href]="format.link" target="_blank" translate>{{
+            <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
               format.label
             }}</a>
           </ng-container>

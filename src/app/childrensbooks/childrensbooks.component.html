@@ -67,11 +67,11 @@
             <div class="bookLinks">
               <div *ngFor="let format of this.pageService.getBookFormats(book); let last = last">
                 <ng-container *ngIf="!last">
-                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                  <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{ format.label }}</a>
                   <span class="dNone863"> - </span>
                 </ng-container>
                 <ng-container *ngIf="last">
-                  <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+                  <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{ format.label }}</a>
                 </ng-container>
               </div>
             </div>
@@ -102,11 +102,11 @@
         <div class="bookLinks">
           <div *ngFor="let format of this.pageService.getBookFormats(this.pageService.selectedBook); let last = last">
             <ng-container *ngIf="!last">
-              <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+              <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{ format.label }}</a>
               <span class="dNone863"> - </span>
             </ng-container>
             <ng-container *ngIf="last">
-              <a [href]="format.link" target="_blank" translate>{{ format.label }}</a>
+              <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{ format.label }}</a>
             </ng-container>
           </div>
         </div>
