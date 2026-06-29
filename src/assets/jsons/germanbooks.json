@@ -20,11 +20,11 @@
                             "title": "Amazon (ebook, paperback, hardcover)",
                             "link": "https://mybook.to/FridaVonHameln"
                         },
-                        "other_ebook": {
+                        "other_print": {
                             "title": "Tredition (ebook, paperback, hardcover)",
                             "link": "https://shop.tredition.com/booktitle/Frida_von_Hameln/W-192-874-528"
                         },
-                        "other_print": {
+                        "other_ebook": {
                             "title": "Buy direct (ebook)",
                             "link": "https://payhip.com/b/Hd2w0"
                         }
