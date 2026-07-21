@@ -1,12 +1,9 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. 
-baseURL wird mit Typescript 7 verschwinden, momentan nutzt Projekt aber Typscript 5*/
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist/out-tsc",
     "baseUrl": "./",
-    "ignoreDeprecations": "5.0",
+    "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
@@ -15,8 +12,9 @@ baseURL wird mit Typescript 7 verschwinden, momentan nutzt Projekt aber Typscrip
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
+    "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "bundler",
+    "moduleResolution": "node",
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
