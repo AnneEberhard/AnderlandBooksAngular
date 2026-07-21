@@ -60,8 +60,6 @@ private scrollToFragment(fragment: string) {
     try {
       const data = await firstValueFrom(this.http.get<any>('assets/jsons/authors.json'));
       this.authors = data.authors;
-      console.log('start');
-      console.log(this.authors);
       this.registerDynamicElements();
     } catch (error) {
       console.error('Fehler beim Laden der Daten:', error);
