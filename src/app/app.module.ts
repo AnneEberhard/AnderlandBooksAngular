@@ -15,7 +15,7 @@ import { PrivacyPolicyComponent } from './privacy-policy/privacy-policy.componen
 import { ContactComponent } from './contact/contact.component';
 import { OfferedServicesComponent } from './offered-services/offered-services.component';
 import { BreeNanComponent } from './bree-nan/bree-nan.component';
-import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { HttpClient, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AuthorsComponent } from './authors/authors.component';
@@ -31,59 +31,52 @@ export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
 }
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    ImprintComponent,
-    MainPageComponent,
-    ChildrensbooksComponent,
-    GermanbooksComponent,
-    EnglishbooksComponent,
-    FooterComponent,
-    HeaderComponent,
-    PrivacyPolicyComponent,
-    ContactComponent,
-    OfferedServicesComponent,
-    BreeNanComponent,
-    AuthorsComponent,
-    ScrollToTopButtonComponent,
-    BackgroundContainerComponent,
-    SlideshowComponent
-  ],
-  imports: [
-    BrowserModule,
-    CommonModule, 
-    FormsModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
-    HttpClientModule,
-    TranslateModule.forRoot({
-      defaultLanguage: 'de',
-      loader: {
-          provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [HttpClient]
-      }
-  })
-
-  ],
-  providers: [
-    {
-      provide: ErrorHandler,
-      useValue: Sentry.createErrorHandler({
-        showDialog: true,
-      }),
-    }, {
-      provide: Sentry.TraceService,
-      deps: [Router],
-    },
-    {
-      provide: APP_INITIALIZER,
-      useFactory: () => () => {},
-      deps: [Sentry.TraceService],
-      multi: true,
-    },
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        ImprintComponent,
+        MainPageComponent,
+        ChildrensbooksComponent,
+        GermanbooksComponent,
+        EnglishbooksComponent,
+        FooterComponent,
+        HeaderComponent,
+        PrivacyPolicyComponent,
+        ContactComponent,
+        OfferedServicesComponent,
+        BreeNanComponent,
+        AuthorsComponent,
+        ScrollToTopButtonComponent,
+        BackgroundContainerComponent,
+        SlideshowComponent
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        CommonModule,
+        FormsModule,
+        BrowserAnimationsModule,
+        AppRoutingModule,
+        TranslateModule.forRoot({
+            defaultLanguage: 'de',
+            loader: {
+                provide: TranslateLoader,
+                useFactory: HttpLoaderFactory,
+                deps: [HttpClient]
+            }
+        })], providers: [
+        {
+            provide: ErrorHandler,
+            useValue: Sentry.createErrorHandler({
+                showDialog: true,
+            }),
+        }, {
+            provide: Sentry.TraceService,
+            deps: [Router],
+        },
+        {
+            provide: APP_INITIALIZER,
+            useFactory: () => () => { },
+            deps: [Sentry.TraceService],
+            multi: true,
+        },
+        provideHttpClient(withInterceptorsFromDi()),
+    ] })
 export class AppModule { }

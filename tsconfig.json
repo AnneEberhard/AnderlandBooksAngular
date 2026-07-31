@@ -5,7 +5,6 @@ baseURL wird mit Typescript 7 verschwinden, momentan nutzt Projekt aber Typscrip
   "compilerOptions": {
     "rootDir": "./src",
     "outDir": "./dist/out-tsc",
-    "baseUrl": "./",
     "ignoreDeprecations": "5.0",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
