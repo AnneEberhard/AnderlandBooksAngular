@@ -4,162 +4,172 @@
     translate
     id="germanBooksElement0"
     [@slideInFromLeft]="this.pageService.getElementState('germanBooksElement0')"
-  >
+    >
     German Stories
   </h1>
   <span translate
     >With a few exceptions, all books have been moved from exclusively Amazon
     (and Kindle Unlimited) to other retailers as well. On this page, you will find Links to Amazon and Tredition, but the books should be available at many stores.</span
-  >
-  <br />
-  <span translate
-    >All books are available as eBook, paperback, and hardcover.</span
-  >
-  <br />
-  <span translate
-    >With a few exceptions, print versions are also available in
-    bookstores.</span
-  >
-  <br />
-
-  <div class="searchContainer">
-    <input
-      [(ngModel)]="pageService.searchTerm"
-      (keyup.enter)="pageService.searchBook()"
-      placeholder="Titel"
-    />
-    <button (click)="pageService.searchBook()">Go</button>
-  </div>
-
-  <div
-    class="siteNavTop"
-    id="germanBooksElement1"
-    [@slideInFromLeft]="this.pageService.getElementState('germanBooksElement1')"
-  >
-    <a
-      *ngFor="let section of germanBooks; let i = index"
-      (click)="scrollToSection(section.section)"
-      translate
-      >{{ section.title }}</a
     >
-  </div>
-  <div *ngFor="let section of germanBooks; let i = index">
-    <div
-      [id]="section.section"
-      [@slideInFromLeft]="this.pageService.getElementState(section.section)"
-    >
-      <h2 translate>
-        {{ section.title }}
-      </h2>
-      <h4 class="clickCoverInfo" translate>Click on cover for more info</h4>
-    </div>
-
-    <div class="bookContainerWrap">
-      <div
-        class="bookContainer"
-        *ngFor="let book of section.books; let j = index"
+    <br />
+    <span translate
+      >All books are available as eBook, paperback, and hardcover.</span
       >
-        <img
-          [src]="book.image"
-          alt="Book Image"
-          (click)="this.pageService.showOverlay(book)"
-          [id]="book.id"
-          [@slideInFromLeft]="this.pageService.getElementState(book.id)"
-        />
-        <h5 class="clickCoverInfo" translate>Click on cover for details</h5>
+      <br />
+      <span translate
+        >With a few exceptions, print versions are also available in
+        bookstores.</span
+        >
+        <br />
+
+        <div class="searchContainer">
+          <input
+            [(ngModel)]="pageService.searchTerm"
+            (keyup.enter)="pageService.searchBook()"
+            placeholder="Titel"
+            />
+          <button (click)="pageService.searchBook()">Go</button>
+        </div>
+
         <div
-          class="bookContainerText dNone500"
-          [id]="'ContainerText' + book.id"
+          class="siteNavTop"
+          id="germanBooksElement1"
+          [@slideInFromLeft]="this.pageService.getElementState('germanBooksElement1')"
+          >
+          @for (section of germanBooks; track section; let i = $index) {
+            <a
+              (click)="scrollToSection(section.section)"
+              translate
+              >{{ section.title }}</a
+              >
+            }
+          </div>
+          @for (section of germanBooks; track section; let i = $index) {
+            <div>
+              <div
+                [id]="section.section"
+                [@slideInFromLeft]="this.pageService.getElementState(section.section)"
+                >
+                <h2 translate>
+                  {{ section.title }}
+                </h2>
+                <h4 class="clickCoverInfo" translate>Click on cover for more info</h4>
+              </div>
+              <div class="bookContainerWrap">
+                @for (book of section.books; track book; let j = $index) {
+                  <div
+                    class="bookContainer"
+                    >
+                    <img
+                      [src]="book.image"
+                      alt="Book Image"
+                      (click)="this.pageService.showOverlay(book)"
+                      [id]="book.id"
+                      [@slideInFromLeft]="this.pageService.getElementState(book.id)"
+                      />
+                    <h5 class="clickCoverInfo" translate>Click on cover for details</h5>
+                    <div
+                      class="bookContainerText dNone500"
+                      [id]="'ContainerText' + book.id"
           [@fadeIn]="
             this.pageService.getElementState('ContainerText' + book.id)
           "
-        >
-          <div *ngFor="let paragraph of book.paragraphs">
-            <p>{{ paragraph }}</p>
+                      >
+                      @for (paragraph of book.paragraphs; track paragraph) {
+                        <div>
+                          <p>{{ paragraph }}</p>
+                        </div>
+                      }
+                      <div class="bookLinksContainer">
+                        <span translate>Available at: </span>
+                        <div class="bookLinks">
+                          @for (
+                            format of this.pageService.getBookFormats(book); track
+                            format; let i = $index) {
+                            <div
+                              >
+                              @if (format.link) {
+                                <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
+                                  format.label
+                                }}</a>
+                                @if (
+                                  i < this.pageService.getBookFormats(book).length - 1 &&
+                                  this.pageService.getBookFormats(book)[i + 1].link
+                                  ) {
+                                  <span
+                                    class="dNone1200"
+                                    >
+                                    -
+                                  </span>
+                                }
+                              }
+                            </div>
+                          }
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+          <div class="siteNavBottom">
+            <a class="navLink" routerLink="/" translate>Back to Homepage</a>
           </div>
-          <div class="bookLinksContainer">
-            <span translate>Available at: </span>
-            <div class="bookLinks">
-              <div
-                *ngFor="
-                  let format of this.pageService.getBookFormats(book);
-                  let i = index
-                "
+        </section>
+
+        @if (this.pageService.selectedBook) {
+          <div id="overlay">
+            <div
+              id="overlayCloseButton"
+              class="closeX"
+              (click)="this.pageService.closeOverlay(this.pageService.selectedBook.id)"
               >
-                <ng-container *ngIf="format.link">
-                  <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
-                    format.label
-                  }}</a>
-                  <span
-                    class="dNone1200"
-                    *ngIf="
-                      i < this.pageService.getBookFormats(book).length - 1 &&
-                      this.pageService.getBookFormats(book)[i + 1].link
-                    "
-                  >
-                    -
-                  </span>
-                </ng-container>
+              X
+            </div>
+            <div class="overlayBox">
+              <img
+                [src]="this.pageService.selectedBook.image"
+                alt="Book Image"
+                (contextmenu)="this.pageService.preventRightClick($event)"
+                />
+              <div class="overlayRight">
+                @for (paragraph of this.pageService.selectedBook.paragraphs; track paragraph) {
+                  <div>
+                    <p>{{ paragraph }}</p>
+                  </div>
+                }
+              </div>
+            </div>
+            <div class="overlayBottom">
+              <div class="bookLinksContainer">
+                <span translate>Available at: </span>
+                <div class="bookLinks">
+                  @for (
+                    format of this.pageService.getBookFormats(
+                    this.pageService.selectedBook
+                    ); track
+                    format; let last = $last) {
+                    <div
+                      >
+                      @if (!last) {
+                        <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
+                          format.label
+                        }}</a>
+                        <span class="dNone863"> - </span>
+                      }
+                      @if (last) {
+                        <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
+                          format.label
+                        }}</a>
+                      }
+                    </div>
+                  }
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="siteNavBottom">
-    <a class="navLink" routerLink="/" translate>Back to Homepage</a>
-  </div>
-</section>
+        }
 
-<div *ngIf="this.pageService.selectedBook" id="overlay">
-  <div
-    id="overlayCloseButton"
-    class="closeX"
-    (click)="this.pageService.closeOverlay(this.pageService.selectedBook.id)"
-  >
-    X
-  </div>
-  <div class="overlayBox">
-    <img
-      [src]="this.pageService.selectedBook.image"
-      alt="Book Image"
-      (contextmenu)="this.pageService.preventRightClick($event)"
-    />
-    <div class="overlayRight">
-      <div *ngFor="let paragraph of this.pageService.selectedBook.paragraphs">
-        <p>{{ paragraph }}</p>
-      </div>
-    </div>
-  </div>
-  <div class="overlayBottom">
-    <div class="bookLinksContainer">
-      <span translate>Available at: </span>
-      <div class="bookLinks">
-        <div
-          *ngFor="
-            let format of this.pageService.getBookFormats(
-              this.pageService.selectedBook
-            );
-            let last = last
-          "
-        >
-          <ng-container *ngIf="!last">
-            <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
-              format.label
-            }}</a>
-            <span class="dNone863"> - </span>
-          </ng-container>
-          <ng-container *ngIf="last">
-            <a [href]="format.link" target="_blank" rel="noopener noreferrer" translate>{{
-              format.label
-            }}</a>
-          </ng-container>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<app-footer></app-footer>
-<app-scroll-to-top-button></app-scroll-to-top-button>
+        <app-footer></app-footer>
+        <app-scroll-to-top-button></app-scroll-to-top-button>

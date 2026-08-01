@@ -1,16 +1,15 @@
 import { Component } from '@angular/core';
 import { OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-slideshow',
   standalone: true,
   imports: [
-    CommonModule,
     FormsModule
-  ],
+],
   templateUrl: './slideshow.component.html',
   styleUrls: ['./slideshow.component.scss']
 })

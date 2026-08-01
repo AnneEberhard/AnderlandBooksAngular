@@ -7,7 +7,7 @@ import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations'
 import { ActivatedRoute } from '@angular/router';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 
 import { HeaderComponent } from '../shared/components/header/header.component';
@@ -24,9 +24,8 @@ import { ScrollToTopButtonComponent } from '../shared/components/scroll-to-top-b
     HeaderComponent,
     FooterComponent,
     ScrollToTopButtonComponent,
-    CommonModule,
     FormsModule
-  ],
+],
   templateUrl: './germanbooks.component.html',
   styleUrls: ['./germanbooks.component.scss'],
   animations: [slideInFromLeft, slideInFromRight, fadeIn]

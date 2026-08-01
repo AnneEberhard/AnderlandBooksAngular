@@ -4,7 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { ViewportScroller } from '@angular/common';
 import { RouterLink } from '@angular/router';
 import { TranslateModule } from '@ngx-translate/core';
-import { CommonModule } from '@angular/common';
+
 import { FormsModule } from '@angular/forms';
 
 import { HeaderComponent } from '../shared/components/header/header.component';
@@ -22,10 +22,8 @@ import { ScrollToTopButtonComponent } from '../shared/components/scroll-to-top-b
     FooterComponent,
     ScrollToTopButtonComponent,
     FormsModule,
-    CommonModule,
-    CommonModule,
     FormsModule
-  ],
+],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })
