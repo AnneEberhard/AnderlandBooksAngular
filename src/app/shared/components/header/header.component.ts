@@ -1,9 +1,18 @@
 import { Component } from '@angular/core';
 import { PageService } from '../../services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
+import { RouterLink, RouterLinkActive, RouterLinkWithHref } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
+  standalone: true,
+  imports: [
+    RouterLink,
+     RouterLinkActive,
+    RouterLinkWithHref,
+    TranslateModule,
+  ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.scss']
 })

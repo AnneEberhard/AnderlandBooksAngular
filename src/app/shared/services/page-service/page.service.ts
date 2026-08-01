@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import shortlinksData from 'src/assets/jsons/shortlinks.json';
+import shortlinksData from '../../../../assets/jsons/shortlinks.json';
 
 @Injectable({
   providedIn: 'root'

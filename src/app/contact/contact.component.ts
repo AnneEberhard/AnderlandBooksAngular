@@ -2,9 +2,30 @@ import { Component, ViewChild, ElementRef, AfterViewInit, inject } from '@angula
 import { PageService } from '../shared/services/page-service/page.service';
 import { TranslateService } from '@ngx-translate/core';
 import { ViewportScroller } from '@angular/common';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { HeaderComponent } from '../shared/components/header/header.component';
+import { FooterComponent } from '../shared/components/footer/footer.component';
+import { ScrollToTopButtonComponent } from '../shared/components/scroll-to-top-button/scroll-to-top-button.component';
+
 
 @Component({
   selector: 'app-contact',
+  standalone: true,
+  imports: [
+    RouterLink,
+    TranslateModule,
+    HeaderComponent,
+    FooterComponent,
+    ScrollToTopButtonComponent,
+    FormsModule,
+    CommonModule,
+    CommonModule,
+    FormsModule
+  ],
   templateUrl: './contact.component.html',
   styleUrls: ['./contact.component.scss']
 })

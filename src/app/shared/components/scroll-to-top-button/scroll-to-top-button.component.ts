@@ -2,6 +2,8 @@ import { Component, ElementRef, AfterViewInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-scroll-to-top-button',
+  standalone: true,
+  imports: [  ],
   templateUrl: './scroll-to-top-button.component.html',
   styleUrls: ['./scroll-to-top-button.component.scss']
 })

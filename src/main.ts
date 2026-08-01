@@ -1,8 +1,9 @@
 import { enableProdMode } from "@angular/core";
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { bootstrapApplication } from '@angular/platform-browser';
+import { AppComponent } from './app/app.component';
+import { appConfig } from './app/app.config';
 import * as Sentry from "@sentry/angular";
 
-import { AppModule } from './app/app.module';
 
 Sentry.init({
   dsn: "https://67d54ca6a00e99651c5b9bcbdea91d95@o4507470803042304.ingest.de.sentry.io/4507587717169232",
@@ -20,5 +21,5 @@ Sentry.init({
 });
 
 enableProdMode();
-platformBrowserDynamic().bootstrapModule(AppModule)
+bootstrapApplication(AppComponent, appConfig)
   .catch(err => console.error(err));

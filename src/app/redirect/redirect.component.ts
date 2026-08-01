@@ -1,10 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ShortlinkService } from '../shared/services/shortlink-service/shortlink.service';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-redirect',
-  template: `<p>Redirecting...</p>`
+  standalone: true,
+  imports: [
+    TranslateModule,
+  ],
+  templateUrl: './redirect.component.html',
+  styleUrls: ['./redirect.component.scss']
 })
 export class RedirectComponent implements OnInit {
   constructor(

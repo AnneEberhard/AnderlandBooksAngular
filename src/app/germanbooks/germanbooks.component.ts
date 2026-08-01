@@ -5,9 +5,28 @@ import { HttpClient } from '@angular/common/http';
 import { firstValueFrom } from 'rxjs';
 import { fadeIn, slideInFromLeft, slideInFromRight } from '../shared/animations';
 import { ActivatedRoute } from '@angular/router';
+import { RouterLink } from '@angular/router';
+import { TranslateModule } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+
+import { HeaderComponent } from '../shared/components/header/header.component';
+import { FooterComponent } from '../shared/components/footer/footer.component';
+import { ScrollToTopButtonComponent } from '../shared/components/scroll-to-top-button/scroll-to-top-button.component';
+
 
 @Component({
   selector: 'app-germanbooks',
+  standalone: true,
+  imports: [
+    RouterLink,
+    TranslateModule,
+    HeaderComponent,
+    FooterComponent,
+    ScrollToTopButtonComponent,
+    CommonModule,
+    FormsModule
+  ],
   templateUrl: './germanbooks.component.html',
   styleUrls: ['./germanbooks.component.scss'],
   animations: [slideInFromLeft, slideInFromRight, fadeIn]
